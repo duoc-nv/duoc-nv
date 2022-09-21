@@ -1,0 +1,24 @@
+<!--Scroll banner-->
+<div class="banner-box sp_z3000_3">
+    <div class="banner-box-right">
+      <a class="close" onclick='$(".banner-box").fadeOut(300, function() { $(this).remove(); });'> <img src="/hotels/common/image_banner/close.png"></a>
+      <div class="banner-right-meida">
+        <a href="/resort/campaign/thanks_2022/" target="_blank">
+          <img src="https://www.hotespa.net/hotels/image_banner/bn_thanks_2022_sc.jpg" alt="">
+        </a>
+      </div>
+    </div>
+</div>
+<!--Scroll banner-->
+
+
+
+  <div class="popup_02 is-show" id="js-popup_02">
+    <div class="popup_02-inner">
+      <div class="close-btn_02" id="js-close-btn_02"><i class="fa fa-times"></i></div>
+      <a href="/resort/information/autumn/" target="_blank"><img src="/hotels/image_banner/bn_popup_autumn2022.jpg" alt="秋旅 秋の絶景と味覚を満喫【共立リゾート施設に泊まって愉しむ】" class="over"></a>
+    </div>
+    <div class="black-background" id="js-black-bg_02"></div>
+  </div>
+
+

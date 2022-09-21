@@ -1,0 +1,39 @@
+
+<section class="con_dish-wrap" >
+
+    <div class="con_dish-ps-box">
+    
+        <h2 class="title-box-desss">お知らせ</h2>
+
+        <dl class="con_dish-ps-box-1 is-none">
+            <dt class="title--h2 accordion_all">
+                ◆冬期休館と営業再開日のお知らせ（2022年1月26日 現在）
+            </dt>
+             <dd id="obj_target" style="display:block;">
+                当館は2021年11月1日～2022年4月21日まで冬期休館となります。<br>
+                <span style="color:#7E0F09;">2022年4月22日より営業再開を予定しております。</span><br>
+                <br>
+                休館中は、系列ホテルもご検討いただければ幸いです。<br>
+                <br>
+                ＞北海道の共立リゾート<br>
+                ・<a href="/hotels/lahakodate/" target="_blank">ラビスタ函館ベイ（函館）</a>　・<a href="/hotels/akangawa/" target="_blank">ラビスタ阿寒川（阿寒）</a><br><br>
+                ＞全国の共立リゾートは<a href="/resort/hotellist/" target="_blank">コチラ</a>
+            </dt>
+        </dl>
+
+        <dl class="con_dish-ps-box-1 is-none"> <!-- is-none -->
+            <dt class="title--h2 accordion_all">
+               ◆冬期休館のご案内（2021年10月26日 現在）
+            </dt>
+             <dd id="obj_target" style="display:block;">
+             <b>
+               当館は2021年11月1日～2022年 春（３月末頃）まで冬期休館となります。
+            </b>
+            </dd>
+        </dl>
+
+    </div>
+</section>
+
+
+<!-- is-none: no content -->

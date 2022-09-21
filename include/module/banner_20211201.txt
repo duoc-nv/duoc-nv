@@ -1,0 +1,12 @@
+<!--Scroll banner-->
+<div class="banner-box sp_z3000_3">
+    <div class="banner-box-right">
+      <a class="close" onclick='$(".banner-box").fadeOut(300, function() { $(this).remove(); });'> <img src="/hotels/common/image_banner/close.png"></a>
+      <div class="banner-right-meida">
+        <a href="#" target="_blank">
+          <img src="/resort/hotellist/images/bnr_vertical.jpg" alt="共立リゾートに泊まって愉しむ 秋の絶景と味覚を満喫">
+        </a>
+      </div>
+    </div>
+</div>
+<!--Scroll banner-->

@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<link rel="stylesheet" type="text/css" media="all" href="../../reserve/css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../reserve/css/calendar.css" />
+
+	<!-- JSON読み出し -->
+	<script src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+
+	google.load("jquery", "1");
+
+	// Direct In ホテルコード
+	var jsonp_hcod1 = "MR140";
+	var jsonp_hcod2 = "001";
+
+	</script>
+
+	<script type="text/javascript" src="../../reserve/js/calendar.js"></script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCDJ2Q3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVWTJZ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+			
+
+
+
+<body onLoad="FormInit();LoadVCal();return false;">
+
+
+			<style>
+				.con_calendar {
+					margin: 0 auto 50px;
+					width: 450px;
+				}
+				  .cal_tab li .selected {
+					background: #941f24;
+				    border-color: #941f24;
+				    font-size: 1.6rem;
+				    color: #fff;
+				    padding: 10px 0;
+				}
+				.cal_tab li a {
+					  display: block;
+					  width: 100%;
+					  height: 100%;
+					  border: 1px solid #e0e0e0;
+					  border-radius: 2px;
+					  font-size: 16px;
+					  font-size: 1.6rem;
+					  text-align: center;
+					  box-sizing: border-box;
+					  padding: 12.5px 0;
+					  color: #941f24;
+					  -webkit-transition: all .3s ease-in;
+					  transition: all .3s ease-in;
+					}
+				.cal_tab li a:hover {
+					border-color: #941f24; 
+					padding: 10px 0;
+					background-color: #fff;
+					color: #941f24;
+
+				}
+				.cal_tab li .selected:hover {
+					background: #941f24;
+				    border-color: #941f24;
+				    color: #fff;
+				}
+				.cal_tab li a {
+					border: 1px solid #e0e0e0;
+    				border-radius: 2px;
+    				font-size: 1.6rem;
+    				color: #941f24;
+    				padding: 10px 0;
+				}
+				.cal_area .entry-y a, .cal_area .entry-s a {
+					color: #941f24 !important;
+				}
+			</style>
+
+			<div class="con_calendar">
+
+				<div class="tab_area">
+					<ul id="person-switcher" class="cal_tab">
+						<script type="text/javascript">person_tab();</script>
+					</ul>
+				</div>
+
+				<div class="cal_area">
+
+					<form name="VCal" onSubmit="return false;">
+
+						<input type="hidden" id="VCal_y" value="">
+						<input type="hidden" id="VCal_m" value="">
+						<input type="hidden" id="VCal_d" value="">
+
+						<div id="Create_VCal" class="cld_vacant cb">
+							<div class="cld_left"> << </div>
+							<div class="cld_month">&nbsp;</div>
+							<div class="cld_right"> >> </div>
+
+							<table class="cld_cld1" border="0" cellspacing="0" cellpadding="0" summary="空室カレンダー">
+								<tr>
+									<td class="cld_sun"> 日 </td>
+									<td class="cld_mon"> 月 </td>
+									<td class="cld_tue"> 火 </td>
+									<td class="cld_wed"> 水 </td>
+									<td class="cld_tur"> 木 </td>
+									<td class="cld_fri"> 金 </td>
+									<td class="cld_sat"> 土 </td>
+								</tr>
+								<tr>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+								</tr>
+								<tr>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+								</tr>
+								<tr>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+								</tr>
+								<tr>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+								</tr>
+								<tr>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+									<td class="cld_day_none"> &nbsp;<br />&nbsp; </td>
+								</tr>
+							</table>
+						</div>
+
+						<div id="cld_psn" class="w180">
+							<select id="VCal_psn" onChange="LoadVCal();return false;">
+								<script type="text/javascript">person_value();</script>
+							</select>
+						</div>
+
+					</form>
+
+					<div class="box_att">
+						<div class="wrp_info">○：空室あり　△：残りわずか　×：空室なし</div>
+			<!--
+						<div class="wrp_ser">(消費税・サービス料込)</div>
+			-->
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<p class="section__btn-wrap">
+				<a href="#" class="btn btn--outline js-close-tab">閉じる</a>
+			</p>
+		</section>
+	</div>
+</div>
+
+
+	
+
+</body>
+</html>

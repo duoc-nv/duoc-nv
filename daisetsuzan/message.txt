@@ -1,0 +1,34 @@
+
+<section class="con_dish-wrap" >
+
+    <div class="con_dish-ps-box">
+    
+        <h2 class="title-box-desss">お知らせ</h2>
+
+        <dl class="con_dish-ps-box-1 is-none">
+            <dt class="title--h2 accordion_all">
+                ◆営業再開のお知らせ2022年4月22日（金）より営業再開いたしました。<br>
+            </dt>
+            <dd id="obj_target" style="display:block;">
+            皆様のご予約・ご来館をスタッフ一同お待ち申し上げております。
+            </dd>
+            <!-- <dd id="obj_target" style="display:block;">
+                当館は2021年11月1日～2022年4月21日まで冬期休館となります。<br>
+                <span style="color:#7E0F09;">2022年4月22日より営業再開を予定しております。</span><br>
+                <br>
+                お得な早期割引プランは<a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MR140&hcod2=001&mode=seek&clrmode=true&reffrom=&c2plan=3021" target="_blank" style="color:blue">コチラ</a>をご覧ください。<br>
+                <br>
+                休館中は、系列ホテルもご検討いただければ幸いです。<br>
+                <br>
+                ＞北海道の共立リゾート<br>
+                ・<a href="/hotels/lahakodate/" target="_blank">ラビスタ函館ベイ（函館）</a>　・<a href="/hotels/akangawa/" target="_blank">ラビスタ阿寒川（阿寒）</a><br><br>
+                ＞全国の共立リゾートは<a href="/resort/hotellist/" target="_blank">コチラ</a>
+            </dd> -->
+        </dl>
+
+
+    </div>
+</section>
+
+
+<!-- is-none: no content -->
