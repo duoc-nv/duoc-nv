@@ -1,1 +1,1765 @@
-<h1> hello 2
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<style>
+  body {
+    overflow-x: hidden;
+  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+td, th {
+  border-top: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px 20px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input {
+  width: 100%;
+  border: 1px solid #000;
+  height: 50px;
+  margin-bottom: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.4;
+
+}
+span.true {
+  color: green;
+  padding: 10px 0;
+  display: block;
+  box-sizing: border-box;
+  line-height: 2;
+  font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+
+
+<table cl>
+  <thead>
+    <tr>
+      <th>
+        Firstname:
+        <input id="myInput" type="text" placeholder="Search..">
+      </th>
+    </tr>
+  </thead>
+<tbody id="myTable">
+<tr><td>1 ***** Võ lâm truyền kỳ ra mắt hệ thống bang hội thời gian nào?    
+<br><span class="true">21-01-2008    18-01-2008    15-02-2008    19-02-2008</span></td></tr></tbody>
+<tr><td>2 ***** Mật Tịch nào giúp ta tăng điểm tiềm năng?    
+<br><span class="true">Tẩy Tủy Kinh    Võ Lâm Mật Tịch    Bàn Nhược Tâm Kinh    Thiết La Hán</span></td></tr>
+<tr><td>3 ***** Tử Thủy Tinh có chức năng gì?    
+<br><span class="true">Nâng Cấp Trang Bị    Ma Thuật Trang Bị    Đổi Hệ Trang Bị    Không Có Chức Năng Gì</span></td></tr>
+<tr><td>4 ***** Ngựa Hoa Lư[Cấp 9] được bán ở thành nào?    
+<br><span class="true">Dương Châu    Phượng Tường     Thành Đô    Tương Dương</span></td></tr>
+<tr><td>5 ***** Khi rút 10 điểm phúc duyên ở thần bí thương nhân ta mất mấy điểm?    
+<br><span class="true">12    8    10    15</span></td></tr>
+<tr><td>6 ***** Ngựa nào sau đây có "Tốc độ di chuyễn 40%"?    
+<br><span class="true">Ngọc Hoa Thông    Bạch Mã    Ô Chùy    Liệt Bạch Mã</span></td></tr>
+<tr><td>7 ***** Sau khi online mấy giờ thì người chơi mới nhận được điểm phúc duyên?    
+<br><span class="true">2 giờ    1 giờ    4 giờ    3 giờ</span></td></tr>
+<tr><td>8 ***** Một ngày có thể đánh mấy trận Tống-Kim?    
+<br><span class="true">7    6    5    8</span></td></tr>
+<tr><td>9 ***** Dã Tẩu có tối đa bao nhiêu nhiệm vụ?    
+<br><span class="true">12    16    9    13</span></td></tr>
+<tr><td>10 ***** Sinh nhật võ lâm vào ngày, tháng nào?    
+<br><span class="true">15-6    24-12    14-6    15-7</span></td></tr>
+<tr><td>11 ***** Có bao nhiêu trường phái chuyên về kiếm trong võ lâm?    
+<br><span class="true">3    2    1    4</span></td></tr>
+<tr><td>12 ***** Nhiệm vụ Boss Sát thủ "Liên Hình Thái" nằm ở map nào?    
+<br><span class="true">Trường Bạch Nam    Trường Bạch Bắc     Khỏa Lang Động    Tiến Cúc Động</span></td></tr>
+<tr><td>13 ***** Muốn hợp thành sát thủ giản tốn bao nhiêu sát thủ lệnh?    
+<br><span class="true">5    4    7    9</span></td></tr>
+<tr><td>14 ***** Trong phiên bản Phong Hỏa Liên Thành, 1 ngày bạn có thể đi mấy lần "thử luyện sát thủ"?    
+<br><span class="true">2    5    3    4</span></td></tr>
+<tr><td>15 ***** Từ Đại Lý bạn có thể đi vào nơi tín sứ nào?    
+<br><span class="true">Cả 3 nơi    Phong Kì    Mở Bảo Rương    Sơn Thần Miếu</span></td></tr>
+<tr><td>16 ***** Tam Hoa Tán có tác dụng gì?    
+<br><span class="true">giải độc    tăng nội lực    tăng thể lực    tăng sinh lực</span></td></tr>
+<tr><td>17 ***** Thừa Tiên Mật có tác dụng gì?    
+<br><span class="true">tăng sinh lực và nội lực    tăng nội lực    tăng thể lực    tăng sinh lực</span></td></tr>
+<tr><td>18 ***** Có bao nhiêu loại dược hoàn PK?    
+<br><span class="true">10    8    6    3</span></td></tr>
+<tr><td>19 ***** Long Môn Trấn lưu rương ở thành nào?    
+<br><span class="true">Biện Kinh    Đại lý    Tương Dương    Thành Đô</span></td></tr>
+<tr><td>20 ***** Đi xa phu từ Vĩnh Lạc Trấn lên Phượng Tường tốn nhiêu lượng?    
+<br><span class="true">100    300    200    500</span></td></tr>
+<tr><td>21 ***** Người chơi trên đẳng cấp 25 nhận sư phụ thì được goi là?    
+<br><span class="true">trực hệ đệ tử    phổ thông đệ tử    Đích truyền đệ tử    Tất cả câu trả lời trên đều sai</span></td></tr>
+<tr><td>22 ***** Quỷ Đầu Đao là vũ khí cấp mấy?    
+<br><span class="true">3    2    1    4</span></td></tr>
+<tr><td>23 ***** Vương Thiết Tượng là thợ rèn thành nào?    
+<br><span class="true">Biện Kinh    Lâm An    Tương Dương    Đại Lý</span></td></tr>
+<tr><td>24 ***** Muốn đổi Tín Sứ Lệnh Bài Bạc Tốn nhiêu điểm tín sứ?    
+<br><span class="true">450    350    400    300</span></td></tr>
+<tr><td>25 ***** Quế Hoa Tửu có hiệu lực trong bao lâu?    
+<br><span class="true">1800s    1200s    3600s    2400s</span></td></tr>
+<tr><td>26 ***** Trận Tống Kim thứ tư trong ngày bắt đầu lúc mấy giờ?    
+<br><span class="true">17h30    11h30    16h30    14h30</span></td></tr>
+<tr><td>27 ***** Võ lâm truyền kỳ có tổng cộng bao nhiêu thôn trấn?    
+<br><span class="true">10    8    9    7</span></td></tr>
+<tr><td>28 ***** Sinh nhật võ lâm truyền kỳ vào tháng mấy?    
+<br><span class="true">6    5    7    8</span></td></tr>
+<tr><td>29 ***** Võ lâm truyền kỳ có tổng cộng bao nhiêu Dã Tẩu?    
+<br><span class="true">15    16    10    20</span></td></tr>
+<tr><td>30 ***** Bạn cần gặp ai để kết bái kim lan?    
+<br><span class="true">Tĩnh đốc thiền sư    Võ lâm truyền nhân    Nguyệt lão    Từ Vân pháp sư</span></td></tr>
+<tr><td>31 ***** Thiếu Lâm Tự tọa lạc ở ngọn núi nào?    
+<br><span class="true">Thiếu thất    Tung sơn    Thái sơn    Thiên sơn</span></td></tr>
+<tr><td>32 ***** Bang hội nào đoạt hạng 4 ở giải THDNB lần 1?    
+<br><span class="true">PhúHộ (Thiên Sơn)    TiếuNgạo (Cửu Giang)    TrgGiang (TrườngGiang)    HồngHưng (Kim Sơn)</span></td></tr>
+<tr><td>33 ***** Bang hội nào đoạt hạng 4 ở giải THDNB lần 2?    
+<br><span class="true">PhúHộ (Thiên Sơn)    MaGiáo (ChâuGiang)    *** (Khánh Sơn)    TrgGiang (TrườngGiang)</span></td></tr>
+<tr><td>34 ***** Bang hội nào đoạt hạng 2 ở giải THDNB lần 1?    
+<br><span class="true">HồngHưng (Kim Sơn)    TiềuNgạo (Cửu Giang)    TrgGiang (TrườngGiang)    PhúHộ (Thiên Sơn)</span></td></tr>
+<tr><td>35 ***** Bang hội nào đoạt hạng 1 ở giải THDNB lần 2?    
+<br><span class="true">*** (Khánh Sơn)    MaGiáo (ChâuGiang)    PhúHộ (Thiên Sơn)    TrgGiang (TrườngGiang)</span></td></tr>
+<tr><td>36 ***** Trong võ lâm truyền kỳ bang hội nào được lập ra đầu tiên?    
+<br><span class="true">Phá Thiên (Tung Sơn)    Việt kiếm (Thái Sơn)    Đông Đô (Hoa Sơn)    Tiêu Diêu (Kim Sơn)</span></td></tr>
+<tr><td>37 ***** Võ lâm truyền kỳ có tối đa bao nhiêu kênh tán gẫu ?    
+<br><span class="true">8    6    4    10</span></td></tr>
+<tr><td>38 ***** Bang hội nào đoạt hạng 1 ở giải THDNB lần 1?    
+<br><span class="true">TrgGiang-TrườngGiang    TiềuNgạo-Cửu Giang    HồngHưng-Kim Sơn    PhúHộ-Thiên Sơn</span></td></tr>
+<tr><td>39 ***** Bang hội nào đoạt hạng 2 ở giải THDNB lần 2?    
+<br><span class="true">TamHoàng-Hành Sơn    MaGiáo-ChâuGiang    ***-Khánh Sơn    TrgGiang-TrườngGiang</span></td></tr>
+<tr><td>40 ***** Điểm danh vọng có bao nhiêu đẳng cấp?    
+<br><span class="true">8    6    4    10</span></td></tr>
+<tr><td>41 ***** Võ lâm truyền kỳ có bao nhiêu NPC Long Ngũ?    
+<br><span class="true">8    7    9    10</span></td></tr>
+<tr><td>42 ***** Võ lâm truyền kỳ hiện tại có bao nhiêu phương thức liên đấu?    
+<br><span class="true">6    5    4    7</span></td></tr>
+<tr><td>43 ***** Tăng một điểm sinh khí của hệ Kim được bao nhiêu sinh lực?    
+<br><span class="true">8    5    7    3</span></td></tr>
+<tr><td>44 ***** Tăng một điểm sinh khí của hệ Mộc được bao nhiêu sinh lực?    
+<br><span class="true">5    3    7    8</span></td></tr>
+<tr><td>45 ***** Tăng một điểm sinh khí của hệ Hỏa được bao nhiêu sinh lực?    
+<br><span class="true">7    5    3    8</span></td></tr>
+<tr><td>46 ***** Tăng một điểm sinh khí của hệ thủy được bao nhiêu sinh lực?    
+<br><span class="true">6    3    7    8</span></td></tr>
+<tr><td>47 ***** Tăng một điểm sinh khí của hệ thổ được bao nhiêu sinh lực?    
+<br><span class="true">3    5    7    8</span></td></tr>
+<tr><td>48 ***** Ăn Thiên Sơn Tuyết Liên sẽ được khoảng bao nhiêu điểm kinh nghiệm?    
+<br><span class="true">1,4 tỷ-1,5 tỷ    1,3 tỷ-1,4 tỷ    1,2 tỷ-1,3 tỷ    1,5 tỷ-1,6 tỷ</span></td></tr>
+<tr><td>49 ***** Để có được 2 cặp sư đồ thì 4 người cần ít nhất bao nhiêu Sư Đồ Thiếp?    
+<br><span class="true">1    3    2    4</span></td></tr>
+<tr><td>50 ***** Tổng số boss tiểu HK cộng với tổng số môn phái toàn nữ giới bằng bao nhiêu?    
+<br><span class="true">5    9    7    11</span></td></tr>
+<tr><td>51 ***** Nhân vật chưa từng gặp Phạn Tăng, cần bao nhiêu viên THBT và Thủy Tinh để lên đảo tẩy tủy?    
+<br><span class="true">Tất cả câu trả lời trên đều sai    6    3    9</span></td></tr>
+<tr><td>52 ***** Có bao nhiêu phái có thể cầm đao?    
+<br><span class="true">10    8    6    4</span></td></tr>
+<tr><td>53 ***** Phiên bản Sơn Hà Xã Tắc ra mắt trong thời gian nào?    
+<br><span class="true">30-3-2006    26-3-2006    2-4-2006    26-3-2008</span></td></tr>
+<tr><td>54 ***** Có bao nhiêu phái bắt buộc phải xuống ngựa mới xài được chiêu 90?    
+<br><span class="true">5    4    9    10</span></td></tr>
+<tr><td>55 ***** Những vật phẩm nào sau đây không sử dụng được trên Mạc Bắc Thảo Nguyên?    
+<br><span class="true">Tâm Tâm Tương ánh Phù    Tống Kim Chiêu Thư    Sư Đồ Thiếp    Bạch Câu Hoàn</span></td></tr>
+<tr><td>56 ***** Kiến Tính Phong Sơn động lưu rương ở đâu để trở lại địa điểm cũ được?    
+<br><span class="true">Tất cả câu trả lời trên đều sai    Biện Kinh    Phượng Tường    Thành Đô</span></td></tr>
+<tr><td>57 ***** Từ Tương Dương đi xa phu qua Biện Kinh, rồi tiếp tục đi xa phu qua Lâm An tốn bao nhiêu?    
+<br><span class="true">700 lượng    800 lượng    900 lượng    1000 lượng</span></td></tr>
+<tr><td>58 ***** Món nào được yêu cầu trong nhiệm vụ giao khoáng?    
+<br><span class="true">Lượng Ngân Khoáng    Mật Ngân Khoáng    Huyền Thiết Khoáng    Chu Sa Khoáng</span></td></tr>
+<tr><td>59 ***** Đường Nghê Giáp bán shop được bao nhiêu lượng?    
+<br><span class="true">6250 lượng    6500 lượng     6750 lượng    7000 lượng</span></td></tr>
+<tr><td>60 ***** Phái nào phải đi thuyền mới qua được?    
+<br><span class="true">Thiên Vương Bang    Nga My    Đường Môn    Cái Bang</span></td></tr>
+<tr><td>61 ***** Hỏa Đường đường chủ của Thiên Nhẫn Giáo là ai?    
+<br><span class="true">Ngột Ngạo    Hoang Nhan Tuyết Y    Gia Luật Tị Ly    Đoan Mộc Duệ</span></td></tr>
+<tr><td>62 ***** NPC của phái nào có đứa con bị thất lạc trên Võ Đang?    
+<br><span class="true">Ngũ Độc    Côn Luân    Thúy Yên    Võ Đang</span></td></tr>
+<tr><td>63 ***** Ai là người mà thập đại môn phái đều kính phục?    
+<br><span class="true">Độc Hồ Kiếm    Từ Nhân Phương Trượng    Thanh Hiểu Sư Thái    Yên Hiểu Trái</span></td></tr>
+<tr><td>64 ***** Ai là người ngông cuồng nhất?    
+<br><span class="true">Tuyền Cơ Tử    Đường Cừu    Dương Anh    Hoàng Nhan Hùng Liệt</span></td></tr>
+<tr><td>65 ***** 2 nhân vật lần đầu tiên kết hôn sẽ nhận được?    
+<br><span class="true">Nhẫn    Dây chuyền    Ngọc bội    áo</span></td></tr>
+<tr><td>66 ***** Mang 1 bộ Thiên Hoàng không max được bao nhiêu may mắn?    
+<br><span class="true">Tất cả câu trả lời trên đều sai    36    27    45</span></td></tr>
+<tr><td>67 ***** PK9 ra tù tốn bao nhiêu lượng?    
+<br><span class="true">81 vạn    54 vạn    9 vạn    18 vạn</span></td></tr>
+<tr><td>68 ***** Những nơi nào sau đây bán các loại vật phẩm mà tất cả đều sử dụng được trên Vi Sơn Đảo?    
+<br><span class="true">Hiệu thuốc    Thợ Rèn    Tiệm tạp hóa    Không ở nơi nào cả</span></td></tr>
+<tr><td>69 ***** Từ 15h đến hết ngày có bao nhiêu trận Tống Kim?    
+<br><span class="true">5    6    7    4</span></td></tr>
+<tr><td>70 ***** Hoàn thành nhiệm vụ phụ tuyến trong khoảng cấp bao nhiêu sẽ được phần thưởng Kim Phong Trạc Liên Quang?    
+<br><span class="true">20-30    40-50    30-40    50-60</span></td></tr>
+<tr><td>71 ***** Trong Tống Kim, nhân vật khi chết có bị mất tiền và điểm kinh nghiệm hay không?    
+<br><span class="true">Không    Có       </span></td></tr>
+<tr><td>72 ***** Để đi Phong Lăng Độ người chơi cần những vật phẩm gì?    
+<br><span class="true">Lệnh bài Phong Lăng Độ    300 tấm Mật Đồ Thần Bí    Tất cả câu trả lời đều sai    100 vạn lượng</span></td></tr>
+<tr><td>73 ***** Để đi Vi Sơn Đảo nhân vật cần những vật phẩm gì?    
+<br><span class="true">Tất cả câu trả lời trên đều sai    500 tấm Mật Đồ Thần Bí    Lệnh Bài Phong Lăng Độ    200 vạn lượng</span></td></tr>
+<tr><td>74 ***** Có bao nhiêu thành bán ngựa Túc Sương?    
+<br><span class="true">2    1    3    4</span></td></tr>
+<tr><td>75 ***** Trong Tống Kim, khi bạn được phong là Hiệu úy bạn sẽ được tặng những gì?    
+<br><span class="true">Sinh lực tăng 20%    Sinh lực tăng 10%    Sinh lực tăng 30%    Sinh lực tăng 40%</span></td></tr>
+<tr><td>76 ***** Trong Tống Kim, khi bạn được phong là Thống Lĩnh bạn sẽ được tặng những gì?    
+<br><span class="true">Tất cả đều đúng    Sinh lực tăng 30%    Phòng thủ 5%   </span></td></tr>
+<tr><td>77 ***** Trong Tống Kim, khi bạn được phong là Phó Tướng bạn sẽ được tặng những gì?    
+<br><span class="true">Tất cả đều đúng    Phòng thủ tăng 10%    Sinh lực tăng 40%   </span></td></tr>
+<tr><td>78 ***** Kết thúc một trận Tống Kim bên thắng được bao nhiêu điểm thưởng?    
+<br><span class="true">1200 điểm và 3 điểm danh vọng    1200 điểm    600 điểm   </span></td></tr>
+<tr><td>79 ***** Kết thúc một trận Tống Kim bên thua được bao nhiêu điểm thưởng?    
+<br><span class="true">600 điểm    1000 điểm    1200 điểm và 3 điểm danh vọng    600 điểm và 3 điểm danh vọng</span></td></tr>
+<tr><td>80 ***** Phái nào có tốc độ đánh nhanh nhất?    
+<br><span class="true">Đường Môn    Thúy Yên    Thiên Vương     Võ Đang</span></td></tr>
+<tr><td>81 ***** Phái nào có tốc độ đánh chậm nhất?    
+<br><span class="true">Thiên Vương     Thúy Yên    Đường Môn    Võ Đang</span></td></tr>
+<tr><td>82 ***** Trong một ngày nhân vật có thể làm tối đa bao nhiêu nhiệm vụ Dã Tẩu?    
+<br><span class="true">40    50    60    70</span></td></tr>
+<tr><td>83 ***** Dã Tẩu có tối đa bao nhiêu nhiệm vụ?    
+<br><span class="true">8000    7000    6000    9000</span></td></tr>
+<tr><td>84 ***** Chủ Tiền Trang ở các thành thị bán vật phẩm gì (trừ Lâm An)?    
+<br><span class="true">Bao lì xì    Phi Phong    áo Mừng Tuổi    áo Mới</span></td></tr>
+<tr><td>85 ***** Chủ Dược Điếm tại các thành thị bán bao nhiêu loại thuốc?    
+<br><span class="true">17    16    15    18</span></td></tr>
+<tr><td>86 ***** Có bao nhiêu thành dùng để ngồi tù giảm PK?    
+<br><span class="true">2    1    3    4</span></td></tr>
+<tr><td>87 ***** Một bộ Kim Phong gồm bao nhiêu món?    
+<br><span class="true">9    8    10    7</span></td></tr>
+<tr><td>88 ***** Để đi Đảo Tẩy Tủy nhân vật cần những vật phẩm gì?    
+<br><span class="true">Tất cả đều đúng    6 Tinh Hồng Bảo Thạch    3 Thủy Tinh và 6 Tinh Hồng Bảo Thạch    3 Thủy Tinh</span></td></tr>
+<tr><td>89 ***** Có bao nhiêu NPC Thần Bí Thương Nhân tại Thất đại thành thị?    
+<br><span class="true">3    2    1    4</span></td></tr>
+<tr><td>90 ***** Chức năng NPC Công Bình Tử dùng để làm gì?    
+<br><span class="true">Lôi Đài    Vượt ải     Tín sứ    Liên đấu</span></td></tr>
+<tr><td>91 ***** Có thể đổi điểm tích lũy liên đấu lấy vật phẩm tại NPC nào?    
+<br><span class="true">Sứ giả liên đấu (Nam)    Võ Lâm Truyền Nhân    Sứ giả liên đấu (Nữ)    Nhiếp Thí Trần</span></td></tr>
+<tr><td>92 ***** Có mấy môn phái không có tốc độ xuất chiêu trong trấn phái?    
+<br><span class="true"> 4    3    5    6</span></td></tr>
+<tr><td>93 ***** Người bán chiến mã ở Nam Nhạc trấn tên là?    
+<br><span class="true">Thẩm Câu    Xa Phu    Thương nhân thần bí    Sứ giả võ lâm</span></td></tr>
+<tr><td>94 ***** Huyền Giác Đại sư khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Tất cả đều đúng    Thủy tinh    Tinh hồng bảo thạch    Phục ma Tử Kim côn</span></td></tr>
+<tr><td>95 ***** Hà Linh Phiêu khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Vô Ma tẩy tượng ngọc khấu    Vô Trần Thanh Tâm hướng thiện châu    Vô Gian ỷ thiên kiếm    Vô gian tẩy tượng ngọc khấu</span></td></tr>
+<tr><td>96 ***** Liễu Thanh Thanh khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Tất cả đều đúng    Tẩy tủy kinh    Tử Thủy Tinh    Võ Lâm Mật tịch</span></td></tr>
+<tr><td>97 ***** Đoạn Mộc Duệ khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Ma Sát Quỉ cốc u minh thương    Cập phong chân vũ kiếm    Sương Tinh thiên niên hàn thiết    Tứ không giáng ma giới đao</span></td></tr>
+<tr><td>98 ***** Thanh Tuyệt Sư Thái khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Tất cả đều đúng    Vô Trần Thanh Tâm hướng thiện châu    Nga My mật tịch    Vô Gian ỷ thiên kiếm</span></td></tr>
+<tr><td>99 ***** Diệu Như là môn đệ của phái nào?    
+<br><span class="true">Nga My    Thúy Yên    Võ Đang    Đường Môn</span></td></tr>
+<tr><td>100 ***** Đạo Thanh Chân Nhân khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Cập phong tam thanh phù    Cập phong chân vũ kiếm    Vô Gian ỷ thiên kiếm    Tất cả đều đúng</span></td></tr>
+<tr><td>101 ***** Trương Tông Chính là môn đệ của?    
+<br><span class="true">Võ Đang    Nga My    thiếu lâm    Thiên vương bang</span></td></tr>
+<tr><td>102 ***** Gia Luật Tị Ly khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Ma hoàng án xuất hổ hạng khuyên    Ma Sát Quỉ cốc u minh thương    Cập phong tam thanh phù    Vô gian tẩy tượng ngọc khấu</span></td></tr>
+<tr><td>103 ***** Yên Hiểu Trái  khi bị đánh bại có thể rơi ra vật phẩm?    
+<br><span class="true">Tê hoàng phụng nghi đao    Tê hoàng băng tung hộ uyển    Nhu tình cân quốc nghê thường    Bích hải uyên ương liên hoàn đao</span></td></tr>
+<tr><td>104 ***** Chưởng môn Nga My là?    
+<br><span class="true">Thanh Tuyệt sư thái    Chung Linh Tú    Hà Linh Phiêu    Diệu Như</span></td></tr>
+<tr><td>105 ***** Chưởng môn Võ Đang là?    
+<br><span class="true">Đạo Nhất chân nhân    Đạo Thanh chân nhân    Thanh Hư chân nhân    Thanh Vân đạo trưởng</span></td></tr>
+<tr><td>106 ***** Môn chủ Đường môn là?    
+<br><span class="true">Đường cừu    Đường Hỏa    Đường Bất nhiễm    Đường Vân</span></td></tr>
+<tr><td>107 ***** Bang chủ Thiên vương bang là?    
+<br><span class="true">Dương Anh    Vương Tá    Gia Luật Tị Ly    Hà Linh Phiêu</span></td></tr>
+<tr><td>108 ***** Chưởng môn Côn Lôn là?    
+<br><span class="true">Tuyền Cơ Tử    Đạo Thanh Chân Nhân    Thiên Cơ Tử    Thanh Linh Tử</span></td></tr>
+<tr><td>109 ***** Giáo chủ Ngũ độc là?    
+<br><span class="true">Hắc Diện Lang Quân    Độc Thích    Đôc Diện Lang Quân    Tang Chu</span></td></tr>
+<tr><td>110 ***** Phương trượng Thiếu Lâm?    
+<br><span class="true">Huyền Từ Đại sư    Huyền Giác đại sư    Từ Vân Pháp Sư    Từ Vân Đại Sư</span></td></tr>
+<tr><td>111 ***** Chưởng môn Thúy Yên là?    
+<br><span class="true">Doãn Hàm Yên    Hoàn Nhan Tuyết Y    Yên Hiểu Trái    Hà Linh Phiêu</span></td></tr>
+<tr><td>112 ***** Bang chủ Cái bang là?    
+<br><span class="true">Hà Nhân Ngã    Cửu Chỉ Thần Cái    Hồng Thông    Mạnh Thương Lương</span></td></tr>
+<tr><td>113 ***** Giáo chủ Thiên nhẫn là?    
+<br><span class="true">Hoàng Nhan Hồng Liệt    Hoàng Nhan Tuyết Y    Hoàng Nhan Khang    Hoàng Nhan A Cốt Đả</span></td></tr>
+<tr><td>114 ***** Gián điệp Kim quốc ở Tương Dương là?    
+<br><span class="true">Lưu Uẩn cổ    Bạch Công Tử    Ngô Lão thái    Kim Quốc võ sĩ</span></td></tr>
+<tr><td>115 ***** Máy chủ nào đoạt hạng 1 ở giải THDNB lần 5    ChâuGiang    TrườngGiang    Thiên Sơn    Cửu Giang
+<tr><td>116 ***** Dùng bao nhiêu điểm tích lũy trong nhiệm vụ tín sứ để đổi lấy Hồng ảnh Tụ Chiêu?    
+<br><span class="true">50000    40000    60000    500000</span></td></tr>
+<tr><td>117 ***** Dùng bao nhiêu điểm tích lũy trong nhiệm vụ tín sứ để đổi lấy Hồng ảnh Mục Túc Tương Vong?    
+<br><span class="true">70000    60000    50000    80000</span></td></tr>
+<tr><td>118 ***** Dùng bao nhiêu điểm tích lũy trong nhiệm vụ tín sứ để đổi lấy Hồng ảnh Kiếm Qua Tây Phương?    
+<br><span class="true">70000    50000    60000    40000</span></td></tr>
+<tr><td>119 ***** Dùng bao nhiêu điểm tích lũy trong nhiệm vụ tín sứ để đổi lấy Hồng ảnh Trầm Viên Vãn Túy?    
+<br><span class="true">100000    10000    1000000    1000</span></td></tr>
+<tr><td>120 ***** Trong tín sứ, khi bạn có danh hiệu là Tín Sứ-Mộc thì thì bạn có thể mua được Tín Sứ lệnh bài nào?    
+<br><span class="true">Tín sứ lệnh bài - Mộc    Tín sứ lệnh bài - Đồng    Tín sứ lệnh bài - Bạc    Tín sứ lệnh bài - Vàng</span></td></tr>
+<tr><td>121 ***** Mỗi tín sứ yêu bài được sự dụng bao nhiêu lần?    
+<br><span class="true">5    3    4    2</span></td></tr>
+<tr><td>122 ***** Ngự Tứ tín sứ lệnh bài Vàng khi sử dụng phục hồi bao nhiêu điểm âm trong phần kháng ngũ hành?    
+<br><span class="true">30    20    10    40</span></td></tr>
+<tr><td>123 ***** Trong hệ thống ngũ hành tương sinh, thì hệ Mộc tạo ra hệ gì ?    
+<br><span class="true">Hỏa    Thủy     Kim    Thổ</span></td></tr>
+<tr><td>124 ***** Trong hệ thống ngũ hành tương sinh, thì hệ Hỏa tạo ra hệ gì ?    
+<br><span class="true">Thổ    Thủy     Mộc    Kim</span></td></tr>
+<tr><td>125 ***** Trong hệ thống ngũ hành tương sinh, thì hệ Thổ tạo ra hệ gì ?    
+<br><span class="true">Kim    Thủy     Hỏa    Mộc</span></td></tr>
+<tr><td>126 ***** Trong hệ thống ngũ hành tương sinh, thì hệ Kim tạo ra hệ gì ?    
+<br><span class="true">Thủy     Mộc    Hỏa    Thổ</span></td></tr>
+<tr><td>127 ***** Trong hệ thống ngũ hành tương sinh, thì hệ Thủy tạo ra hệ gì ?    
+<br><span class="true">Mộc    Kim    Hỏa    Thổ</span></td></tr>
+<tr><td>128 ***** Trong phần trang bị, thì trang bị vũ khí có thể kích được trang bị nào trên người ?    
+<br><span class="true">Giày - nhẫn trên     Nhẫn dưới - thắt lưng     Dây chuyền - trang phục    Ngọc bội - bao tay</span></td></tr>
+<tr><td>129 ***** Trong phần trang bị, thì nhẫn dưới được trang bị nào kích thuộc tính ẩn?    
+<br><span class="true">Ngọc bội - bao tay    Giày - nhẫn trên     Trang phục - dây chuyền    Mũ - vũ khí</span></td></tr>
+<tr><td>130 ***** Trong hệ thống ngũ hành, thì hệ nào không có nhân vật Nam?    
+<br><span class="true">Thủy    Mộc    Hỏa    Kim</span></td></tr>
+<tr><td>131 ***** Trong hệ thống ngũ hành, thì hệ nào không có nhân vật Nữ?    
+<br><span class="true">Không có hệ nào    Kim     Hỏa    Thổ</span></td></tr>
+<tr><td>132 ***** Bạn cấp từ 90-120, muốn tham gia thi liên đấu thì phải tới NPC Sứ Giả Liên Đấu thành nào để báo danh?    
+<br><span class="true">Biện Kinh    Tương Dương     Thành Đô    Lâm An</span></td></tr>
+<tr><td>133 ***** Bạn từ cấp 120 trở lên, muốn tham gia thi liên đấu thì phải tới NPC Sứ Giả Liên Đấu thành nào để báo danh?    
+<br><span class="true">Thành Đô    Biện Kinh    Lâm An    Đại Lý</span></td></tr>
+<tr><td>134 ***** Ngồi tù bao lâu thì sẽ giảm được 1 PK?    
+<br><span class="true">2h    1h    30'    4h</span></td></tr>
+<tr><td>135 ***** Theo giới hạn 5 giờ chơI trong võ lâm, thì 3 giờ đầu tiên người chơi được hưởng bao nhiêu % điểm kinh nghiệm khi đánh quái?    
+<br><span class="true">100%    50%    150%    200%</span></td></tr>
+<tr><td>136 ***** Theo cách gọi của nhiều người thì "cụ đồ Chiểu" được hiểu là ai?    
+<br><span class="true"> Nguyễn Đình Chiểu    Lê Văn Chiểu    Trần Đình Chiểu    Nguyễn Văn Chiểu</span></td></tr>
+<tr><td>137 ***** Con người đặt chân lên mặt trăng lần đầu tiên vào năm nào?    
+<br><span class="true">1969    1968    1970    1971</span></td></tr>
+<tr><td>138 ***** Khổng Tử, người thầy của mọi thời đại sống vào thế kỷ nào trước công nguyên?    
+<br><span class="true">6    5    4    7</span></td></tr>
+<tr><td>139 ***** Nước ta có bao nhiêu dân tộc?    
+<br><span class="true">54    52    50    56</span></td></tr>
+<tr><td>140 ***** Liên Hiệp Quốc được thành lập vào năm nào?    
+<br><span class="true">1945    1941    1943    1939</span></td></tr>
+<tr><td>141 ***** Có bao nhiêu nước tham gia thành lập Liên Hiệp Quốc?    
+<br><span class="true">51    55    59    63</span></td></tr>
+<tr><td>142 ***** Điện thoại được phát minh vào năm nào?    
+<br><span class="true">1876    1886    1900    1976</span></td></tr>
+<tr><td>143 ***** Pasteur phát minh ra vắc xin ngừa bệnh dại vào năm nào?    
+<br><span class="true">1888    1878    1898    1908</span></td></tr>
+<tr><td>144 ***** Họ đầu tiên ở nước ta là gì?    
+<br><span class="true">Hồng Bàng    Triệu    Ngô     Dương</span></td></tr>
+<tr><td>145 ***** Cuộc đấu tranh đòi nhà cầm quyền Pháp thả cụ Phan Bội Châu diễn ra vào năm nào?    
+<br><span class="true">1919    1924    1929    1934</span></td></tr>
+<tr><td>146 ***** Vua Quang Trung băng hà vào năm nào?    
+<br><span class="true">1799    1793    1805    1811</span></td></tr>
+<tr><td>147 ***** Ai là người dời đô từ Hoa Lư về Thăng Long năm 1010?    
+<br><span class="true">Lý Thái Tổ    Lê Thái Tổ    Lý Nam Đế    Lý Thường Kiệt</span></td></tr>
+<tr><td>148 ***** Kỳ quan nào không nằm trong 7 kỳ quan Thế Giới cổ đại?    
+<br><span class="true">Vạn Lý Trường Thành    Khu lăng mộ Giza    Hải đăng Alexandria    Tất cả câu trả lời trên đều sai</span></td></tr>
+<tr><td>149 ***** Cân được phát minh đầu tiên bởi cư dân của nước nào?    
+<br><span class="true">Ai cập    Trung Quốc    ấn độ    Việt cổ</span></td></tr>
+<tr><td>150 ***** Văn Miếu, trường đại học đầu tiên của Việt Nam, được xây dựng dưới triều đại nào?    
+<br><span class="true">Nhà Lý    Nhà Trần    Nhà Ngô    Nhà Nguyễn</span></td></tr>
+<tr><td>151 ***** Việt Nam trở thành thành viên của Liên Hợp Quốc năm nào?    
+<br><span class="true">1977    1970    1963    1984</span></td></tr>
+<tr><td>152 ***** Đất nước nào là quê hương của ông già Noel?    
+<br><span class="true">Phần Lan    Thụy Điển    Mỹ    Anh</span></td></tr>
+<tr><td>153 ***** Thủ đô nước nào lâu đời nhất Đông Nam á?    
+<br><span class="true">Hà Nội - Việt Nam    Bangkok - Thái Lan    Viên Chăn - Lào    Phnom Penh - Campuchia</span></td></tr>
+<tr><td>154 ***** Huấn luyện viên Alex Feguson của Mu có tước hiệu gì?    
+<br><span class="true">Hiệp sĩ    Bá tước    Tướng quân    Đại tướng</span></td></tr>
+<tr><td>155 ***** Việt Nam vô địch AFF cup năm nào?    
+<br><span class="true">2008    2005    1998    2009</span></td></tr>
+<tr><td>156 ***** Biểu tượng Nữ thần tự do là của nước nào?    
+<br><span class="true">Mỹ    Pháp    Anh     Nhật</span></td></tr>
+<tr><td>157 ***** Nước nào có hình chiếc ủng?    
+<br><span class="true">Italia    Pháp    Chi Lê    Trung Quốc</span></td></tr>
+<tr><td>158 ***** Ngày thành lập đảng cộng sản Việt Nam?    
+<br><span class="true">Ngày 3 tháng 2    Ngày 30 tháng 4    Ngày 2 tháng 9    Ngày 8 tháng 3</span></td></tr>
+<tr><td>159 ***** Đơn vị tiền tệ của Italia?    
+<br><span class="true">Euro    Rúp    Yên    Tệ</span></td></tr>
+<tr><td>160 ***** Đỉnh núi nào cao nhất thế giới?    
+<br><span class="true">Everest    Phanxiphang    Makalu    K2</span></td></tr>
+<tr><td>161 ***** Sao Kim Venus tượng trưng cho vị thần nào?    
+<br><span class="true">Tình yêu    Chiến tranh    Hòa bình    Biển cả</span></td></tr>
+<tr><td>162 ***** Ngôi sao 5 cánh trên quốc kì các quốc gia tượng trưng cho cái gì ?    
+<br><span class="true">5 châu lục    5 quốc gia    5 hành tinh    5 ngôi sao</span></td></tr>
+<tr><td>163 ***** Hình tròn màu đỏ trên lá cờ của Nhật Bản tượng trưng cho cái gì?    
+<br><span class="true">Mặt trời    Mặt trăng    Trái đất    Sao hỏa</span></td></tr>
+<tr><td>164 ***** Rừng nào có biên giới tự nhiên trải dài đến 9 quốc gia?    
+<br><span class="true">Amazon    Cúc phương    Fontainebleau    Đray Sáp</span></td></tr>
+<tr><td>165 ***** Loài cây nào biểu tượng cho sức mạnh của Châu Phi?    
+<br><span class="true">Bao báp    Lim    Thông    Xương rồng</span></td></tr>
+<tr><td>166 ***** Con sông nào lớn nhất Châu á?    
+<br><span class="true">Mê Kông    Gange    Sông Hồng    Dương tử</span></td></tr>
+<tr><td>167 ***** Đội tuyển bóng đá nam Brazil vô địch thế giới mấy lần?    
+<br><span class="true">5    4    3    6</span></td></tr>
+<tr><td>168 ***** Nước Mỹ có bao nhiêu bang?    
+<br><span class="true">50    49    48    51</span></td></tr>
+<tr><td>169 ***** DTH là dịch vụ gì?    
+<br><span class="true">Truyền hình số vệ tinh     Truyền hình số    Truyền hình mạng    Truyền hình cáp</span></td></tr>
+<tr><td>170 ***** Âm thanh không truyền đi được trong môi trường nào?    
+<br><span class="true">Chân không    Chất lỏng    Chất khí    Chất rắn</span></td></tr>
+<tr><td>171 ***** Người ta thường nói ngang như...?    
+<br><span class="true">Cua    Ngỗng    Ghẹ    Heo</span></td></tr>
+<tr><td>172 ***** Điền vào câu sau: "Lơ ngơ như ... đội nón" ?    
+<br><span class="true">Bò    Gà    Khỉ    Mèo</span></td></tr>
+<tr><td>173 ***** ở bắc cực có bao nhiu loài chim cánh cụt?    
+<br><span class="true">0    1    2    3</span></td></tr>
+<tr><td>174 ***** Dụng cụ đo thân nhiệt là gì?    
+<br><span class="true">Nhiệt kế    Ampe Kế    áp kế    Vôn kế</span></td></tr>
+<tr><td>175 ***** Tỉnh nào sau đây ở miền bắc nước ta?    
+<br><span class="true">Hải Dương    Bình Dương     Binh Thuận    Bình Định</span></td></tr>
+<tr><td>176 ***** Báo nào chuyên về công nghệ thông tin?    
+<br><span class="true">Echip    Tuổi trẻ    Hoa học trò    Mực tím</span></td></tr>
+<tr><td>177 ***** "Dictionary" trong tiếng Anh nghĩa là gì?    
+<br><span class="true">Từ điển    Quyển nhật kí    Kí tự    Tập giấy trắng</span></td></tr>
+<tr><td>178 ***** Quốc gia nào có liên hoan film Cannes?    
+<br><span class="true">Pháp    Đức    ý    Mĩ</span></td></tr>
+<tr><td>179 ***** Website đổi mật khẩu của VNG là gì?    
+<br><span class="true">id.zing.vn    zing.vn    pay.zing.vn    me.zing.vn</span></td></tr>
+<tr><td>180 ***** Môn thể thao nào mà 6 game sẽ kết thúc 1 set?    
+<br><span class="true">Tennis    Baseball    Soccer    Basketball</span></td></tr>
+<tr><td>181 ***** Quốc gia nào đông dân nhất thế giới?    
+<br><span class="true">Trung Quốc    ấn Độ    Mĩ     Nga</span></td></tr>
+<tr><td>182 ***** Quốc gia nào tặng nước Mĩ tượng "Nữ thần tự do"?    
+<br><span class="true">Pháp    Anh    ý    Canada</span></td></tr>
+<tr><td>183 ***** Một bộ cờ vua có bao nhiu loại quân?    
+<br><span class="true">6    5    4    7</span></td></tr>
+<tr><td>184 ***** Vào mùa nào thì trái đất gần mặt trời nhất?    
+<br><span class="true">Hạ    Xuân    Thu    Đông</span></td></tr>
+<tr><td>185 ***** Cái gì lớn nhất dưới đây?    
+<br><span class="true">Lục Địa    Đảo    Châu Lục    Vịnh</span></td></tr>
+<tr><td>186 ***** Vòng chung kết WorldCup 1994 quốc gia nào đạt hạng ba ?    
+<br><span class="true">Thụy Điển    Đức    Tây Ban Nha    Hà Lan</span></td></tr>
+<tr><td>187 ***** Sea Game 25 sẽ tổ chức ở quốc gia nào ?    
+<br><span class="true">Lào    Inđônêsia    Thái Lan    Malaysia</span></td></tr>
+<tr><td>188 ***** Kết thúc Sea Game 24 đoàn Việt Nam đạt bao nhiêu HCV?    
+<br><span class="true">64    62    63    61</span></td></tr>
+<tr><td>189 ***** Thế vận hội Olympic 2012 diễn ra tại quốc gia nào?    
+<br><span class="true">Anh    Pháp    Đức    Tây Ban Nha</span></td></tr>
+<tr><td>190 ***** Trần Hiếu Ngân là VĐV môn thể thao nào?    
+<br><span class="true">Taekwondo    Karate    Judo    Bóng bàn</span></td></tr>
+<tr><td>191 ***** Nguyễn Tiến Minh là VĐV môn thể thao nào?    
+<br><span class="true">Cầu lông    Bóng bàn    Bida    Bóng đá</span></td></tr>
+<tr><td>192 ***** Vòng chung kết Euro 2004 đội nào đạt danh hiệu vô địch?    
+<br><span class="true">Hy Lạp    Bồ Đào Nha    ý    Tây Ban Nha</span></td></tr>
+<tr><td>193 ***** Lê Công Vinh đạt bao nhiêu danh hiệu Quả Bóng Vàng VN?    
+<br><span class="true">3    2    4    5</span></td></tr>
+<tr><td>194 ***** Vòng chung kết Euro 2008 đội nào đạt danh hiệu vô địch?    
+<br><span class="true">Tây Ban Nha    Bồ Đào Nha    ý    Hy Lạp</span></td></tr>
+<tr><td>195 ***** CLB bóng đá nào đạt danh hiệu vô địch cup C1 Châu Âu nhiều nhất?    
+<br><span class="true">Real Madrid    Liverpool    AC Milan    Bayer Munich</span></td></tr>
+<tr><td>196 ***** Cầu Mỹ Thuận được bắc qua con sông nào của Việt Nam?    
+<br><span class="true">Sông Tiền    Sông Hậu    Sông Đà    Sông Hương</span></td></tr>
+<tr><td>197 ***** Đội tuyển bóng đá nam Thái Lan bao nhiêu lần vô địch các kỳ Sea Game?    
+<br><span class="true">8    7    9    10</span></td></tr>
+<tr><td>198 ***** Thủ đô Canađa tên gì?    
+<br><span class="true">Ottawa    Toronto    Habana    Madrid</span></td></tr>
+<tr><td>199 ***** Ai đạt danh hiệu quả bóng vàng Việt Nam năm 2009?    
+<br><span class="true">Dương Hồng Sơn    Vũ Như Thành    Lê Công Vinh    Phan Văn Tài Em</span></td></tr>
+<tr><td>200 ***** Giếng nước lớn nhất Việt Nam nằm ở đâu?    
+<br><span class="true">Ninh Bình    Hà Nội    Bình Dương    Hà Tây</span></td></tr>
+<tr><td>201 ***** Tên của anh hùng Nguyễn Huệ lúc nhỏ là?    
+<br><span class="true">Hồ Thơm    Khắc Nhi    Tiểu Minh    Du Thiên</span></td></tr>
+<tr><td>202 ***** Đời vua nào có chức Lạc Hầu?    
+<br><span class="true">Hùng Vương    An Dương Vương    Đinh Bộ Lĩnh    Lý Nam Đế</span></td></tr>
+<tr><td>203 ***** Truyền thuyết về Tứ Bất Tử của Việt Nam gồm: Tản Viên (Sơn Tinh - Thủy Tinh), Chử Đồng Tử, Liễu Hạnh. Người còn lại là ai?    
+<br><span class="true">Thánh Gióng    Trạng Vật    Sọ Dừa    Trạng Quỳnh</span></td></tr>
+<tr><td>204 ***** Vạn Thắng Vương là biệt hiệu của vị tướng quân nào ?    
+<br><span class="true">Đinh Bộ Lĩnh    Trần Lãm    Ngô Quyền    Dương Đình Nghệ</span></td></tr>
+<tr><td>205 ***** Nhà Đinh đúc tiền lần đầu tiên trong lịch sử nước Việt, đồng tiền đó mang tên gì ?    
+<br><span class="true">Thái Bình Hưng Bảo    Thiệu Phong Thông Bảo    Vĩnh Thịnh Thông Bảo    Thiên Phúc Trấn Bảo</span></td></tr>
+<tr><td>206 ***** Bánh Khoái là đặc sản của miền nào?    
+<br><span class="true">Miền Bắc    Miền Trung    Cả ba miền    Miền Nam</span></td></tr>
+<tr><td>207 ***** Giò Heo Giả Cầy thường được người miền nào ưa chuộng?    
+<br><span class="true">Miền Nam    Miền Trung    Miền Bắc    Cả ba miền</span></td></tr>
+<tr><td>208 ***** Bún Suông, một món ăn đặc sắc có tôm giã nhuyễn, thịt cua có xuất xứ từ miền nào?    
+<br><span class="true">Miền Nam    Miền Bắc    Miền Trung    Cả ba miền</span></td></tr>
+<tr><td>209 ***** Cà pháo, mắm tôm thường được người dân miền nào ưa chuộng?    
+<br><span class="true">Miền Bắc    Miền Trung    Miền Nam    Cả ba miền</span></td><tr><td>210 ***** Trong các món ăn dân dã, Gỏi Sứa là món ăn "độc đáo" để thiết đãi bằng hữu của người dân nơi nào sau đây?    
+<br><span class="true">Tuy Hòa    Vũng Tàu    Mũi Né    Phan Thiết</span></td><tr><td>211 *****  Ba Khía, một đặc sản của vùng Biển miền Nam, nổi tiếng nhất là ở đâu?    
+<br><span class="true">Rạch Gốc     Cần Thơ    Long An    Tiền Giang</span></td><tr><td>212 ***** Chả Rươi có nguồn gốc xuất xứ từ miền nào?    
+<br><span class="true">Miền Bắc    Miền Trung    Miền Nam    Cả ba miền</span></td><tr><td>213 ***** Bún Thang là đặc sản của nơi nào?    
+<br><span class="true">Hà Nội    Phan Thiết    Cần Thơ    Huế</span></td><tr><td>214 ***** Cơm hến là đặc sản của nơi nào?    
+<br><span class="true">Huế    Quảng Ninh     Hải Phòng    Hà Nội</span></td><tr><td>215 ***** Bún mực Vạn Ninh là đặc sản nơi nào?    
+<br><span class="true">Nha Trang    Hải Phòng    Huế    Hà Nội</span></td><tr><td>216 ***** Món Mì Quảng là đặc sản của nơi nào?    
+<br><span class="true">Quảng Nam    Hà Nội    Quảng Ninh     Tuy Hòa</span></td><tr><td>217 ***** Bánh tổ là một trong bốn loại bánh truyền thống của người dân nơi nào?    
+<br><span class="true">Quảng Nam    Tuy Hòa    Hà Nội    Quảng Ninh</span></td><tr><td>218 ***** Bún Bò là đặc sản của miền nào?    
+<br><span class="true">Miền Trung    Miền Nam    Miền Bắc    Cả ba miền</span></td><tr><td>219 ***** Chợ nổi là đặc trưng của nơi nào?    
+<br><span class="true">Miền Nam    Miền Trung    Miền Bắc    Cả ba miền</span></td><tr><td>220 ***** Hàng năm nhằm vào tháng 3 khách thập phương về Nam Định để tham dự lễ hội nào?    
+<br><span class="true">Phủ Dầy    Đền Hùng    Nghinh Ông    Giỗ tổ</span></td><tr><td>221 ***** ở Cao Bằng, hằng năm vào ngày 22 tháng 3 có lễ hội về Mẹ Trăng và mười hai nàng tiên - con của Mẹ Trăng. Đó là lễ hội gì?    
+<br><span class="true"> Nàng Hai    Nghinh Ông    Đền Hùng    Giỗ tổ</span></td><tr><td>222 ***** Hải Thượng Lãn Ông là tên hiệu của bậc danh nhân nào?    
+<br><span class="true">Lê Hữu Trác    Lê Quý Đôn    Lê Văn Hưu    Nguyễn Khuyến</span></td><tr><td>223 ***** Họ em cùng với họ người, Tên em cùng loài ở chốn bùn sâu. Là vật gì?    
+<br><span class="true">Đinh ốc    Đinh    ốc    ốc đinh</span></td><tr><td>224 ***** Bốn bên bốn bức tường cao, Lính đánh ào ào, tướng vẫn nằm yên. Là vật dụng gì?    
+<br><span class="true">Cái mùng    Cái chăn    Cái gối    Cái giường</span></td><tr><td>225 ***** Mòn lưng kẻ xát người chà, Cánh đâu mà bảo ta bay lên trời? Là cái gì?    
+<br><span class="true">Cái bay    Cái xẻng    Cái cuốc    Cái búa</span></td><tr><td>226 ***** Không tay không chân không mắt không mũi, Miệng ướt rần rần, bò đi lủi nhủi. Là con gì?    
+<br><span class="true">Con giun    Con mèo    Con chim    Con cá</span></td><tr><td>227 ***** Vừa bằng hạt lạc, trong nạc ngoài xương. Là con gì?    
+<br><span class="true">Con ốc    Con mèo    Con cá    Con giun</span></td><tr><td>228 ***** Năm ông cầm hai cây sào, Lùa đàn trâu trắng thẳng vào trong hang. Dùng để chỉ việc gì?    
+<br><span class="true">Ăn cơm    Uống nước    Ăn canh    Ăn chay</span></td><tr><td>229 ***** Bằng một bước mà bước không qua. Là cái gì?    
+<br><span class="true">Cái bóng    Cái bảng    Cái bàn    Cái sải tay</span></td><tr><td>230 ***** Con cua tám cẳng 2 càng, Bò qua bò lại hỏi bò mấy chân?    
+<br><span class="true">4 chân    2 chân    6 chân    8 chân</span></td><tr><td>231 ***** Bắc thang lên hát phường chèo, Hỏi thang một nấc mà leo nỗi gì? Là chữ gì?    
+<br><span class="true">Chữ H    Chữ A    Chữ D    Chữ P</span></td><tr><td>232 ***** Xây thành đắp luỹ trên non, Hái hoa nuốt nhuỵ nuôi con tháng ngày? Là con gì?    
+<br><span class="true">Con ong    Con bướm    Con gà    Con cuốc</span></td><tr><td>233 ***** Mồm bò nhưng không phải mồm bò mà là mồm bò. Là con gì?    
+<br><span class="true">Con ốc sên    Con kiến    Con rùa    Con ngan</span></td><tr><td>234 ***** Trong lễ hội đua thuyền truyền thống nước ta, loại thuyền nào thường được nhân dân sử dụng?    
+<br><span class="true">Thuyền rồng    Ghe ngo    Thuyền thúng    Ghe bầu</span></td><tr><td>235 ***** Tục mừng nhà mới ở Việt Nam gọi là gì?    
+<br><span class="true">Tân gia    Tân niên gia    Tân kỳ    Tân quý</span></td><tr><td>236 ***** ở các gia đình có cha mẹ già đến bảy tám mươi tuổi, nhà phúc lộc dồi dào, đông con cái, thì làm lễ mừng thọ cha mẹ. Lễ đó gọi là gì?    
+<br><span class="true">Thượng thọ    Mừng thọ    Đại thọ    Mừng tuổi</span></td><tr><td>237 ***** Dù ai đi ngược về xuôi, Nhớ ngày giỗ tổ mùng mười tháng ba. 2 câu thơ đó nói về ngày hội gì ở nước ta.?    
+<br><span class="true">Giỗ tổ Hùng Vương    Giỗ tổ    Giỗ tổ tiên    Giỗ ông bà</span></td><tr><td>238 ***** Làng gốm Bát Tràng, làng gốm nổi tiếng của nước ta thuộc huyện nào của Hà Nội?    
+<br><span class="true">Gia Lâm    Từ Liêm    Đông Anh    Thanh Trì</span></td><tr><td>239 ***** Cơm lam là món ẩm thực đặc sắc của các dân tộc nơi nào ở nước ta?    
+<br><span class="true">Tây Bắc Bộ    Đông Bắc Bộ    Tây Nam Bộ    Đông Nam Bộ</span></td><tr><td>240 ***** Nữ sinh Đồng Khánh xứ Huế nổi tiếng bởi tà áo dài thướt tha có màu sắc?    
+<br><span class="true">Tím    Hồng    Lam    Trắng</span></td><tr><td>241 ***** Trong tà áo dài truyền thống của phụ nữ Việt Nam, hàng nút được kết tại đâu?    
+<br><span class="true">Bên phải từ cổ xuống eo    Bên trái từ cổ xuống eo    Sau lưng    Không cần cài nút</span></td><tr><td>242 ***** Nhà sử học đầu tiên của Việt Nam là?    
+<br><span class="true">Lê Văn Hưu    Nguyễn Hiền    Phan Phu Tiên    Ngô Sĩ Liên</span></td><tr><td>243 ***** Cuốn "Đại Việt Sử Ký Toàn Thư" do ai soạn thảo?    
+<br><span class="true">Ngô Sĩ Liên    Phan Phu Tiên    Lê Văn Hưu    Phạm Công Trứ</span></td><tr><td>244 ***** Thời nhà Trần, ai được phong tặng là "Lưỡng Quốc Trạng Nguyên" ?    
+<br><span class="true">Mạc Đĩnh Chi    Nguyễn Trực    Nguyễn Đăng Đạo    Phùng Khắc Khoan</span></td><tr><td>245 ***** Trạng nguyên trẻ nhất trong lịch sử Việt Nam là ai?    
+<br><span class="true">Nguyễn Hiền    Lương Thế Vinh    Mạc Đĩnh Chi    Nguyễn Trực</span></td><tr><td>246 ***** Ai được dân gian phong tặng danh hiệu Trạng Lường ?    
+<br><span class="true">Lương Thế Vinh    Phùng Khắc Khoan    Nguyễn Hiền    Mạc Đỉnh Chi</span></td><tr><td>247 ***** Ai được dân gian phong tặng danh hiệu Trạng Bùng ?    
+<br><span class="true">Phùng Khắc Khoan    Nguyễn Hiền    Lương Thế Vinh    Mạc Đỉnh Chi</span></td><tr><td>248 ***** Ai lãnh đạo nghĩa quân Lam Sơn khởi nghĩa dành thắng lợi?    
+<br><span class="true">Lê Lợi    Trần Cảnh    Lê Hoàn    Trần Hưng Đạo</span></td><tr><td>249 ***** Ai thảo áng văn bất hủ "Bình Ngô Đại Cáo"?    
+<br><span class="true">Nguyễn Trãi    Lê Văn Hưu    Trần Thánh Tông    Nguyễn Hiền</span></td><tr><td>250 ***** Bạch Vân Cư Sĩ là tên hiệu của nhà thơ nào?    
+<br><span class="true">Nguyễn Bỉnh Khiêm    Nguyễn Trãi    Lê Thánh Tông    Nguyễn Du</span></td><tr><td>251 ***** Lá cờ thêu 6 chữ vàng "Phá Cường Địch, Báo Hoàng Ân" gắn với tên tuổi của vị anh hùng thiếu niên nào?    
+<br><span class="true">Trần Quốc Toản    Nguyễn Trung Trực    Trần Quốc Tuấn    Mạc Đĩnh Chi</span></td><tr><td>252 ***** Tiền giấy đầu tiên được sửu dụng gắn với triều đại của vị vua nào?    
+<br><span class="true">Hồ Quý Ly    Trần Thánh Tông    Lê Thánh Tông    Lê Lợi</span></td><tr><td>253 ***** Vị tổ nghề in của nước ta là?    
+<br><span class="true">Lương Nhữ Học    Nguyễn Xí    Ngô Sĩ Liên    Nguyễn Chích</span></td><tr><td>254 ***** Nhân vật kiệt xuất của thế kỷ XV được UNESCO phong là danh nhân văn hóa thế giới?    
+<br><span class="true">Nguyễn Trãi    Nguyễn Du    Hồ Xuân Hương    Nguyễn Đình Chiểu</span></td><tr><td>255 ***** Thà rằng ăn nửa quả hồng, Còn hơn ăn cả chùm ...chát lè.    Sung    Sấu    Cóc    X<tr><td>256 ***** Nói chín thì nên làm mười, Nói mười làm ... kẻ cười người chê.    Chín    Tám    Một    <tr><td>257 ***** Thế gian chẳng ít thì nhiều, Không ... ai dễ đặt điều cho ai .    Dưng    Thì    Lẽ    <tr><td>258 ***** Tháng ... heo mây, Chuồn chuồn bay thì bão.    Bảy    chín    Mười    <tr><td>259 ***** Bao giờ cho đến tháng ... , Hoa gạo rụng xuống, bà già cất chăn .    Ba    Năm    Hai   <tr><td>260 ***** ở đời muôn sự cửa trùng, Hơn nhau hai tiếng anh ... mà thôi.    Hùng    Kiệt     Tuấn    <tr><td>261 ***** Nước giữa dòng chê trong, chê đục, Vũng ...đầm hì hục khen ngon    Trâu    Voi    Chó     N<tr><td>262 ***** Cái bống đi chợ cầu Canh, Cái tôm đi trước, củ ... đi sau. Con cua lật đật theo hầu, Cái chày rơi xuống vỡ đầu con cua.    Hành    Năng    Tỏi    <tr><td>263 ***** Nực cười châu chấu đá ..., Tưởng rằng chấu nát, ai dè ... nghiêng.    Xe    Lon    Nhau    <tr><td>264 ***** Trên trời có đám mây xanh, ở giữa mây trắng chung quanh mây vàng. Ước gì anh lấy được nàng, Thì anh mua gạch ... về xây.    Bát Tràng    Đồng Tâm    Vĩnh Long    Long<tr><td>265 ***** Rủ nhau xuống bể mò cua, Đem về nấu quả ... chua trên rừng.    Mơ    Chanh    ớt   <tr><td>266 ***** Trèo lên cây bưởi hái hoa, Bước xuống vườn cà hái ... tầm xuân.    Nụ    Nhành    Lá    N<tr><td>267 ***** Đường vô xứ ... quanh quanh, Non xanh nước biếc như tranh họa đồ.    Nghệ    Huế    Bắc    <tr><td>268 ***** ... ơi thương lấy bí cùng, Tuy rằng khác giống nhưng chung một giàn.    Bầu    Vừng    Bí    M<tr><td>269 ***** Khôn cho người bái, Dại cho người thương. Dở dở ... ..., Tổ cho người ghét.    ương ương    ung ung    thiu thiu    chi <tr><td>270 ***** Đêm khuya thiếp mới hỏi chàng:  ... xanh ăn với trầu vàng xứng chăng?    
+<br><span class="true"> Cau    Cây    Trầu    Lá</span></td><tr><td>271 ***** Chim ... ăn trái nhãn lồng, Thia thia quen chậu, vợ chồng quen hơi.    Quyên    Chích choè    Sẽ    
+  <tr><td>272 ***** Vợ chồng là nghĩa tao khang, Xuống khe bắt ốc lên ngàn hái ...     Rau    Măng    Thuốc    <tr><td>273 ***** Lênh đênh một chiếc thuyền tình, Mười ... bến nước biết gửi mình vào đâu ?    
+<br><span class="true"> Hai    Một    Lăm    Ba</span></td><tr><td>274 ***** Con gì ở cạnh bờ ao? Chặt đuôi chặt đầu bay vút lên cao. Là con gì?    
+<br><span class="true">Con Cóc    Con Cá    Con Bướm    Con Chuồn chuồn</span></td><tr><td>275 ***** Hai cô nằm nghỉ hai phòng, Ngày thì mở cửa ra trông, Đêm thì đóng cửa lấp trong ra ngoài. Là bộ phận nào trên cơ thể?    
+<br><span class="true">Đôi mắt    Mũi    Tai    Tay</span></td><tr><td>276 ***** Trên hang đá, dưới hang đá, Giữa có con cá thờn bơn. Là bộ phận nào trên cơ thể?    
+<br><span class="true">Miệng    Mắt    Mũi    Tai</span></td><tr><td>277 ***** Tròn tròn như là cái tô, Vục miệng vào hồ đầu ướt đuôi khô.Là cái gì?    
+<br><span class="true">Cái gáo dừa    Chiếc lá    Cây củi    Thanh tre</span></td><tr><td>278 ***** Chân em đo đỏ, mình em vàng vàng, Khắp xóm cùng làng, ai cũng kính dâng? Là cây gì?    
+<br><span class="true">Cây nhang    Cây chổi    Cây tăm    Rau mồng tơi</span></td><tr><td>279 ***** Một vũng nước vàng, con rắn bò ngang, cái đầu đỏ chót? Là cái gì?    
+<br><span class="true">Cây đèn dầu    Lò than    Que diêm    Cây nến</span></td><tr><td>280 ***** Anh ngồi đâu, em cũng ngồi chầu, Anh yêu em, anh mớm quết trầu cho em. Là cái gì?    
+<br><span class="true">Cái cối - Cái chầy    Cái cối - Đôi đũa    Bát ăn cơm - Cái muỗng    Đôi đũa - Bát ăn cơm</span></td><tr><td>281 ***** Ba chục cùng ở một lồng, Một chục có mồng, hai chục thì không. Là cái gì?    
+<br><span class="true">Một tháng 30 ngày    Một tháng 31 ngày    Một năm    Một tháng 28 ngày</span></td><tr><td>282 ***** Hoa gì hẹn đến ngày sau, Hoa gì lại mọc trên đầu hùng kê? Là cặp hoa nào?    
+<br><span class="true">Hoa Mai - Hoa Mào gà    Hoa Đào - Hoa Cúc    Hoa Mai - Hoa Cúc    Hoa Súng - Hoa Sen</span></td><tr><td>283 ***** Hoa gì nghe tiếng mà ghê, Hoa gì sắc trắng cận kề ơn trên. Là cặp hoa nào?    
+<br><span class="true">Hoa Súng - Hoa Huệ    Hoa Súng - Hoa Sen    Hoa Mai - Hoa Cúc    Hoa Súng - Hoa Lài</span></td><tr><td>284 ***** Hoa gì thơm ngát về đêm, Hoa gì sống cạnh bùn phèn không dơ? Là cặp hoa nào?    
+<br><span class="true">Hoa Quỳnh - Hoa Sen    Hoa Quỳnh - Hoa Đào    Hoa Sen - Hoa Lài    Hoa Quỳnh - Hoa Cúc</span></td><tr><td>285 ***** Hoa gì nhiều tuổi để thờ, Hoa gì báo hiệu đến giờ thu sang? Là cặp hoa nào?    
+<br><span class="true">Hoa Vạn thọ - Hoa Cúc    Hoa Cúc - Hoa Lài    Hoa Vạn Thọ - Hoa Mai    Hoa mai - Hoa Mào gà</span></td><tr><td>286 ***** Hoa gì sớm nở tối tàn, Hoa gì được sánh vào hàng tôn vương? Là cặp hoa nào?    
+<br><span class="true">Hoa Phù Dung - Hoa Mẫu Đơn    Hoa Mẫu Đơn - Hoa Lài    Hoa Phù Dung - Hoa Cúc    Hoa Lài - Hoa Cúc</span></td><tr><td>287 ***** Hoa gì e thẹn bên đường, Hoa gì hè đến thì thường tốt tươi? Là cặp hoa nào?    
+<br><span class="true">Hoa Mắc Cỡ - Hoa Phượng    Hoa Phượng - Hoa Cúc    Hoa Mắc Cỡ - Hoa Súng    Hoa Mắc Cỡ - Hoa Mười Giờ</span></td><tr><td>288 ***** Hoa gì theo ánh mặt trời, Hoa gì xinh đẹp đồng thời lắm gai? Là cặp hoa nào?    
+<br><span class="true">Hoa Hướng Dương - Hoa Hồng    Hoa Hướng Dương - Hoa Lài    Hoa Hồng - Hoa Sen    Hoa Hồng - Hoa Hướng Dương</span></td><tr><td>289 ***** Hoa gì muôn dặm đường dài, Hoa gì thơm ngát sánh tài môi em? Là cặp hoa gì?    
+<br><span class="true">Hoa Thiên Lý - Hoa Hàm Tiếu    Hoa Hàm Tiếu - Hoa Hồng    Hoa Thiên Lý - Hoa Hồng    Hoa Thiên Lý - Hoa Quỳnh</span></td><tr><td>290 ***** Không sơn mà đỏ, Không gõ mà kêu? Là cái gì trong tự nhiên?    
+<br><span class="true">Mặt trời - Tiếng Sấm    Mặt trăng - Mặt trời    Tiếng Sấm - Mặt trăng    Mặt trời - Mặt trăng</span></td><tr><td>291 ***** Không cánh mà bay mới lạ đời, Khi thì vượt bể, lúc qua khơi? Là hiện tượng nào trong tự nhiên?    
+<br><span class="true">Gió    Mưa    Lũ    Bão</span></td><tr><td>292 ***** Bán Kính Trái Đất bằng bao nhiêu?    
+<br><span class="true">6400 Km    4200 Km    5300 Km    7500 Km</span></td><tr><td>293 ***** Nơi nào ở Việt Nam núi lửa từng hoạt động?    
+<br><span class="true">Gia Lai    Huế    Hà Nội    TPHCM</span></td><tr><td>294 ***** Cái nào ngăn cản sự thoát hơi nước của lá cây?    
+<br><span class="true">Chất Cutin    Diệp lục    Gân la    Lỗ khí</span></td><tr><td>295 ***** Trụ sở của Liên Hiệp Quốc đặt tại đâu?    
+<br><span class="true">Mỹ    Anh    Pháp    Nhật Bản</span></td><tr><td>296 ***** Việt Nam & Mỹ chính thức lập lại quan hệ bình thường vào năm nào?    
+<br><span class="true">1995    1993    1994    1996</span></td><tr><td>297 ***** Nhân vật nổi tiếng nào chưa từng đến Việt Nam?    
+<br><span class="true">Mohamet Ali    Jang Jong Gun    Triệu Vy    Thành Long</span></td><tr><td>298 ***** 0 giờ là mấy giờ?    
+<br><span class="true">12 giờ tối    1 giờ sáng    1 giờ tối    12 giờ sáng</span></td><tr><td>299 ***** Năm Nhuần có bao nhiêu ngày?    
+<br><span class="true">366    365    364    367</span></td><tr><td>300 ***** Nước chiếm bao nhiêu diện tích Trái đất?    
+<br><span class="true">3 phần 4    2 phần 3    1 phần 2    2 phần 5</span></td><tr><td>301 ***** Loài động vật nào lớn nhất trên trái đất?    
+<br><span class="true">Cá Voi    Bạch tuộc khổng lồ    Cá Heo    Voi</span></td><tr><td>302 ***** Khí cầu bay được nhờ gì?    
+<br><span class="true">Khí nóng    Gió    Điện    Hơi nước</span></td><tr><td>303 ***** Dơi xác định phương hướng nhờ cơ quan cảm giác nào?    
+<br><span class="true">Thính Giác    Thị Giác    Khứu Giác    Vị Giác</span></td><tr><td>304 ***** Dựa vào số khoanh trong thân cây có thể xác định được điều gi?    
+<br><span class="true">Tuổi    Độ cao    Loài Cây    Độ cứng</span></td><tr><td>305 ***** Hãy điền vào câu: "Tây nguyên ... mùa mưa nắng"?    
+<br><span class="true">Một    Hai    Ba    Bốn</span></td><tr><td>306 ***** Chuồn chuồn bay thấp báo hiệu điều gì?    
+<br><span class="true">Trời sắp mưa    Trời nắng    Trời râm    Trời âm u</span></td><tr><td>307 ***** Thiết bị dùng để đo điện trong mạng điện Gia đình?    
+<br><span class="true">Công tơ Điện    Acquy    ổn Ap    Cầu dao</span></td><tr><td>308 ***** Âm tiết được phát ra nhờ bộ phận gì trong cơ thể con ngươi?    
+<br><span class="true">Thanh Quản    Thực Quản    Họng    Khí Quản</span></td><tr><td>309 ***** Hiện tượng bí ẩn về "người ngoài Hành tinh" viết tắt là gì?    
+<br><span class="true">UFO    FDI    FBI    NASA</span></td><tr><td>310 ***** Ai được phong làm "Lưỡng Quốc Trạng Nguyên"?    
+<br><span class="true">Mạc Đĩnh Chi    Lương Văn Cam    Trần Quốc Tuấn    Trạng Tí</span></td><tr><td>311 ***** Kathy Kathy là ca khúc do Ca sỹ nào thể hiện đầu tiên?    
+<br><span class="true">Lam Trường    Quang Linh    Hồng Nhung    Mỹ Lệ</span></td><tr><td>312 ***** VCK WorldCup được tổ chức mấy năm một lần    4 năm    1 năm    2 năm    3 <tr><td>313 ***** Chỉ số thông minh được dựa trên dơn vị khoa học nào?    
+<br><span class="true">Chỉ số IQ    Thể tích Đại não    Khối lượng Đại não    Chỉ số BMI</span></td><tr><td>314 ***** ảo Thuật gia nổi tiếng nhất nước Mỹ?    
+<br><span class="true">David Cooperfil    Robert Killer    OliverCan    William Hospert</span></td><tr><td>315 ***** Tên của Giám Đốc Trung Tâm An ninh mạng Việt Nam?    
+<br><span class="true">Nguyễn Tử Quảng    Bill Gates    Nguyễn Minh Hiển    Đỗ Thành Quân</span></td><tr><td>316 ***** Ngày thành lập Quân đội Nhân dân Việt Nam?    
+<br><span class="true">22-12    27-7    8-3    26-3</span></td><tr><td>317 ***** Ngày thành lập Đảng Cộng Sản Việt Nam?    
+<br><span class="true">3-2    2-9    2-3    9-3</span></td><tr><td>318 ***** ở Bắc cực có khoảng bao nhiêu loài chim Cánh cụt?    
+<br><span class="true">Một loài    Hai loài    Ba loài    Bốn loài</span></td><tr><td>319 ***** Loài động vật nào thông minh nhất trên Trái đất?    
+<br><span class="true">Cả 3 ý đều sai    Khỉ    Vượn    Tinh Tinh</span></td><tr><td>320 ***** Ai là người phát minh ra Điện thoại đầu tiên?    
+<br><span class="true">William Bells    NewTon    Thomas Edison    Đacuyn</span></td><tr><td>321 ***** Viết tắt của tổ chức các nước xuất khẩu dầu mỏ lớn nhất Thế giới?    
+<br><span class="true">OPEC    NASA    NATO    ASIEM</span></td><tr><td>322 ***** Đồng Tiền nào có tỉ giá hối đoái lớn nhất so với VNĐ?    
+<br><span class="true">Bảng    Euro    USD    Nhân dân tệ</span></td><tr><td>323 ***** 1 trong những Căn bệnh chưa có thuốc Đặc trị hiện nay?    
+<br><span class="true">AIDS    Sốt rét    Phong    Sởi</span></td><tr><td>324 ***** Tác giả của bộ truyện tranh nổi tiếng Thám tử lừng danh CONAN?    
+<br><span class="true">Gosho Aoyama    Fujico Fujio    Takahashi Monona    Kajuki Takahashi</span></td><tr><td>325 ***** Dictionary trong Tiếng Anh nghĩa là gì?    
+<br><span class="true">Từ Điển    Tập giấy trắng    Quyển Nhật ký    Gia Phả</span></td><tr><td>326 ***** Dụng cụ đo thân nhiệt?    
+<br><span class="true">Nhiệt kế    Ap kế    Ampe kế    Vôn kế</span></td><tr><td>327 ***** Eva được sinh ra từ bộ phận nào của Adam?    
+<br><span class="true">Xương sườn    Sợi tóc    Ngón tay    Ngón chân</span></td><tr><td>328 ***** San hô là sinh vật loại nào?    
+<br><span class="true">Cả 2 đều đúng    Thực vật    Động Vật    cả 2 đều sai</span></td><tr><td>329 ***** Rồng Komodo sống ở đâu?    
+<br><span class="true">Indonexia    Malaisia    Australia    Russia</span></td><tr><td>330 ***** Tắt đèn là tác phẩm của nhà văn nào?    
+<br><span class="true">Ngô Tất tố    Vũ Trọng Phụng    Nam Cao    Thạch Lam</span></td><tr><td>331 ***** Lực hút ở mặt Trăng nhỏ gấp bao nhiêu lần Trái đất?    
+<br><span class="true">6 lần    7 lần    8 lần    9 lần</span></td><tr><td>332 ***** Loài Cá nào sống không sống ở biển?    
+<br><span class="true">Basa    Cá Chim    Cá Heo    Cá Thu</span></td><tr><td>333 ***** Quốc Gia có diện tích lớn thứ 2 trên thế giới?    
+<br><span class="true">Canada    Nga    Trung Quốc    Mỹ</span></td><tr><td>334 ***** Thành nhà Hồ là di tích ở tỉnh nào nước ta?    
+<br><span class="true">Thanh Hoa    Nghệ An    Hà Tĩnh    Huế</span></td><tr><td>335 ***** Tobicom là dược phẩm dùng để trị bệnh gì?    
+<br><span class="true">Đau mắt    Giun sán    Ghẻ    Cảm cúm</span></td><tr><td>336 ***** Mặt trời phát ra tia gì trong các tia sau?    
+<br><span class="true">Cả 2 đều đúng    Tử Ngoại    Hồng Ngoại    Cả 2 đều sai</span></td><tr><td>337 ***** Tên 1 chuyên mục của tuần báo Mực Tím?    
+<br><span class="true">Vườn hoang    Vui cười    Tìm từ    Ngộ nghĩnh</span></td><tr><td>338 ***** Đại dương nào lớn nhất?    
+<br><span class="true">Thái Bình Dương    Đại Tây Dương    ấn Độ Dương    Bắc Băng Dương</span></td><tr><td>339 ***** PC là có nghĩa gì trong tin học?    
+<br><span class="true">Máy tính cá nhân    Chuột    Bàn Phím    Màn hình</span></td><tr><td>340 ***** Loài vật nào không có hàm răng trên?    
+<br><span class="true">Trâu    Bò    Ngựa    Tê giác</span></td><tr><td>341 ***** Vào mùa nào thì Trái đất gần mặt trời nhất?    
+<br><span class="true">Hạ    Xuân    Thu    Đông</span></td><tr><td>342 ***** Cầu thủ được mệnh danh là "Người ngoài Hành tinh"    Ronaldo    Beckham    Zidane    Ronaldi<tr><td>343 ***** Cầu thủ được ví là có chân phải khéo như bàn tay    Zidane    C.Ronaldo    Kaka    R<tr><td>344 ***** Loài vật không nằm trong 12 con giáp (Việt Nam)?    
+<br><span class="true">Thỏ    Chuột    Dê    Gà</span></td><tr><td>345 ***** Ngọn núi nổi tiếng Nhật Bản?    
+<br><span class="true">Phú Sĩ    Hàm Rồng    Thái Sơn    Tam hợp</span></td><tr><td>346 ***** Nhãn hiệu Bánh đậu xanh nổi tiếng?    
+<br><span class="true">Rồng vàng    M & M    Chocopie    Hải Dương</span></td><tr><td>347 ***** Tên gọi khác của hoa Trinh Nữ?    
+<br><span class="true">Mắc cở    Bằng lăng    Bạch lan    Bạch nữ</span></td><tr><td>348 ***** Bức tranh nổi tiếng của Leonard de Vinci?    
+<br><span class="true">Lagiocongder    12 tín đồ    Đavit    Đức mẹ Maria</span></td><tr><td>349 ***** Thuý Kiều có mấy người em?    
+<br><span class="true">2 người    1 người    3 người    4 người</span></td><tr><td>350 ***** Danh hài giành giải nhất GALA Cười 2003?    
+<br><span class="true">Xuân Bắc    Thanh Bạch    Phạm Bằng    Thúy Nga</span></td><tr><td>351 ***** Tên của con quỷ chuyên hút máu?    
+<br><span class="true">Dracula    Bracula    Bracun    Dracun</span></td><tr><td>352 ***** Loài cá duy nhất có thể nháy mắt?    
+<br><span class="true">Cá Mập    Cá Chép    Cá Heo    Cá Voi</span></td><tr><td>353 ***** Truyện tranh vịt Donal bị cấm tại nước nào (vì các nhân vật không mặc quần)?    
+<br><span class="true">Hà Lan    Ba Lan    Phần Lan    Thuỵ Điển</span></td><tr><td>354 ***** Cơ bắp mạnh nhất trong cơ thể con người là?    
+<br><span class="true">Cơ Lưỡi    Cơ Bắp tay    Cơ bắp chân    Cơ Bụng</span></td><tr><td>355 ***** Người đầu tiên đặt chân lên mặt Trăng?    
+<br><span class="true">Neil Amtrong    Nila Amstrong    Narel Amstron    Nicolas Amstrong</span></td><tr><td>356 ***** Trọng tài nổi tiếng "lạnh" nhất Thế giới 2006?    
+<br><span class="true">Colina    Bolin    Doloun    Moliman</span></td><tr><td>357 ***** Đạo diễn bộ phim "Chiến tranh giữa các vì sao"    George Lucas    Annba Willing    Sanchiego Mann    Mc Do<tr><td>358 ***** Đội tuyển nào được mệnh danh là "Cơn lốc màu da cam"?    
+<br><span class="true">Hà Lan    Italia    Ba Lan    Thuỵ Điển</span></td><tr><td>359 ***** Người đầu tiên đoạt giải Olympia?    
+<br><span class="true">Trần Ngọc Minh    Lê Kiều Giang    Bùi Quang Bình    Nguyễn Thành Vinh</span></td><tr><td>360 ***** Chất khí thường dùng để bơm vào bể bơi để diệt khuẩn?    
+<br><span class="true">Clo    Oxy    Flo    Hydro</span></td><tr><td>361 ***** Báo gấm chạy với vận tốc bao nhiêu?    
+<br><span class="true">60 dặm-1h    40 dặm-1h    50 dặm-1h    70 dặm-1h</span></td><tr><td>362 ***** Loài vật có tốc độ di chuyển nhanh nhất Thế giới?    
+<br><span class="true">Chim Ưng    Báo gấm    Sóc    Bồ Câu</span></td><tr><td>363 ***** Tên của nhân vật điệp viên 007 trong phim "Điệp Viên 007"?    
+<br><span class="true">James Bond    James Bound    Janes Bond    Janes Bound</span></td><tr><td>364 ***** Việt Nam kháng chiến chống Mỹ trong bao nhiêu năm?    
+<br><span class="true">21 năm    19 năm    20 năm    22 năm</span></td><tr><td>365 ***** Người đóng thế trong các pha mạo hiểm trong phim gọi là gì?    
+<br><span class="true">Cascader    Bandanger    Qwerty    Dangerous Hero</span></td><tr><td>366 ***** Sông Nhật Lệ thuộc địa phận tỉnh nào?    
+<br><span class="true">Quảng Bình    Cà Mau    Bình Định    Ninh Bình</span></td><tr><td>367 ***** Jackie Chan là tên tiếng Anh của diễn viên điện ảnh nào?    
+<br><span class="true">Thành Long    Châu Tinh Trì    Lý Tiểu Long    Lý Liên Kiệt</span></td><tr><td>368 ***** Tiếng Anh và tiếng Pháp có nguồn gốc từ?    
+<br><span class="true">Tiếng Đức    Tiếng Hy Lạp    Tiếng Tây Ban Nha    Tiếng Bồ Đào Nha</span></td><tr><td>369 ***** Cuốn sách khoa học vật lý nổi tiếng 1987 "Lược sử thời gian" do nhà khoa học nào viết?    
+<br><span class="true">Stephen Hawking    Anbe Einstein    George Ellis    Roger Penrose</span></td><tr><td>370 ***** Nicolas Copecnic, người phản bác "Trái đất là trung tâm vũ trụ" là người nước nào?    
+<br><span class="true">Ba Lan    Hà Lan    Hy Lạp    Đức</span></td><tr><td>371 ***** Nhắc đến Issac Newton người ta thường nghĩ đến trái cây nào?    
+<br><span class="true">Táo    Chuối    Mít    Dưa chuột</span></td><tr><td>372 ***** Theo quan điểm duy tâm thì Vật Chất hay ý Thức có trước?    
+<br><span class="true">ý thức    Vật chất    Cả hai 1 lúc    Không xác định</span></td><tr><td>373 ***** Tổ chức ASEAN thành lập vào năm nào?    
+<br><span class="true">1967    1957    1977    1978</span></td><tr><td>374 ***** Ai là người đầu tiên phát hiện: ánh sáng có vận tốc hữu hạn?    
+<br><span class="true">Christensen Roeme    Issac Newton    Anbe Einstein    Galileo</span></td><tr><td>375 ***** Trong các tia sau đây, tia nào có bước sóng ngắn nhất?    
+<br><span class="true">Tia Gamma    Tia Hồng ngoại    Tia Tử Ngoại    Tia X</span></td><tr><td>376 ***** Con gì sẽ hoá thành muỗi khi trưởng thành?    
+<br><span class="true">Lăng Quăng    Nòng Nọc    Giòi    Nhộng</span></td><tr><td>377 ***** Vị thần cai quản biển, sông theo thần thoại Trung Hoa gọi là gì?    
+<br><span class="true">Long vương    Hải vương    Thuỷ vương    Hà vương</span></td><tr><td>378 ***** Quốc gia nào không thuộc bán đảo Đông Dương?    
+<br><span class="true">Thái Lan    Lào    Campuchia    Việt Nam</span></td><tr><td>379 ***** Nhà tiên tri với những câu sấm truyền linh nghiệm?    
+<br><span class="true">Nostradamus    Arixtot    Galileo    Imhotep</span></td><tr><td>380 ***** Tập đoàn không kinh doanh Điện Thoại Di Động?    
+<br><span class="true">Toyota    Motorola    Siemen    Sony</span></td><tr><td>381 ***** Thủ đô Nhật Bản xưa kia tên gọi là gì?    
+<br><span class="true">Edo    Osaka    Hiroshima    Nagasaki</span></td><tr><td>382 ***** Bức hoạ Monalisa của Leonard de Vinci có tên gọi khác là gì?    
+<br><span class="true">La Giocongder    Christina    Christina    Marry Anna</span></td><tr><td>383 ***** Ca khúc "Tình cờ" do nhạc sĩ nào sáng tác?    
+<br><span class="true">Điệp Minh Tuyền    Hoài An    Trịnh Công Sơn    Ngọc Sơn</span></td><tr><td>384 ***** Vị tướng đã phá quân Mông Cổ ở Hàm Tử Quan    Trần Nhật Duật    Trần Quang Khải    Trần Quốc Tuấn    Trần Quốc T<tr><td>385 ***** Tên một bức tranh dân gian có 12 con chuột?    
+<br><span class="true">Đám cưới chuột    Đám ma chuột    Đám dỗ chuột    Gia đình chuột</span></td><tr><td>386 ***** Ai đã nói câu: "Ta thà làm ma nước Nam, còn hơn làm vương đất Bắc"?    
+<br><span class="true">Trần Bình Trọng    Trần Quốc Toản    Trần Nhật Duật    Trần Quốc Tuấn</span></td><tr><td>387 ***** Chùa một cột được xây dựng dưới thời nào?    
+<br><span class="true">Lý    Trần    Lê    Nguyễn</span></td><tr><td>388 ***** Bình Ngô Đại Cáo do ai sáng tác?    
+<br><span class="true">Nguyễn Trãi    Nguyễn Bỉnh Khiêm    Nguyễn Khuyến    Nguyễn Anh</span></td><tr><td>389 ***** Quốc Gia nổi tiếng về trồng Hoa Hồng?    
+<br><span class="true">Bungary    Hungary    Hà Lan    Ba Lan</span></td><tr><td>390 ***** Thành phố lớn nhất ở miền tây Canada là gì?    
+<br><span class="true">Vancouver    Canada    Copec    Monaco</span></td><tr><td>391 ***** Năm 939 trên sông Bạch Đằng, Ngô Quyền đánh tan quân giặc nào?    
+<br><span class="true">Nam Hán    Nguyên Mông    Thanh    Minh</span></td><tr><td>392 ***** Ai tìm ra Penecilline?    
+<br><span class="true">Fleming    ĐacUyn    Paster    Tôn Thất Bách</span></td><tr><td>393 ***** Tác giả bài hát "Anh Ba Hưng"?    
+<br><span class="true">Trần Kiết Tường    Phan Huỳnh Điểu    Y Vân    Hữu Minh</span></td><tr><td>394 ***** Bộ Địa chí đầu tiên của Sài Gòn xưa?    
+<br><span class="true">Gia Định Thành Đông Chí    Gia Định Phủ Chí    Gia Định Dư Địa Chí    Gia Định Nhất Thống</span></td><tr><td>395 ***** Văn hào người Anh, tác giả "Tiếng gọi nơi hoang dã"?    
+<br><span class="true">Jack London    Conan Doyle    J.K Rolling    Charle Dicken</span></td><tr><td>396 ***** Senegal nằm ở vùng nào của Châu Phi?    
+<br><span class="true">Bắc Phi    Trung Phi    Nam Phi    Madagasca</span></td><tr><td>397 ***** Một Ca khúc nổi tiếng của Michael Jackson?    
+<br><span class="true">Heal the world    Coco Jamboo    Baby one more time    25 minutes</span></td><tr><td>398 ***** Con sông dài nhất thế giới?    
+<br><span class="true">Nil    Hoàng Hà    Mê Kông    Amazon</span></td><tr><td>399 ***** UN là tên viết tắt của tổ chức nào?    
+<br><span class="true">Liên Hiệp Quốc    Liên Đoàn    Liên Hiệp Phụ Nữ    Nhân Đạo</span></td><tr><td>400 ***** Ngày lễ tình yêu?    
+<br><span class="true">Ngày 14-02    Ngày 12-04    Ngày 22-04    Ngày 24-02</span></td><tr><td>401 ***** Hoàng đế cuối cùng của Việt Nam?    
+<br><span class="true">Bảo Đại    Ngô Đình Diệm    Hàm Nghi    Quang Trung</span></td><tr><td>402 ***** Bức tranh Portrait of Dr.Gauchet của Van Gogh được sáng tác năm nào?    
+<br><span class="true">Năm 1890    Năm 1860    Năm 1870    Năm 1880</span></td><tr><td>403 ***** Diễn viên chính trong bộ phim Tây Du ký của Ngô Thừa Ân?    
+<br><span class="true">Lục Tiểu Linh Đồng    Tôn Ngộ Không    Lưu Đức Hoa    Lưu Hy</span></td><tr><td>404 ***** Ngọn núi Sapa thuộc dãy núi nào?    
+<br><span class="true">Hoàng Liên Sơn    Phan Xi Păng    Trường Sơn đông    Trường Sơn tây</span></td><tr><td>405 ***** Ca khúc gắn liền với bộ phim "Love Story" do Andy Williams sáng tác?    
+<br><span class="true">Where do I begin    Who do You love    Love Story    My honey</span></td><tr><td>406 ***** Khách sạn được xây dựng sớm nhất ở Sài Gòn thời Pháp thuộc, hiện nay tên gì?    
+<br><span class="true">Continental    Hải Châu    Je'taime    Đình Nhu</span></td><tr><td>407 ***** Thầy tro Đường Tăng có bao nhiêu thành viên?    
+<br><span class="true">5    3    4    6</span></td><tr><td>408 ***** 1 bảng Anh (pound) có bao nhiêu xu (penny)?    
+<br><span class="true">100    10    500    1000</span></td><tr><td>409 ***** 0 độ C (Celcius) tương ứng bao nhiêu độ F (Fahrenheit)?    
+<br><span class="true">273    32    80    100</span></td><tr><td>410 ***** Trường Đại học nào không phải ở Mỹ?    
+<br><span class="true">Cambridge    Ivy League    Harvard    Princeton</span></td><tr><td>411 ***** Dải tần số nào có tần số cao nhất trong các dải tần sau?    
+<br><span class="true">EHF    SHF    UHF    VHF</span></td><tr><td>412 ***** Đây không phải là ngôn ngữ lập trình?    
+<br><span class="true">D    C    Java    Visual Basic</span></td><tr><td>413 ***** Khái niệm nào khác nhất so với mấy khái niệm khác?    
+<br><span class="true">Tự nhiên    Triết học    Tâm lý    Vũ khí</span></td><tr><td>414 ***** Đập thủy điện lớn nhất thế giới, Three Gorges, ở quốc gia nào?    
+<br><span class="true">Trung Quốc    Nhật Bản    An Độ    Bhutan</span></td><tr><td>415 ***** Vận tốc của âm thanh?    
+<br><span class="true">1000 km-h    100 km-h    560 km-h    3200 km-h</span></td><tr><td>416 ***** Điền vào dãy sau: A,D,G,J,...    L    M    B  <tr><td>417 ***** Tuấn cao hơn Nam, Bình thấp hơn Tuấn. Câu nào dưới đây là đúng nhất?    
+<br><span class="true">Chưa chắc    Bình = Nam    Bình > Nam    Bình < Nam</span></td><tr><td>418 ***** Số tiếp theo của dãy: 19, 28, 37, 46, ... là số nào?    
+<br><span class="true">55    67    57    54</span></td><tr><td>419 ***** 1 tờ báo giảm giá 20%, cần phải tăng mấy% để có giá như cũ?    
+<br><span class="true">25%    20%    50%    75%</span></td><tr><td>420 ***** Gang là hợp chất của Sắt và 1 lượng nhỏ chất gì?    
+<br><span class="true">Cacbon    Nhôm    Đồng    Bạc</span></td><tr><td>421 ***** Người giàu nhất Thế giới 2006-2007 là ai?    
+<br><span class="true">Bill Gates    Bush    Bin Laden    Ambramovic</span></td><tr><td>422 ***** Nhà thơ Tago là người nước nào?    
+<br><span class="true">An Độ    Anh    Ai Cập    Hy Lạp</span></td><tr><td>423 ***** Nước mắm được chiết suất từ loài động vật nào?    
+<br><span class="true">Cá    Tôm    Cua    Oc</span></td><tr><td>424 ***** Trang phục truyền thống của Nhật Bản?    
+<br><span class="true">Kimono    Ao Dài    Kimoana    Mimono</span></td><tr><td>425 ***** Loài hoa nào thường được ướp cùng Trà Xanh?    
+<br><span class="true">Nhài    Hồng    Lan    Hài</span></td><tr><td>426 ***** Tổ sư của môn võ Thiếu Lâm ngày nay?    
+<br><span class="true">Đạt Ma    Phật Tổ    Trương Tam Phong    Lý Tiểu Long</span></td><tr><td>427 ***** Ngôn ngữ nào được nhiều người dùng nhất trên thế giới?    
+<br><span class="true">Trung Quốc    Anh    Pháp    Tây Ban Nha</span></td><tr><td>428 ***** Quốc gia có diện tích nhỏ nhất?    
+<br><span class="true">Vatican    Monaco    Nauru    Tuvalu</span></td><tr><td>429 ***** Vị tướng muốn chinh phạt cả Châu Âu?    
+<br><span class="true">Napoleon    Hitle    Pharaon    Thành Các Tư hãn</span></td><tr><td>430 ***** Copernicus nổi tiếng trong lĩnh vực nào?    
+<br><span class="true">Thiên văn học    Hội Họa    Văn Học    Âm nhạc</span></td><tr><td>431 ***** Số tiếp theo 1, 1, 2, 3, 5, ...?    
+<br><span class="true">8    6    7    9</span></td><tr><td>432 ***** ký hiệu hóa học của Vàng là gì?    
+<br><span class="true">Au    Ar    Al    Ag</span></td><tr><td>433 ***** Theo thần thoại Hy Lạp, Saturn là tên vị thần nào?    
+<br><span class="true">Thần nông    Thần sức mạnh    Thần tình ái    Thần Biển cả</span></td><tr><td>434 ***** Sao Thiên Vương quay quanh mặt trời mất trong bao lâu?    
+<br><span class="true">84 năm    84 giờ    84 ngày    84 tháng</span></td><tr><td>435 ***** Bạch Đằng Giang Phú là bài thơ do ai sáng tác?    
+<br><span class="true">Trương Hán Siêu    Trần Quốc Tuấn    Ngô Sỹ Liên    Nguyễn Du</span></td><tr><td>436 ***** Điền số tiếp theo trong dãy: 144, 121, 100, 81, 64, ...?    
+<br><span class="true">49    36    25    55</span></td><tr><td>437 ***** Người ta thường nói: "xa mặt cách ..."?    
+<br><span class="true">Lòng    Tình    Xa    Biệt</span></td><tr><td>438 ***** Bài kiểm tra IQ hoàn thiện đầu tiên trên thế giới do ai phát triển?    
+<br><span class="true">Alfred Binet    Lewis Terman    David Wechsler    William Stern</span></td><tr><td>439 ***** Chỉ số IQ của 1 đứa bé được nhận làm con nuôi có thể dự đoán được dựa vào?    
+<br><span class="true">Bố mẹ ruột    Tổ tiên    Bố mẹ nuôi    Ông bà</span></td><tr><td>440 ***** Yếu tố di truyền quyết định bao nhiêu phần trăm sự thông minh?    
+<br><span class="true">50%    0%    25%    100%</span></td><tr><td>441 ***** Nhà máy lọc dầu Dung Quất được xây dựng ở tỉnh nào?    
+<br><span class="true">Quảng Ngãi    Quảng Nam    Vũng Tàu    Hải Phòng</span></td><tr><td>442 ***** Bác Tôn Đức Thắng sinh vào năm nào?    
+<br><span class="true">1888    1878    1898    1908</span></td><tr><td>443 ***** IMO là kỳ thi quốc tế tổ chức lần đầu tiên tại VN 2007, môn thi là?    
+<br><span class="true">Toán học    Vật Lý    Hóa học    Tin Học</span></td><tr><td>444 ***** Cầu thủ giành được danh hiệu chiếc giày vàng châu Âu 2007?    
+<br><span class="true">Francesco Totti    Fernando Torres    Ronaldinho    Beckham</span></td><tr><td>445 ***** Federer là vận động viên 3 lần liên tiếp nhận giải Laureus chơi môn thể thao nào?    
+<br><span class="true">Quần vợt    Bóng bàn    Cầu lông    Bóng đá</span></td><tr><td>446 ***** Cái gì có thể cắt được kim cương?    
+<br><span class="true">Kim cương    Sắt    Vàng    Không có</span></td><tr><td>447 ***** Gấu trắng và Voi biển sống ở đâu?    
+<br><span class="true">Bắc cực    Senegal    Nam cực    Đông Nam á</span></td><tr><td>448 ***** Chuyến bay đầu tiên của con người vào vũ trụ tiến hành vào năm nào?    
+<br><span class="true">1961    1959    1960    1962</span></td><tr><td>449 ***** Nguyên tố có số thứ tự là 2 trong bảng hệ thống tuần hoàn của Mendelep?    
+<br><span class="true">He    Li    Ar    Bo</span></td><tr><td>450 ***** Tác giả bài thơ "Bên kia sông Đuống"?    
+<br><span class="true">Hoàng Cầm    Phạm Tiến Duật    Hồ Xuân Hương    Thạch Lam</span></td><tr><td>451 ***** Số nào không hợp quy luật trong dãy sau: 9 7 8 6 7 5 6 3?    
+<br><span class="true">3    5    8    9</span></td><tr><td>452 ***** Nhà hàng hải vĩ đại Fernando Magienlang (1480-1521) là người nước nào?    
+<br><span class="true">Bồ Đào Nha    Tây Ban Nha    Hà Lan    Anh</span></td><tr><td>453 ***** Đại dương nào nhỏ nhất trên thế giới?    
+<br><span class="true">Bắc Băng Dương    Thái Bình Dương    Đại Tây Dương    ấn Độ Dương</span></td><tr><td>454 ***** Hổ Phách theo tiếng Hy Lạp là gì?    
+<br><span class="true">Electron    Proton    Notron    Gamma</span></td><tr><td>455 ***** Thủ đô nào ở châu Âu nằm trên 96 hòn đảo, được nối với nhau bằng những chiếc cầu?    
+<br><span class="true">Amstecdam (Hà Lan)    London (Anh)    Paris (Pháp)    Stockhom (Thuỵ Điển)</span></td><tr><td>456 ***** Nữ thần Athena, 1 trong 12 vị thần của đỉnh Olympus, đại diện cho điều gì?    
+<br><span class="true">Trí tuệ    Sắc đẹp    Tình yêu    Lòng nhân từ</span></td><tr><td>457 ***** Danh họa mở đầu trường phái lập thể của hội họa đầu thế kỷ XX?    
+<br><span class="true">Picasso    Vangog    Leonard de Vinci    Bandac</span></td><tr><td>458 ***** Giải Nobel văn chương được bắt đầu trao vào năm nào?    
+<br><span class="true">1901    1900    1902    1903</span></td><tr><td>459 ***** Ai là người sáng lập ra môn Vi sinh vật học?    
+<br><span class="true">Luis Pauster    Flemming    Dack Uyn    Moocgan</span></td><tr><td>460 ***** Moocgan sử dụng loài vật nào để nghiên cứu di truyền học?    
+<br><span class="true">Ruồi giấm    Mèo    Chuột bạch    Giun</span></td><tr><td>461 ***** Khi đến tâm trái đất, trọng lượng của một quả cân 10kg bằng bao nhiêu?    
+<br><span class="true">0 Kg    10Kg    9,8Kg    0,98 Kg</span></td><tr><td>462 ***** Lý Nam Đế (Lý Bí) thành lập nhà nước dân tộc độc lập ở giữa thời Bắc thuộc mang tên?    
+<br><span class="true">Vạn xuân    Đại Cồ Việt    Việt Nam    Đại Việt</span></td><tr><td>463 ***** Công thức nổi tiếng E=mc2 là của ai?    
+<br><span class="true">Einstein    Huc    Pascal    Herry</span></td><tr><td>464 ***** Vận động viên Marathon ngày nay cần chạy bao nhiêu dặm để đến được đích?    
+<br><span class="true">26    13    39    41</span></td><tr><td>465 ***** Hành tinh mang tên Jupiter - vị thần khỏe nhất trong thần thoại Hy Lạp có tên tiếng Việt là?    
+<br><span class="true">Mộc tinh    Hỏa tinh    Thủy tinh    Thổ tinh</span></td><tr><td>466 ***** 4 loài cá Trong bài thơ Đoàn thuyền đánh cá của Huy Cận là: Chim,Thu, Nhụ, và...?    
+<br><span class="true">Cá Đé    Cá Nóc    Cá Hồi    Cá Heo</span></td><tr><td>467 ***** Danh hiệu thủ đô văn hóa của châu Âu 1999 được trao cho thành phố nào?    
+<br><span class="true">Vaima    London    Paris    Bern</span></td><tr><td>468 ***** Chùa một cột được xây năm 1409 còn có tên gọi là gì?    
+<br><span class="true">Diên Hựu    Bảo Liên    Trường Sinh    Phật Sen</span></td><tr><td>469 ***** Sao Thủy có tên của một vị thần chạy nhanh nhất trong thần thoại Hy Lạp nào?    
+<br><span class="true">Mercury    Jupiter    Neptune    Mars</span></td><tr><td>470 ***** ở châu Âu, người ta đặt tên cho tháng 1 là January, đây là tên vị thần nào?    
+<br><span class="true">Thần chiến tranh    Thần thời gian    Thần tình ái    Thần biển cả</span></td><tr><td>471 ***** Nguyễn Khắc Hiếu (8-5-1889) là tên thật của nhà thơ nào?    
+<br><span class="true">Tản Đà    Nguyễn Đình Chiểu    Tố Hữu    Tú Xương</span></td><tr><td>472 ***** Johannes Gutenberg đã phát minh ra cái gì giúp cho thời kỳ Phục Hưng phát triển mạnh mẽ?    
+<br><span class="true">Máy In    Máy hơi nước    Máy dệt    Máy tính</span></td><tr><td>473 ***** Ngô Quyền có quan hệ gì với Dương Đình Nghệ?    
+<br><span class="true">Con rể    Con    Cháu    Bạn</span></td><tr><td>474 ***** Loài vật nào thường được dùng để vận chuyển hàng hóa ở Thái Lan?    
+<br><span class="true">Voi    Trâu    Bò    Ngựa</span></td><tr><td>475 ***** Ai tự xưng mình là Hậu Lý Nam Đế?    
+<br><span class="true">Lý Phật Tử    Lý Chiêu Hoàng    Lý Công Uẩn    Lý Bí</span></td><tr><td>476 ***** Đất Vị Hoàng là địa danh thuộc tỉnh nào?    
+<br><span class="true">Nam Định    Thanh Hóa    Nghệ An    Phú Thọ</span></td><tr><td>477 ***** Số dân Việt Nam đứng thứ mấy Đông Nam á?    
+<br><span class="true">2    1    3    4</span></td><tr><td>478 ***** Quê gốc của Lý Thường Kiệt là vùng đất nào?    
+<br><span class="true">Thăng Long    Hồng Châu    Kinh Bắc    Thuận Hóa</span></td><tr><td>479 ***** Sao Hỏa có bao nhiêu vệ tinh tự nhiên?    
+<br><span class="true">2    1    3    4</span></td><tr><td>480 ***** Bài thơ nào không nằm trong chùm thơ mùa thu của Nguyễn Khuyến?    
+<br><span class="true">Thu ngẫm    Thu ẩm    Thu vịnh    Thu điếu</span></td><tr><td>481 ***** Hà Lan và Đan Mạch là 2 quốc gia có địa hình 100% là gì?    
+<br><span class="true">Đồng Bằng    Biển    Đồi Núi    Băng tuyết</span></td><tr><td>482 ***** Việt Nam lần đầu tiên tham dự kì thi Olympic Toán quốc tế vào năm nào?    
+<br><span class="true">1974    1972    1973    1975</span></td><tr><td>483 ***** Vạn Thắng Vương là biệt hiệu của ai?    
+<br><span class="true">Đinh Bộ Lĩnh    Trần Hưng Đạo    Quang Trung    Ngô Quyền</span></td><tr><td>484 ***** Thành phần chính cấu tạo thành tế bào nấm là gì?    
+<br><span class="true">Kitin    Bào tử    Mannan    Cutin</span></td><tr><td>485 ***** Ai là người đầu tiên sử dụng thuật ngữ "Phép chia vàng"?    
+<br><span class="true">Leonard de Vinci    Pithagor    Euclid    Fibonacci</span></td><tr><td>486 ***** Tên 2 ngôi sao sáng nhất của chòm Tráng sĩ (Orion)?    
+<br><span class="true">Rigel - Betelgeuse    Dened - Vega    Rigel - Procyon    Vega - Betelguese</span></td><tr><td>487 ***** Bài thơ đăng báo đầu tiên của Nguyễn Bính?    
+<br><span class="true">Cô hái mơ    Tương Tư    Cô lái đò    Cô hàng xóm</span></td><tr><td>488 ***** Tồn tại hay không tồn tại là câu nói nổi tiếng của nhân vật nào?    
+<br><span class="true">Hamlet    Claudius    The ghost    Laertes</span></td><tr><td>489 ***** Người lãnh đạo phong trào Bình Xuyên trong kháng chiến chống Pháp?    
+<br><span class="true">Dương Văn Dương    Hồ Tùng Mậu    Tăng Bạt Hổ    Phạm Hồng Thái</span></td><tr><td>490 ***** Ai là thủ tướng đầu tiên của Singapore?    
+<br><span class="true">Lý Quang Diệu    Lưu Đức Hoa    Tống Hồng Quân    Thích Phi Long</span></td><tr><td>491 ***** Thủ đô Jakarta nằm trên hòn đảo nào của Indonesia?    
+<br><span class="true">Java    Indo    Karti    Nesia</span></td><tr><td>492 ***** Machu Pichu là tên một di tích lịch sử ở quốc gia nào ngày nay?    
+<br><span class="true">Peru    Bolivia    Ecuador    Colombia</span></td><tr><td>493 ***** Số lượng cửa sông Tiền và sông Hậu lần lượt là?    
+<br><span class="true">6,3    4,5    5,4    3,6</span></td><tr><td>494 ***** Người Việt Nam được phong hàm tướng của cả 2 quốc gia VN và Trung Quốc?    
+<br><span class="true">Nguyễn Sơn    Nguyễn Bình    Võ Nguyên Giáp    Văn Tiến Dũng</span></td><tr><td>495 ***** Thành phố nào được mệnh danh là Paris của phương đông?    
+<br><span class="true">Thượng Hải    Sài Gòn    Hong Kong    Bangkok</span></td><tr><td>496 ***** Nguyên thủ quốc gia nào đầu tiên đến thăm Việt Nam sau CMT8 thành công?    
+<br><span class="true">ấn Độ    Liên Xô    Cuba    Trung Quốc</span></td><tr><td>497 ***** Họ tên thật của nhân vật Thoại Ngọc Hầu?    
+<br><span class="true">Nguyễn Văn Thoại    Trần Văn Thành    Võ Duy Dương    Nguyễn Tấn Kiều</span></td><tr><td>498 ***** Quê gốc của tổng đốc Hoàng Diệu?    
+<br><span class="true">Quảng Nam    Quảng Bình    Thừa Thiên Huế    Hà Nội</span></td><tr><td>499 ***** Vùng công nghiệp lớn nhất nước Đức có tên là gì?    
+<br><span class="true">Ruhr    Bavaria    Brandenburg    Saxony</span></td><tr><td>500 ***** Sông nào dài thứ 3 ở châu Âu?    
+<br><span class="true">Rhine    Volga    Danube    Thames</span></td><tr><td>501 ***** Vào năm nào Mỹ và Liên Xô tuyên bố chấm dứt chiến tranh lạnh?    
+<br><span class="true">1989    1986    1987    1988</span></td><tr><td>502 ***** Asuncion là thủ đô của nước nào?    
+<br><span class="true">Paraquay    Uruguay    Nepal    Trung phi</span></td><tr><td>503 ***** Đảo nào của Indonesia không có đường Xích Đạo chạy qua?    
+<br><span class="true">Java    Kalimantan    Sulawesi    Sumatra</span></td><tr><td>504 ***** Đại hội anh hùng chiến sỹ thi đua toàn quân lần thứ nhất diễn ra vào năm nào?    
+<br><span class="true">1951    1950    1952    1953</span></td><tr><td>505 ***** Vật nào không nằm trong "An Nam tứ đại khí" của Việt Nam?    
+<br><span class="true">Chùa một cột    Tháp Báo Thiên    Chuông Quy Điền    Vạc Phổ Minh</span></td><tr><td>506 ***** Năm 79 sau CN, ngọn núi lửa nào đã phun trào và chôn vùi thành phố Pompei ở Italia?    
+<br><span class="true">Vesuvius    Handica    Mologne    Ertona</span></td><tr><td>507 ***** Liên hoan phim Cannes thường được tổ chức vào tháng nào trong năm?    
+<br><span class="true">Tháng 5    Tháng 1    Tháng 8    Tháng 12</span></td><tr><td>508 ***** Hiệp hội WGAE và WGAW đã bình chọn bộ phim nào là có kịch bản hay nhất mọi thời đại?    
+<br><span class="true">Casablanca    Citizen Kane    God Father    Titanic</span></td><tr><td>509 ***** Chỉ số khoa học BMI dùng để đánh giá cái gì ở con người?    
+<br><span class="true">Sự cân đối    Chiều cao    Cân nặng    Tính tình</span></td><tr><td>510 ***** Kết quả của phép tính: 1000 x 1000 x 1000 =?    
+<br><span class="true">1 Tỷ    1 Vạn    1 Triệu    1 Nghìn Tỷ</span></td><tr><td>511 ***** Con khỉ gió là con gì?    
+<br><span class="true"> Con Culi    Khỉ vàng    Con khỉ đột    Con vượn</span></td><tr><td>512 ***** Tỉnh nào sau đây không giáp biển?    
+<br><span class="true">Gia Lai    Khánh Hòa    Cà Mau    Quảng Trị</span></td><tr><td>513 ***** Điền vào câu sau: "Nhất Nam viết hữu, ... Nữ viết vô"?    
+<br><span class="true">Thập    Nhị    Lục    Thất</span></td><tr><td>514 ***** Đội tuyển Nam và đội tuyển Nữ nước nào đều từng vô địch WorldCup?    
+<br><span class="true">Đức    Pháp    Brazil    Italia</span></td><tr><td>515 ***** Tỉnh nào có nhiều quận, huyện nhất cả nước?    
+<br><span class="true">Thanh Hóa    Gia Lai    Cà Mau    Quảng Bình</span></td><tr><td>516 ***** Cầu thủ ngoài châu Âu đầu tiên đoạt Quả Bóng Vàng châu ÂU?    
+<br><span class="true">G.Weah    Shevchenko    Romaldo    R. Carlos</span></td><tr><td>517 ***** Một dãy nhiều sinh vật có quan hệ dinh dưỡng với nhau gọi là gì?    
+<br><span class="true">Chuỗi thức ăn    Chuỗi sinh vật    Lưới Thức ăn    Lưới sinh vật</span></td><tr><td>518 ***** Năm 2004, bức tượng Davis của Michellangelo tròn bao nhiêu tuổi?    
+<br><span class="true">500    300    400    600</span></td><tr><td>519 ***** Sau khi tan rã, Liên xô tách thành bao nhiêu quốc gia?    
+<br><span class="true">15 quốc gia    5 quốc gia    10 quốc gia    20 quốc gia</span></td><tr><td>520 ***** Người nước nào phát minh ra diêm?    
+<br><span class="true">Thụy Điển    Bỉ    áo    Nga</span></td><tr><td>521 ***** Chuyện tình của Romeo & Juliette xảy ra tại thành phố nào của Italia?    
+<br><span class="true">Verona    Florence    Rome    Venice</span></td><tr><td>522 ***** Vương quốc Ba Tư ngày xưa là quốc gia nào ngày nay?    
+<br><span class="true">Iraq    Iran    Kuwait    Qatar</span></td><tr><td>523 ***** Người đầu tiên đặt chân đến Nam cực là người nước nào?    
+<br><span class="true">Na Uy    Nam Phi    Mĩ    Canada</span></td><tr><td>524 ***** Thành phố có mật độ dân số cao nhất thế giới là?    
+<br><span class="true">Mexico city    Tokyo    Thượng Hải    Hồng Kông</span></td><tr><td>525 ***** Nước nào sau đây không thuộc liên hiệp Vương quốc Anh?    
+<br><span class="true">Cộng hòa Ireland    Anh    Scotland    Wales</span></td><tr><td>526 ***** Viking là từ dùng để ám chỉ Quốc gia nào?    
+<br><span class="true">Na Uy    Phần Lan    Đan Mạch    Iceland</span></td><tr><td>527 ***** Quốc gia nào sau đây chưa từng phải dời thủ đô từ nơi này sang nơi khác?    
+<br><span class="true">Thụy Điển    Myanmar    Thổ Nhĩ Kì    Nhật Bản</span></td><tr><td>528 ***** Ngôn ngữ lập trình nào là ngôn ngữ lập trình đầu tiên?    
+<br><span class="true">Fortran     Visual Basic    C    Pascal</span></td><tr><td>529 ***** Đơn vị đo dung lượng bộ nhớ nào lớn nhất trong các đơn vị sau đây?    
+<br><span class="true">Tb    Kb    Mb    Gb</span></td><tr><td>530 ***** Đa số trẻ em được sinh ra tự nhiên thường vào khoảng thời gian nào trong ngày?    
+<br><span class="true">Nửa đêm về sáng    Buổi sáng sớm    Buổi trưa    Buổi chiều tối</span></td><tr><td>531 ***** Nhà toán học Turing là người nước nào?    
+<br><span class="true">Tây Ban Nha    Anh    Pháp    Italia</span></td><tr><td>532 ***** Liên đoàn bóng đá châu á (AFC) ra đời tại quốc gia nào?    
+<br><span class="true">Philipines    ấn Độ    Mailaisia    Nhật Bản</span></td><tr><td>533 ***** Loài nào có số lượng Nhiễm sắc thể lớn nhất trong các loài sau?    
+<br><span class="true">Giáp xác    Giun tròn    Ruồi giấm    Chuột nhà</span></td><tr><td>534 ***** Hoàng đế nào sống lâu nhất ở Trung Quốc    Càn Long    Tần Thủy Hoàng    Phổ Nghi    Khang<tr><td>535 ***** Trong các chất sau đây, chất nào có nhiệt độ sôi cao nhất?    
+<br><span class="true"> n-Amyl axetat    Propionic    n-Amylic    n-Valeric</span></td><tr><td>536 ***** Quốc gia nào trải dài trên nhiều vĩ tuyến nhất?    
+<br><span class="true">Chile    Nga    Argentina    Thụy Điển</span></td><tr><td>537 ***** Bộ Nhiễm sắc thể giới tính của người bị bệnh Tơcnơ là gì?    
+<br><span class="true">OX    XXY    XXX    OY</span></td><tr><td>538 ***** Con vật gì đã giúp nhà bác học Vonta phát minh ra pin?    
+<br><span class="true"> Con muỗi    Con ruồi    Con gà    Con chó</span></td><tr><td>539 ***** Kinh tuyến 0 độ và vĩ tuyến 0 độ giao nhau ở châu lục nào?    
+<br><span class="true">Châu Phi    Châu á    Châu Âu    Châu Mỹ</span></td><tr><td>540 ***** Nước CHDCND Trung Hoa hiện nay có bao nhiêu dân tộc?    
+<br><span class="true">56    46    66    76</span></td><tr><td>541 ***** Ai đã nói: "Ngôn ngữ là yếu tố đầu tiên của văn học"?    
+<br><span class="true">M. Gorki    Lênin    Bác Hồ    Puskin</span></td><tr><td>542 ***** ánh sáng mặt trời phản xạ từ Thiên vương tinh có màu gì?    
+<br><span class="true"> Màu xanh biếc    Màu vàng    Màu đỏ    Màu tím</span></td><tr><td>543 ***** Chòm sao nào có hình chữ cái W?    
+<br><span class="true">Thiên Hậu    Bắc Đẩu    Đại Hùng    Tráng Sỹ</span></td><tr><td>544 ***** Đơn vị đo từ thông trong hệ SI?    
+<br><span class="true"> Wb    H    T    A</span></td><tr><td>545 ***** Lễ hội té nước ở Myanma diễn ra vào tháng mấy trong năm?    
+<br><span class="true">Tháng 4    Tháng 1    Tháng 7    Tháng 9</span></td><tr><td>546 ***** Nghành công nghiệp sản xuất thủy tinh gọi là gì?    
+<br><span class="true">CN Silicat    CN Cabonat    CN Nitorat    CN Nano</span></td><tr><td>547 ***** Cây cầu treo lớn nhất thế giới Acasi Caikio nằm ở quốc gia nào?    
+<br><span class="true"> Nhật Bản    Pháp    Australia    Mexico</span></td><tr><td>548 ***** Loại mưa nào sau đây được hình thành từ những trận mưa trong không khí?    
+<br><span class="true">Mưa tuyết    Mưa rào    Mưa phùn    Mưa đá</span></td><tr><td>549 ***** Chất nào có nhiệt độ nóng chảy cao nhất?    
+<br><span class="true">Vonfram    Graphit    Constantan    Duyra</span></td><tr><td>550 ***** 1 đơn vị thiên văn tương đương với khoảng bao nhiêu triệu Km?    
+<br><span class="true">1    10    20    50</span></td><tr><td>551 ***** Cầu thủ đeo băng đội trưởng ĐT Anh nhiều nhất hiện giờ là ai?    
+<br><span class="true">Billy Wright    Alan Sheare    Bobby Robson    David Beckham</span></td><tr><td>552 ***** Từ WorldCup năm bao nhiêu đội đương kim vô địch phải đá vòng loại?    
+<br><span class="true"> 2006    1994    1998    2002</span></td><tr><td>553 ***** Loài côn trùng nào có tốc độ bay nhanh nhất (58km-h)?    
+<br><span class="true">Chuồn chuồn    Ong    Châu chấu    Ruồi</span></td><tr><td>554 ***** Đảo lớn nhất của Philippines, nơi có thủ đô Manila, tên là gì?    
+<br><span class="true">Luzon    Midanao    Visayas    Cebu</span></td><tr><td>555 ***** Charlemange là tên thật của vị vua nào?    
+<br><span class="true">Karl đại dế    Alexander đại đế    Otto đại đế    Heirich đệ tứ</span></td><tr><td>556 ***** Tiểu thuyết "Thời xa vắng" của tác giả nào?    
+<br><span class="true">Lê Lựu    Nguyễn Minh Châu    Nguyễn Đình Thi    Huy Tưởng</span></td><tr><td>557 ***** Ai là người phát hiện ra khí quyển trên sao Kim?    
+<br><span class="true">Lomonosov    Kepler    Copernicus    Galileo</span></td><tr><td>558 ***** Câu lạc bộ nào đoạt cúp C1 đầu tiên?    
+<br><span class="true"> Real Madrid    Juventus    Barcelona    Bayer Munich</span></td><tr><td>559 ***** Đội bóng nào của nước Anh đoạt nhiều danh hiệu vô địch C1 nhất?    
+<br><span class="true">Liverpool    Manchester United    Chelsea    Arsenal</span></td><tr><td>560 ***** Trong gạo lức chứa nhiều Vitamin gì nhất?    
+<br><span clas<tr><td>>B1 ***** B12    C</span></td><tr><td>561 ***** Loại hình âm nhạc dân gian cổ truyền Ví dặm là của vùng nào?    
+<br><span class="true">Nghệ Tĩnh    Bắc Ninh    Hà Nội    Huế</span></td><tr><td>562 ***** Linh Từ Quốc Mẫu là mẹ của vị vua nào nước ta?    
+<br><span class="true">Lý Chiêu Hoàng    Quang Trung    Hàm Nghi    Bảo Đại</span></td><tr><td>563 ***** Nguyễn Trung Trực quê ở đâu?    
+<br><span class="true">Kiên Giang    An Giang    Cần Thơ    Vĩnh Long</span></td><tr><td>564 ***** Công ty nào là nhà phát minh kỹ thuật in mực khô?    
+<br><span class="true">XEROX    EPSON    IBM    Microsoft</span></td><tr><td>565 ***** Nguyên tố hóa học có nhiều thứ 2 trong vũ trụ?    
+<br><span class="true"> He    N    O    H</span></td><tr><td>566 ***** Hy Lạp nằm trên bán đảo nào của châu Âu?    
+<br><span class="true">Balkan    Queensland    Butrida    Xcangdinavi</span></td><tr><td>567 ***** Biệt danh Elephants là của đội bóng châu Phi nào?    
+<br><span class="true">Bờ biển ngà    Angola    Senegal    Ai cập</span></td><tr><td>568 ***** Hành tinh nào có nhiệt độ trung bình cao nhất trong hệ mặt trời?    
+<br><span class="true">Sao Kim    Sao Thủy    Sao Thiên vương    Sao Hỏa</span></td><tr><td>569 ***** Lễ hội Canaval là lễ hội nổi tiếng ở quốc gia nào?    
+<br><span class="true">Brazil    Mexico    ấn độ    Argentina</span></td><tr><td>570 ***** Luxembourg không phải là thành viên của tổ chức nào sau đây?    
+<br><span class="true"> OPEC    FIFA    EU    Benelux</span></td><tr><td>571 ***** Quốc kỳ nước nào giống hệt quốc kỳ Indonesia?    
+<br><span class="true">Monaco    Balan    Malta    Mông cổ</span></td><tr><td>572 ***** Trên tờ 100USD của Mĩ có in hinh vị tổng thống nào?    
+<br><span class="true">Franklin    Washington    Lincoln    Kennedy</span></td><tr><td>573 ***** Nước nào sau đây không thuộc nhóm G7?    
+<br><span class="true">Australia    Anh    Pháp    Nhật</span></td><tr><td>574 ***** Điệu Flamengo xuất xứ từ vùng nào của Tây Ban Nha?    
+<br><span class="true">Andalucia    Galicia    Valencia    La Mancha</span></td><tr><td>575 ***** Loài hoa nào là biểu tượng của Argentina?    
+<br><span class="true">Gạo    Cúc    Đỗ Quyên    Hồng</span></td><tr><td>576 ***** Họa sỹ nào sau đây không phải là người Pháp?    
+<br><span class="true">Marc Chagall    Paul Cezanne    Claude Monet    Edgar Degas</span></td><tr><td>577 ***** Khi mới thành lập, ASEAN gồm bao nhiêu nước?    
+<br><span class="true">6    4    5    7</span></td><tr><td>578 ***** Kim Tự Tháp mặt trời còn có tên gọi khác là gì?    
+<br><span class="true"> Teohihuacan    Tabasco    Tula    El Tajin</span></td><tr><td>579 ***** Thành phố nào sau đây là thủ phủ của tiểu bang Queensland?    
+<br><span class="true"> Brisbane    Sydney    Melbourne    Adelaide</span></td><tr><td>580 ***** Bức tượng cậu bé đứng "tè", biểu tượng của nước Bỉ, có tên riêng là gì?    
+<br><span class="true">Manneken Pis    Wallonia    Sambre Meuse    Passendale</span></td><tr><td>581 ***** Thành phố nào của Lào có dân số cao nhất?    
+<br><span class="true">Savannakhet    Pakse    Xiang Khoang    Saravan</span></td><tr><td>582 ***** Hương vị chính trong các món ăn của Thái Lan là gì?    
+<br><span class="true">Cay    Mặn    Ngọt    Chua</span></td><tr><td>583 ***** Đơn vị tiền tệ cũ của Hy Lạp là gì?    
+<br><span class="true"> Drachma    Lev    Krona    Escudo</span></td><tr><td>584 ***** Ngôn ngữ chính thức của Pakistan là gì?    
+<br><span class="true">Urdur    Dari    Pushtu    Kurd</span></td><tr><td>585 ***** Thành phố nào của Afghanistan có nền kinh tế phát triển nhất?    
+<br><span class="true">Kandahar    Kabul    Ghaza    Herat</span></td><tr><td>586 ***** Bukit Timah là ngọn núi cao nhất của Quốc gia nào?    
+<br><span class="true">Singapore    Malaysia    Indonesia    Philippines</span></td><tr><td>587 ***** Quốc kì của George xuất hiện đầu tiên vào năm nào?    
+<br><span class="true">1917    1880    1945    1972</span></td><tr><td>588 ***** Nước nào có nhiều lễ hội nhất trên thế giới, trung bình 3 ngày 1 lễ hội?    
+<br><span class="true">Colombia    Brazil    Urugoay    Hy Lạp</span></td><tr><td>589 ***** Sử thi Đam San của dân tộc nào?    
+<br><span class="true">Ê đê    Thái    Giarai    Bana</span></td><tr><td>590 ***** Bài thơ "Ông đồ" của Vũ Đình Liên lần đầu xuất hiện trên báo nào?    
+<br><span class="true"> Tinh hoa    Phong hóa    Phụ nữ    Ngày nay</span></td><tr><td>591 ***** Ai là tác giả của tiểu thuyết "Mặt trời vẫn mọc"?    
+<br><span class="true"> Miller Hemingway    Toni Morrison    William Golding    Thomas Mann</span></td><tr><td>592 ***** Địa danh nào xuất hiện đầu tiên trong bài Tỳ Bà Hành của Bạch Cư Dị?    
+<br><span class="true">Bến Tầm Dương    Chân Châu cảng    Hoàng Hạc lâu    Thăng Long thành</span></td><tr><td>593 ***** 3 mối quan hệ: vua tôi, cha con, vợ chồng được gọi là gì?    
+<br><span class="true"> Tam cương    Tam đàn    Tam hệ    Tam thường</span></td><tr><td>594 ***** Ai là người sáng tác kịch nói đầu tiên của Hà Nội với vở "Chén thuốc độc"?    
+<br><span class="true">Vũ Đình Long    Hoàng Văn Thụ    Lê Hải Tuyến    Đoàn Ngọc Thuyết</span></td><tr><td>595 ***** Thời gian để mặt trời quanh quanh tâm Thiên Hà của chúng ta?    
+<br><span class="true">225 triệu năm    225 ngàn năm    225 vạn năm    225 tỉ năm</span></td><tr><td>596 ***** Một ngày trên sao Thủy dài bằng khoảng bao lâu trên Trái Đất?    
+<br><span class="true">6 tháng    1 tháng    1 năm    6 năm</span></td><tr><td>597 ***** Đơn vị sinh thái nào bao gồm tất cả các nhân tố vô sinh?    
+<br><span class="true">Hệ sinh thái    Quần xã    Quần The    Loài</span></td><tr><td>598 ***** Napoleon Bonaparte sợ nhất con vật gì?    
+<br><span class="true">Con mèo    Con rắn    Con sâu    Con ruồi</span></td><tr><td>599 ***** Môn thể thao nào đem về tấm huy chương đầu tiên cho Đoàn VN tại Seagame23?    
+<br><span class="true">Quần vợt    Điền kinh    Nhảy cao    Thể hình</span></td><tr><td>600 ***** Ai là tác giả của "Thủy Hử"?    
+<br><span class="true">Thi Nại Am    La Quán Trung    Ngô Thừa Ân    Lê Hải Tuyến</span></td><tr><td>601 ***** Bài hát "Tình ca" của Hoàng Việt nhắc đến mùa nào trong năm?    
+<br><span class="true"> Xuân    Hạ    Thu    Đông</span></td><tr><td>602 ***** Cái nào không phải là 1 trong 3 đỉnh của tam giác quỷ Bermuda?    
+<br><span class="true">Đảo Hawaii    Đảo Bermuda    Đảo PuertoRico    Bán đảo Florida</span></td><tr><td>603 ***** Thuật ngữ Big Bang (vụ nổ lớn) đã được nhà khoa học nào đề xuất?    
+<br><span class="true">F.Hoyle    G.Lemantre    O.Klein    G.Gamow</span></td><tr><td>604 ***** Chùa Thiên Mụ do ai đặt tên?    
+<br><span class="true">Nguyễn Hoàng    Lý Nam Đế    Lý Công Uẩn    Lê Lợi</span></td><tr><td>605 ***** Chất nào sau đây có khả năng cho phản ứng tráng gương?    
+<br><span class="true">Glucozo    Glixerin    Axeton    Etilen Glicol</span></td><tr><td>606 ***** Ca sỹ Việt Nam nào tham gia liên hoan tiếng hát châu á lần thứ 2?    
+<br><span class="true">Mỹ Linh    Lam Trường    Đan Trường    Mỹ Tâm</span></td><tr><td>607 ***** Ngoài Nam Phi, trên thế giới còn có nước nào có nhiều hơn 1 Thủ đô?    
+<br><span class="true">Yemen    Kenya    Bolivia    Kazakhstan</span></td><tr><td>608 ***** Sau 1975, cả nước bắt đầu sử dụng chung một loại tiền từ năm nào?    
+<br><span class="true">1986    1985    1987    1988</span></td><tr><td>609 ***** Cái gì là "bức bình phong của kinh thành Huế"?    
+<br><span class="true">Núi Ngự Bình    Cửa Ngọ Môn    Sông Hương    Đèo Hải Vân</span></td><tr><td>610 ***** Hào khí Đông A là tinh thần của triều đại nào?    
+<br><span class="true"> Nhà Trần    Nhà Nguyễn    Nhà Lý    Nhà Hồ</span></td><tr><td>611 ***** Tác phẩm truyện ngắn nào đã kết thúc bằng câu: "Tiên sư anh Tào Tháo"?    
+<br><span class="true">Số Đỏ    Đôi Mắt    Chí Phèo    Chị Dậu</span></td><tr><td>612 ***** Lớp màng ngoài cùng của màng não là gì?    
+<br><span class="true">Màng cứng    Chất trắng    Vỏ não    Chất xám</span></td><tr><td>613 ***** Nước Triều Tiên bị chia 2 miền Nam Bắc tại vĩ tuyến số bao nhiêu?    
+<br><span class="true">38    27    28    37</span></td><tr><td>614 ***** Ai là tác giả bài hát "Trên đỉnh Phù Vân"?    
+<br><span class="true">Phó Đức Phương    Hoàng Vân    Phan Huỳnh Điểu    Trịnh Công Sơn</span></td><tr><td>615 ***** Muốn đến thăm di tích lịch sử Dinh Họ Vương, bạn phải đến địa danh nào?    
+<br><span class="true">Hà Giang    Phú Thọ    Thanh Hóa    Nghệ An</span></td><tr><td>616 ***** Đại hội thể thao các nước châu á có tên là gì?    
+<br><span class="true">Asiad    Asian cup    Seagame    Asian game</span></td><tr><td>617 ***** ở Đông Nam á hiện nay, có bao nhiêu quốc gia còn có vua trị vì?    
+<br><span class="true">3    1    2    4</span></td><tr><td>618 ***** ở Thái Bình có lễ hội gì sau đây?    
+<br><span class="true">Hội Chùa Keo    Hội Yết Kiêu    Hội Đình Bảng    Hội Chùa Thầy</span></td><tr><td>619 ***** Sa mạc Gobi thuộc quốc gia nào?    
+<br><span class="true">Mông Cổ    Mỹ    Chile    Trung Quốc</span></td><tr><td>620 ***** Tháng 3 có bao nhiêu ngày?    
+<br><span class="true">31    28    29    30</span></td><tr><td>621 ***** Tên gọi của nguyên tố Clo (Cl) có nghĩa là gì?    
+<br><span class="true">Vàng lục    Xám    Xanh lá    Đỏ tía</span></td></tr>
+<tr><td>622 ***** Bộ phim "Cánh đồng hoang" dựa trên tác phẩm của nhà văn nào?    
+<br><span class="true">Quang Sáng    Nam Cao    Hồng Phát    Thạch Lam</span></td></tr>
+<tr><td>623 ***** Maradona đã đoạt chức vô địch quốc gia Italia 1987 với câu lạc bộ nào?    
+<br><span class="true">Napoli    AC Milan    AS Roma    Juventus</span></td></tr>
+<tr><td>624 ***** Khu lăng mộ của vị hoàng đế Trung Quốc đầu tiên nằm ở tình nào?    
+<br><span class="true">Thiểm Tây    Giang Nam    Chiết Giang    Sơn Đông</span></td></tr>
+<tr><td>625 ***** Ai là người đầu tiên đưa ra công thức của bài toán cơ học?    
+<br><span class="true"> Acsimet    Galile    Newton    Pascal</span></td></tr>
+<tr><td>626 ***** Chùa Dơi thuộc tỉnh nào của nước ta?    
+<br><span class="true"> Sóc Trăng    Cà Mau    Bạc Liêu    Kiên Giang</span></td></tr>
+<tr><td>627 ***** Tờ báo đầu tiên của Cách mạng Nga là gì?    
+<br><span class="true">Tia Lửa    Dân tộc    Cùng khổ    Búa liềm</span></td></tr>
+<tr><td>628 ***** Đơn vị tính độ phân giải màn hình là gì?    
+<br><span class="true">Pixel    Bit    Mgbs    Inch</span></td></tr>
+<tr><td>629 ***** Đội tuyển nào vô địch giải bóng đá nữ Việt Nam 2006?    
+<br><span class="true">Hà Tây    Bắc Giang    Hà Nội    TP.HCM</span></td></tr>
+<tr><td>630 ***** Napoleon đã bị trục xuất và sống những ngày cuối đời tại hòn đảo nào?    
+<br><span class="true">Saint Helen    Madagasca    Hawaii    Java</span></td></tr>
+<tr><td>631 ***** Đơn vị tiền tệ của Thụy Điển là gì?    
+<br><span class="true">Krone    Euro    Schilling    Zloty</span></td></tr>
+<tr><td>632 ***** Hóa thạch tôm ba lá tìm thấy được ở kỷ nào?    
+<br><span class="true"> Kỷ Cambri    Kỷ Xilua    Kỷ Xilua    Kỷ Than đá</span></td></tr>
+<tr><td>633 ***** Bài thơ nào sau đây không phải là của nữ thi sĩ Hồ Xuân Hương?    
+<br><span class="true">Hát ru    Mắng học trò dốt    Bánh trôi nước    Đánh đu</span></td></tr>
+<tr><td>634 ***** Ai là người thực hiện phản ứng hạt nhân đầu tiên?    
+<br><span class="true">Rutherford    Davy    Marie Curie    Faraday</span></td></tr>
+<tr><td>635 ***** Sông Danuyp đổ ra Biển Đen tại Quốc Gia nào?    
+<br><span class="true">Rumania    Bulgaria    Hungaria    Gruzia</span></td></tr>
+<tr><td>636 ***** Câu lạc bộ nào có nhiều cầu thủ đoạt Quả Bóng Vàng châu Âu nhất?    
+<br><span class="true">Juventus    AC Milan    Inter Milan    Real Madrid</span></td></tr>
+<tr><td>637 ***** Cơ quan năng lượng nguyên tử quốc tế viết tắt là gì?    
+<br><span class="true">IAEA    FAO    NASA    IMF</span></td></tr>
+<tr><td>638 ***** WLAN là viết tắt của hệ thống mạng nào?    
+<br><span class="true">Mạng không dây    Mạng điện thoại    Mạng Internet    Mạng ATM</span></td></tr>
+<tr><td>639 ***** Người châu á đầu tiên bay vào vũ trụ?    
+<br><span class="true">Lục Thiên Bảo    Komamoto    Phạm Tuân    Tahamat</span></td></tr>
+<tr><td>640 ***** Giá trị cực đại của li độ trong dao động được gọi là gì?    
+<br><span class="true">Biên độ    Cường độ    Tốc độ    Cực độ</span></td></tr>
+<tr><td>641 ***** Sông Linh Giang hay Thanh Hà là tên gọi khác của dòng sông nào?    
+<br><span class="true">Sông Gianh    Sông Nhật Lệ    Sông Hương    Sông Hồng</span></td></tr>
+<tr><td>642 ***** Thành phố nào của Việt Nam trước đây từng có tên là Tống Bình?    
+<br><span class="true"> Hà Nội    TP. HCM    Đà Nẵng    Huế</span></td></tr>
+<tr><td>643 ***** Đơn vị tồn tại của loài trong thiên nhiên là gì?    
+<br><span class="true"> Quần thể    Cá thể    Quần xã    Hệ sinh thái</span></td></tr>
+<tr><td>644 ***** Trong 5 giác quan lưỡi thuộc giác quan nào?    
+<br><span class="true">Vị giác    Khứu giác    Thính giác    Thị giác</span></td></tr>
+<tr><td>645 ***** Nguyên tố Cacbon có bao nhiêu electron?    
+<br><span class="true">6 electron    10 electron    12 electron    2 electron</span></td></tr>
+<tr><td>646 ***** Tóc nâu môi trầm là tên một ca khúc gắn liền với ca sĩ trình bày nào?    
+<br><span class="true">Mỹ Tâm    Quang Dũng    Hồng Nhung    Đan Trường</span></td></tr>
+<tr><td>647 ***** Hồ nước nổi tiếng ở Hà Nội tên gì?    
+<br><span class="true">Hồ Hoàn Kiếm    Hồ Xuân Hương    Hồ Ba Bể    Hồ Than Thở</span></td></tr>
+<tr><td>648 ***** Vị vua cuối cùng của triều đại Phong Kiến Việt Nam là?    
+<br><span class="true">Bảo Đại    Khải Định    Gia Long    Càn Long</span></td></tr>
+<tr><td>649 ***** Quần áo cỡ lớn nhất thường được ký hiếu như thế nào?    
+<br><span class="true">XXM    XXS    L    S</span></td></tr>
+<tr><td>650 ***** Loại hình văn nghệ nào mà người bình dân Nam bộ rất ưa thích?    
+<br><span class="true">Cải lương    Hát chèo    Hát bội    Hò Quảng</span></td></tr>
+<tr><td>651 ***** Ngày sinh của chủ tịch Hồ Chí Minh?    
+<br><span class="true">19-05-1890    19-05-1980    19-08-1890    30-04-1930</span></td></tr>
+<tr><td>652 ***** Trong các loài chim dưới đây loài nào thường hay ăn thịt?    
+<br><span class="true">Kên kên    Sáo sậu    Chích chòe    Gõ kiến</span></td></tr>
+<tr><td>653 ***** Vật thể trong máu gồm có : Bạch Cầu, Tiểu Cầu và?    
+<br><span class="true">Hồng Cầu    Đại Cầu    Hắc Cầu    Trung Cầu</span></td></tr>
+<tr><td>654 ***** Trong các từ sau đây, từ nào không dùng để chỉ râu?    
+<br><span class="true">Trái xoan    Dê    Quai nón    Cá chốt</span></td></tr>
+<tr><td>655 ***** Năm 938, Ngô Quyền đánh tan quân?    
+<br><span class="true">Nam hán    Chăm pa    Nguyên    Mông cổ</span></td></tr>
+<tr><td>656 ***** Con sông chảy qua thành phố Huế là sông gì?    
+<br><span class="true">Sông Hương    Sông Tô Lịch    Sông Đồng Nai    Sông Mê kông</span></td></tr>
+<tr><td>657 ***** Con sông chính ở Ai Cập tên gì?    
+<br><span class="true">Nil    Danube    Amazone    Tigris</span></td></tr>
+<tr><td>658 ***** Ngọn núi cao nhất nước ta tên gì?    
+<br><span class="true">Fansipan    Hoành Sơn    Ngọc Linh    Trường Sơn</span></td></tr>
+<tr><td>659 ***** Con sông dài nhất Nam Mỹ tên gì?    
+<br><span class="true">Amazone    Indus    Missisippi    Nil</span></td></tr>
+<tr><td>660 ***** Trong lúc điều trị bệnh sốt xuất huyết bác sĩ thường khuyên người bệnh uống nước gì?    
+<br><span class="true">Nước chanh    Trà    Cà phê    Ca cao</span></td></tr>
+<tr><td>661 ***** Trong các loài dưới đây, con nào không thuộc loài bò sát?    
+<br><span class="true">ốc bươu    Khủng long    Rắn    Cá sấu</span></td></tr>
+<tr><td>662 ***** Christopher Columbus khám phá ra châu Mỹ năm nào?    
+<br><span class="true">1492    938    983    1324</span></td></tr>
+<tr><td>663 ***** Môn thể thao nào sau đây không có vị trí thủ môn?    
+<br><span class="true">Bóng bầu dục    Khúc khôn cầu    Bóng đá    Bóng ném</span></td></tr>
+<tr><td>664 ***** Vùng nào là vùng trồng dâu nuôi tằm công nghiệp lớn nhất nước ta?    
+<br><span class="true">Tây nguyên    Đồng bằng sông Hồng    Đồng bằng sông Cửu Long    Duyên hải miền Trung</span></td></tr>
+<tr><td>665 ***** Loại nào sau đây khi nảy mầm sẽ sinh độc tố?    
+<br><span class="true">Khoai tây    Đậu xanh    Đậu nành    Khoai lang</span></td></tr>
+<tr><td>666 ***** Đồng tiền đầu tiên trong lịch sử nước ta được đúc vào dười thời nào?    
+<br><span class="true">Nhà Đinh    Nhà Trần    Nhà hậu Lê    Nhà Nguyễn</span></td></tr>
+<tr><td>667 ***** Con gì không thuộc loài cá mà thuộc loài bò sát?    
+<br><span class="true">Cá sấu    Cá tai tương    Cá heo    Cá lóc</span></td></tr>
+<tr><td>668 ***** Bảng chữ cái tiếng việt có bao nhiêu nguyên âm?    
+<br><span class="true">12 nguyên âm    6 nguyên âm    10 nguyên âm    17 nguyên âm</span></td></tr>
+<tr><td>669 ***** Tên một vị thần tình yêu trong thần thoại Hy Lạp là?    
+<br><span class="true">Cupid    Venus    Argon    Herong</span></td></tr>
+<tr><td>670 ***** Trận Điện Biên Phủ trên không diễn ra bao nhiêu ngày đêm?    
+<br><span class="true">12    11    13    14</span></td></tr>
+<tr><td>671 ***** Chùa "Một cột" đựơc xây dựng vào thời nào?    
+<br><span class="true">Thời Lý    Thời Lê    Thời Trần    Thời Nguyễn</span></td></tr>
+<tr><td>672 ***** Bản tuyên ngôn độc lập thứ 2 do ai soạn thảo?    
+<br><span class="true">Nguyễn Trãi    Trần Hưng Đạo    Nguyễn Khuyến    Trần Quốc Toản</span></td></tr>
+<tr><td>673 ***** Làng Bát Tràng ở miền Bắc nổi tiếng về nghề truyền thống nào?    
+<br><span class="true">Làm đồ gốm    Dệt vải    Đúc đồng    Tranh sơn mài</span></td></tr>
+<tr><td>674 ***** Hồ Biểu Chánh là tác giả của tác phẩm nào dưới đây?    
+<br><span class="true">Ngọn cỏ gió đùa    Nắng trong vườn    Sông Côn mùa lũ    Lão hạc</span></td></tr>
+<tr><td>675 ***** Chất liệu nào sau đây được dùng để may quần áo Jeans cổ điển?    
+<br><span class="true">Vải Đêmim    Vải Katê    Vải Sil    Vải Kaki</span></td></tr>
+<tr><td>676 ***** Các loại bánh dưới đây có một loại không là bánh nướng?    
+<br><span class="true">Bánh tiêu    Bánh thuẩn    Bánh bông lan    Bánh kẹp</span></td></tr>
+<tr><td>677 ***** Hành tinh to nhất trong Hệ Mặt Trời là hành tinh nào?    
+<br><span class="true">Sao Mộc    Sao Thiên Vương    Sao Chổi    Sao Thổ</span></td></tr>
+<tr><td>678 ***** Ban nhạc nổi tiếng Thế giới nào sau đây đã từng đến Việt Nam trình diễn?    
+<br><span class="true">Boney M    ABBA    Backstreet boy    MTV</span></td></tr>
+<tr><td>679 ***** Nhân vật nữ nào sau đây trong văn học nước ta là nhân vật hư cấu?    
+<br><span class="true">Chị Dậu    Chị út tịch    Chị Tư hậu    Chị Quyên</span></td></tr>
+<tr><td>680 ***** Khi tan vỡ Liên bang Xô Viết có bao nhiêu nước thành viên?    
+<br><span class="true">15 nước thành viên    8 nước thành viên    10 nước thành viên    16 nước thành viên</span></td></tr>
+<tr><td>681 ***** Cleopatre là nữ hoàng nước nào?    
+<br><span class="true">Ai cập    Hi lạp    La mã    Do thái</span></td></tr>
+<tr><td>682 ***** Nam diễn viên đóng vai chính trong phim Lấy vợ Sài Gòn là ai?    
+<br><span class="true">Nguyên Vũ    Quang Dũng    Lam Trường    Đan Trường</span></td></tr>
+<tr><td>683 ***** Điểm phạt đền trong môn bóng ném cách khung thành bao nhiêu mét?    
+<br><span class="true">6 mét    10 mét    11 mét    16.5 mét</span></td></tr>
+<tr><td>684 ***** Con ếch được ngành vật lý nào sau đây sử dụng làm vật thí nghiệm đầu tiên?    
+<br><span class="true">Điện học    Âm học    Quang học    Nhiệt học</span></td></tr>
+<tr><td>685 ***** Loại rượu nổi tiếng của Bồ Đào Nha tên gì?    
+<br><span class="true">Porto    Sake    Vodka    Bồ đào mỹ tửu</span></td></tr>
+<tr><td>686 ***** Khu kinh tế mở Chu Lai thuộc địa bàn của tỉnh nào nước ta?    
+<br><span class="true">Quảng Nam    Phú Yên    Bình dương    Đồng Nai</span></td></tr>
+<tr><td>687 ***** Khi trời mưa trong nước mưa có chất gì làm cho sắt chóng rỉ sét?    
+<br><span class="true">Acid Nitric    Acid Oleic    Acid Oxalic    Acid Glutamic</span></td></tr>
+<tr><td>688 ***** Bài thơ Rắn đầu biếng học do ai sáng tác?    
+<br><span class="true">Lê Quý Đôn    Mạc Đĩnh Chi    Trạng Quỳnh    Thằng Bờm</span></td></tr>
+<tr><td>689 ***** Tác phẩm điêu khắc nào sau đây trở thành một trong những biểu tượng của Ai Cập?    
+<br><span class="true">Tượng Nhân Sư    Tượng thần Venus    Tượng thần Zeus    Tượng Cleopatre</span></td></tr>
+<tr><td>690 ***** Khủng long xuấy hiện vào kỷ nguyên nào?    
+<br><span class="true">Permain    Jurassic    Cretasious    Cambrian</span></td></tr>
+<tr><td>691 ***** Bức họa La Joncode do ai vẽ?    
+<br><span class="true">Leonard de Vinci    Picasso    Vang go    Mozart</span></td></tr>
+<tr><td>692 ***** Ai là người khám phá ra quang tuyến X?    
+<br><span class="true">Rontgen    Hezt    Tesla    Henry</span></td></tr>
+<tr><td>693 ***** Khu du lịch biển Sầm Sơn thuộc địa phận tỉnh thành nào?    
+<br><span class="true">Thanh Hóa    Cà Mau    Bà Rịa    Bình Dương</span></td></tr>
+<tr><td>694 ***** Lục địa lớn thứ 3 châu lục là lục địa nào?    
+<br><span class="true">Châu Phi    Châu Âu    Châu á    Châu Mỹ</span></td></tr>
+<tr><td>695 ***** Kỳ Thủ cờ vua nào ở Việt Nam được phong là đại kiện tướng quốc tế?    
+<br><span class="true">Đào Thiên Hải    Lý An Thuận    Nguyễn Gia Bảo    Trần Đại Thắng</span></td></tr>
+<tr><td>696 ***** Trong cụm từ Hán Việt "Danh Lam Thắng Cảnh" từ nào cú nghĩa là chùa?    
+<br><span class="true">Lam    Danh    Thắng    Cảnh</span></td></tr>
+<tr><td>697 ***** Ai phát minh ra bóng đèn điện có dây tóc?    
+<br><span class="true">Thomas    Noben    Mac    Garile</span></td></tr>
+<tr><td>698 ***** Người thống nhất các bộ lạc Mông Cổ là ai?    
+<br><span class="true">Thành Cát Tư Hãn    ái Nhỉ Cáp Tề    Tư Mã    Ngũ Tử Tư</span></td></tr>
+<tr><td>699 ***** Cụm di tích đền thờ các vua Hùng nằm ở Tỉnh Thành nào?    
+<br><span class="true">Phú Thọ    Bình Dương    An Khánh    Hà Nội</span></td></tr>
+<tr><td>700 ***** Điểm Bắc cực của nước Việt Nam thuộc tỉnh nào?    
+<br><span class="true">Hà Giang    Kiên Giang    Hải Phòng    Cà Mau</span></td></tr>
+<tr><td>701 ***** ở Việt Nam, bảo thường đổ bộ vào đất liền theo hướng nào?    
+<br><span class="true">Đông    Bắc    Nam    Tây</span></td></tr>
+<tr><td>702 ***** Động cơ nào phải có bộ phận đánh lửa?    
+<br><span class="true">Động cơ xăng    Động cơ điện    Động cơ nhiệt    Động cơ máy</span></td></tr>
+<tr><td>703 ***** Tai người rất hiếm khi cử động được là do không có gì?    
+<br><span class="true">Cơ    Xương    Máu    Động Mạch</span></td></tr>
+<tr><td>704 ***** Nước nào có diện tích lớn nhất thế giới?    
+<br><span class="true">Canada    Trung Quốc    Nga    Mỹ</span></td></tr>
+<tr><td>705 ***** Chất nào không được phép có trong thức ăn?    
+<br><span class="true">Phooc Môn    Đạm    Đường    Xơ</span></td></tr>
+<tr><td>706 ***** Ai là người theo Phan Đình Phùng đúc súng chống Pháp?    
+<br><span class="true">Cao Thắng    Lê Vũ Cầu    La Văn Cầu    Trần Hưng Đạo</span></td></tr>
+<tr><td>707 ***** Đài tưởng niệm Nguyễn Văn Trỗi nằm trên đường nào?    
+<br><span class="true">Nam Kỳ Khởi Nghĩa    Hai Bà Trưng    Lạc Long Quân    Lý Thường Kiệt</span></td></tr>
+<tr><td>708 ***** Giải bóng đá WorldCup đầu tiên được tổ chức vào năm nào?    
+<br><span class="true">1930    1932    1940    1928</span></td></tr>
+<tr><td>709 ***** Ngày nào là ngày gia đình Việt Nam?    
+<br><span class="true">28-6    25-6    28-7    25-7</span></td></tr>
+<tr><td>710 ***** Chợ trung tâm của thành phố Nha Trang là chợ gì?    
+<br><span class="true">Chợ Đầm    Chợ Gạo    Chợ Cầu Muối    Chợ Chiếu</span></td></tr>
+<tr><td>711 ***** Agatha nữ sĩ người Anh chuyên viết truyện về thể loại gì?    
+<br><span class="true">Trinh Thám    Kiếm Hiệp    Tình Cảm    Tự Sự</span></td></tr>
+<tr><td>712 ***** Quốc gia nào ở Đông Nam á không cùng múi giờ với Việt Nam (nhanh hơn 1 giờ)?    
+<br><span class="true">Xingapo    Indonesia    Thai Lan    Campuchia</span></td></tr>
+<tr><td>713 ***** Biển nào gợi chút hình tượng về chiếc gương soi?    
+<br><span class="true">Địa Trung Hãi    Thái Bình Dương    Đại Tây Dương    Bắc Băng Dương</span></td></tr>
+<tr><td>714 ***** Aljred Nobel - người sáng lập giải Noben là người nước nào?    
+<br><span class="true">Thụy Điển    Hà Lan    Mỹ    Nga</span></td></tr>
+<tr><td>715 ***** Ngôn ngữ nào sau đây có nhiều chữ cái nhất?    
+<br><span class="true">Nga    Việt Nam    Mỹ    Anh</span></td></tr>
+<tr><td>716 ***** Quần đảo FiFi nằm ở Châu nào?    
+<br><span class="true">Châu Đại Dương    Châu âu    Châu á    Châu Mỹ</span></td></tr>
+<tr><td>717 ***** Năm 2003 thành phố Xanhpêtécpua của Nga kỉ niệm bao nhiêu năm thành lập?    
+<br><span class="true">300 năm    200 năm    400 năm    250 năm</span></td></tr>
+<tr><td>718 ***** Trong triều đại nhà Trần, viên tướng nào sau đây thành công trong nghề kinh doanh?    
+<br><span class="true">Trần Khánh Dư    Lý An Khánh    Trần Nguyên Hãn    Trần Đại La</span></td></tr>
+<tr><td>719 ***** ở các loài vật có vú các đốt xương cổ đều hiếm khi vượt quá con số mấy?    
+<br><span class="true">7    10    32    15</span></td></tr>
+<tr><td>720 ***** Đường xích đạo chạy qua bao nhiêu quốc gia?    
+<br><span class="true">12    13    14    15</span></td></tr>
+<tr><td>721 ***** Hãng phim đầu tiên Việt Nam thành lập có tên gì?    
+<br><span class="true">Asia Phim    Sài Gòn Phim    Hãng Phim Thống Nhất    Hãng Phim Bông Sen</span></td></tr>
+<tr><td>722 ***** Nữ diển viên xuất sắc nhất giải Oscar 2003 là ai?    
+<br><span class="true">Nicol Kidman    Triệu Vy    Chương Tử Di    Cũng Lợi</span></td></tr>
+<tr><td>723 ***** Ca khúc bất hủ "Top of the world" từng được 1 nhóm nhạc nổi tiếng trình bày đó là nhóm?    
+<br><span class="true">Capenter    Westlife    MTV    Take That</span></td></tr>
+<tr><td>724 ***** Ngày 26-03-1931 có 1 tổ chức về chính trị được hình thành góp phần vào việc giải phóng dân tộc đó chính là?    
+<br><span class="true">Đoàn thanh niên    Quân đội nhân dân    HộI sinh viên    Đảng cộng sản</span></td></tr>
+<tr><td>725 ***** Tổ chức Việt Nam Thanh Niên Cách Mạng Đồng Chí Hội được thành lập tại đâu?    
+<br><span class="true">Quảng Châu    Thiên Tân    Chiều Trâu    Quảng Đông</span></td></tr>
+<tr><td>726 ***** Tại Seagames 21 nước Việt Nam giành được bao nhiêu huy chương Vàng?    
+<br><span class="true">33    71    156    25</span></td></tr>
+<tr><td>727 ***** Từ năm 1989 trở lại đây nước Việt Nam giành được thành tích cao nhất tại Seagames vào năm nào?    
+<br><span class="true">2003    1999    1993    1989</span></td></tr>
+<tr><td>728 ***** Nước ta chính thức lấy tên Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam vào ngày tháng năm này?    
+<br><span class="true">25-4-1976    27-5-1974    17-2-1977    17-1-1975</span></td></tr>
+<tr><td>729 ***** Vịnh Hạ Long được UNESCO công nhận là kỳ quan thiên nhiên của thế giới với hơn bao nhiên hòn đảo?    
+<br><span class="true">300 hòn đảo    200 hòn đảo    100 hòn đảo    400 hòn đảo</span></td></tr>
+<tr><td>730 ***** Diện tích đất đai ở Việt Nam được xếp hạng bao nhiêu trên thế giới?    
+<br><span class="true">65    85    55    75</span></td></tr>
+<tr><td>731 ***** Máy vi tính vào giai đoạn đầu được dùng cho?    
+<br><span class="true">Quân sự    Điện toán    Kinh tế    Khoa học</span></td></tr>
+<tr><td>732 ***** Ai là người phát minh ra điện thoại?    
+<br><span class="true">Grahambell    Edition    NewTon    Einstrein</span></td></tr>
+<tr><td>733 ***** Hòn đảo nào được xem là lớn nhất thế giới?    
+<br><span class="true">Greenland    Scandinavi    Phú Quốc    Madagasca</span></td></tr>
+<tr><td>734 ***** Người đầu tiên thám hiểm vòng quanh trái đất là người nước nào?    
+<br><span class="true">Bồ Đào Nha    Anh    Tây Ban Nha    Đức</span></td></tr>
+<tr><td>735 ***** Nước nào phát minh ra giấy đầu tiên?    
+<br><span class="true">Ai Cập    Trung Quốc    ấn Độ    Hy Lạp</span></td></tr>
+<tr><td>736 ***** WorldCup 1986 đã được tổ chức tại Quốc gia nào?    
+<br><span class="true">Mêxicô    Mỹ    ý    Đức</span></td></tr>
+<tr><td>737 ***** Quốc gia nào có số người chết vì dịch cúm gia cầm nhiều nhất thế giới?    
+<br><span class="true">Indonesia    Singapore    Malaysia    Thái Lan</span></td></tr>
+<tr><td>738 ***** Ai là vua phá lưới WorldCup 2006?    
+<br><span class="true">Klose    Grosso    Porposky    Henry</span></td></tr>
+<tr><td>739 ***** ở Châu Âu, nước nào là nước xây dựng vườn cấm quốc gia đầu tiên năm 1969?    
+<br><span class="true">Thụy Điển    Ba Lan    Đan Mạnh    úc</span></td></tr>
+<tr><td>740 ***** Vườn cấm Quốc Gia Cúc Phương được lập ra vào năm nào?    
+<br><span class="true">1962    1960    1961    1963</span></td></tr>
+<tr><td>741 ***** Cuộc cách mạng công nghiệp lần thứ 2 diễn ra ở đâu?    
+<br><span class="true">Anh    Nga    Đức    Mỹ</span></td></tr>
+<tr><td>742 ***** Close to you là ca khúc nổi tiếng của nhóm nhạc nào?    
+<br><span class="true">Carpenter    Boney M    Modern Talking    Badboyblue</span></td></tr>
+<tr><td>743 ***** Trong chiến tranh thế giới lần thứ 2 nước Đức đã đánh nước nào đầu tiên để mở đầu cho cuộc xâm lược trên toàn thế giới?    
+<br><span class="true">Ba Lan    Nga    Lybia    Thụy Điển</span></td></tr>
+<tr><td>744 ***** Quỹ loài vật hoang dã thế giới có tên là?    
+<br><span class="true">WWF    IUCN    CCN    UFO</span></td></tr>
+<tr><td>745 ***** Nước nào phóng thành công tàu vũ trụ có người lái lên trạm không gian lần thứ 3?    
+<br><span class="true">Trung Quốc    Nhật Bản    Singapo    Hàn Quốc</span></td></tr>
+<tr><td>746 ***** Xà phòng là hỗn hợp của muối Natri với?    
+<br><span class="true">Axít béo    Axit Clohidric    Axit Axetic    Axit Nitric</span></td></tr>
+<tr><td>747 ***** Đạo nho trở thành hệ tư tưởng chính thống của đẳng cấp thống trị vào thời nào?    
+<br><span class="true">Thời Lê    Thời Lý    Thời Nguyễn    Thời Trần</span></td></tr>
+<tr><td>748 ***** Diễn viên nữ chính trong phim "Vĩ tuyến 17- ngày và đêm"?    
+<br><span class="true">NSND Trà Giang    NSND Tuệ Minh    NSND Thanh Tú    NSND Hoàng Minh</span></td></tr>
+<tr><td>749 ***** Tháp chàm chịu ảnh hưởng của kiến trúc nào?    
+<br><span class="true">Nam ấn    Mã Lai    Thái Lai    Chăm</span></td></tr>
+<tr><td>750 ***** Bắt Vợ là tập tục cướI xin của dân tộc nào?    
+<br><span class="true">H-Mông    Mường    Ê-Đê    Thái</span></td></tr>
+<tr><td>751 ***** Quốc hiệu nhà nước ta là "Việt Nam" có từ thời Nguyễn ánh năm?    
+<br><span class="true">1804    1802    1803    1805</span></td></tr>
+<tr><td>752 ***** Con ở miền Nam ra thăm lăng Bác, đã thấy trong sương hàng tre bát ngát là 2 câu thơ trong bài?    
+<br><span class="true">Viếng Lăng Bác    Ra Lăng Bác    Thăm Lăng Bác    Kính yêu Bác</span></td></tr>
+<tr><td>753 ***** "Gặm 1 khối căm hờn trong củi sắt, ta nằm dài trông ngày tháng dần" qua là câu thơ được viết bởi?    
+<br><span class="true">Thế Lữ    Trần Tế Xương    Viễn Phương    Chính Hữu</span></td></tr>
+<tr><td>754 ***** Bản trường ca "Đẻ đất đẻ nước" là của dân tộc nào?    
+<br><span class="true">Ê-đê    H-Mông    Chăm    Mường</span></td></tr>
+<tr><td>755 ***** Nối dây là tập tục của dân tộc?    
+<br><span class="true">Ê-đê    Mường    H-Mông    Chăm</span></td></tr>
+<tr><td>756 ***** Cần Giờ thuộc địa phận tỉnh nào?    
+<br><span class="true">TP Hồ Chí Minh    Đồng Nai    Bình Dương    Long An</span></td></tr>
+<tr><td>757 ***** Tên 1 vườn quốc gia nổi tiếng ở Đồng Nai?    
+<br><span class="true">Cát Tiên    Cần Giờ    Bình Châu    Mã Đã</span></td></tr>
+<tr><td>758 ***** Vị vua nào phát hành tiền giấy đầu tiên ở nước ta?    
+<br><span class="true">Hồ Qúy Li    Minh Mạng    Trần Hưng Đạo    Nguyễn Huệ</span></td></tr>
+<tr><td>759 ***** Với nhạc nền du dương, lãng mạn, ca khúc chính trong game Final Fantasy 8 là?    
+<br><span class="true">Eyes on me    The piper    Fantasy    melody of life</span></td></tr>
+<tr><td>760 ***** Từng vang danh 1 thời, nhóm nhạc the Bee Gees gồm mấy thành viên?    
+<br><span class="true">3    1    2    4</span></td></tr>
+<tr><td>761 ***** Ngày 20-11 chính thức được chọn làm ngày "Hiến chương các nhà giáo" tại đâu?    
+<br><span class="true">Vac-xa-va (Ba Lan)    Washington (Mỹ)    Roma (Italia)    Mac-xây (Pháp)</span></td></tr>
+<tr><td>762 ***** Sau khi chuyển đi từ câu lạc bộ Fiorentina, Gabriel Batistuta giúp câu lạc bộ nào dành chức vô địch?    
+<br><span class="true">As-Roma    Juve    AC Milan    Inter Milan</span></td></tr>
+<tr><td>763 ***** Giai đoạn Đại Việt tồn tại được bao nhiên thế kỷ?    
+<br><span class="true">5    4    3    6</span></td></tr>
+<tr><td>764 ***** Vụ nhiễm độc thủy ngân ở vịnh Minamata (Nhật) do nước thải xảy ra vào năm?    
+<br><span class="true">1952    1996    1947    1899</span></td></tr>
+<tr><td>765 ***** Trong trận ý-Hàn Quốc tạI WorldCup 2002, cầu thủ nào phải nhận chiếc thẻ vàng cuối cùng?    
+<br><span class="true">Francessco Totti    Perotta    ParkChiSung    AnJungHoang</span></td></tr>
+<tr><td>766 ***** Huấn luyện viên dẫn dắt ý vào kỳ WorldCup 2002 là ai?    
+<br><span class="true">Trappatoni    Ericsson    Capello    Mourinho</span></td></tr>
+<tr><td>767 ***** Trong lịch sử WorldCup ai đã phá kỷ lục của dội bom cuả Gerd Muller?    
+<br><span class="true">Ronaldo    Batistuta    Pavel Nedved    Wayne Rooney</span></td></tr>
+<tr><td>768 ***** Vua sư tử là biệt danh do các fan bóng đá giành tặng cho cầu thủ nào?    
+<br><span class="true">Batigol    Totti    Montella    Nedved</span></td></tr>
+<tr><td>769 ***** Java là tên của 1 quần đảo ở đâu?    
+<br><span class="true">Indonesia    Malaysia    ấn Độ    Thai Lan</span></td></tr>
+<tr><td>770 ***** Wanney Rooney ra sân trong đội tuyển Anh vào năm bao nhiêu tuổi?    
+<br><span class="true">18    20    19    21</span></td></tr>
+<tr><td>771 ***** Nhà sinh vật học người Đức Ernst haaeckel đã đề xuất thuật ngữ "Ecologhi" vào năm nào?    
+<br><span class="true">1869    1870    1871    1872</span></td></tr>
+<tr><td>772 ***** Cây lô hội (nha đam) thuộc họ nào?    
+<br><span class="true">Agaveceae    Fabaceae    Poaceae    Sonneratiaceae</span></td></tr>
+<tr><td>773 ***** Ca khúc nào đã từng được ca sĩ nổi tiếng Lobo trình bày?    
+<br><span class="true">How can't I tell her    Everytime    Last Chrismast    Hello</span></td></tr>
+<tr><td>774 ***** Arrol Carter là em trai của 1 thành viên trong nhóm nhạc nào?    
+<br><span class="true">Backstreet Boy    Nsync    westlife    Five</span></td></tr>
+<tr><td>775 ***** Tác giả của tác phẩm "Bố già" là ai?    
+<br><span class="true">Mario Puzzo    J.K.Rowling    Mac Helen    Margeret Thetcher</span></td></tr>
+<tr><td>776 ***** Trong hệ mặt trời, hành tinh nào không có mặt trăng?    
+<br><span class="true">Thủy tinh và Kim tinh    Mộc tinh    Kim tinh    Thủy tinh</span></td></tr>
+<tr><td>777 ***** Hiện tượng khi mặt trời, trái đất và mặt trăng theo thứ tự cùng nằm trên đường thẳng    Nguyệt thực    Hoàng hôn    Giao thừa    Nhật thực
+<tr><td>778 ***** Ai là người đầu tiên chứng minh trái đất có dạng hình cầu?    
+<br><span class="true">Aristotle    Copecnich    Galileo     Acsimet</span></td></tr>
+<tr><td>779 ***** Hành tinh nào tự quay nhanh đến mức một ngày ở đó chỉ khoảng 10 giờ đồng hồ?    
+<br><span class="true">Thổ tinh và Mộc tinh    Mộc tinh và Kim tinh    Thổ tinh và Kim tinh    Kim tinh và Hỏa tinh</span></td></tr>
+<tr><td>780 ***** Hành tinh nào có chiều quay không cùng chiều với các hành tinh còn lại?    
+<br><span class="true">Kim tinh    Trái dất    Hỏa tinh    Thủy tinh</span></td></tr>
+<tr><td>781 ***** Những hành tinh nào không có bầu khí quyển?    
+<br><span class="true">Thủy tinh    Kim tinh    Mộc tinh    Trái đất</span></td></tr>
+<tr><td>782 ***** Trong các đơn vị đo chiều dài sau, đơn vị nào là lớn nhất?    
+<br><span class="true">Pasêc    Km    Năm ánh sáng    Đơn vị thiên văn</span></td></tr>
+<tr><td>783 ***** Câu lạc bộ nào duy nhất chưa từng vắng mặt ở các cúp châu Âu kể từ khi giải này được khởi tranh (1955)?    
+<br><span class="true">Barcelona    Manchester United    Ajax Amsterdam    Juventus</span></td></tr>
+<tr><td>784 ***** Câu lạc bộ nào được liên đoàn bóng đá thế giới (FIFA) chọn là câu lạc bộ xuất sắc nhất thế kỷ 20?    
+<br><span class="true">Real Madrid    Manchester United    Barcelona    Juventus</span></td></tr>
+<tr><td>785 ***** Sea Games lần đầu tiên được tổ chức vào năm nào?    
+<br><span class="true">1959    1955    1963    1969</span></td></tr>
+<tr><td>786 ***** Thẻ vàng, thẻ đỏ được sử dụng lần đầu tiên tại WorldCup vào năm nào?    
+<br><span class="true">1970    1955    1959    1982</span></td></tr>
+<tr><td>787 ***** Thủ môn duy nhất trong lich sử bóng đá từng giành quả bóng vàng châu Âu là người nước nào?    
+<br><span class="true">Nga    Anh    Tây Ban Nha    Đức</span></td></tr>
+<tr><td>788 ***** Từ Sea Games 22 trở đến nay, địa điểm thi đấu phải treo bao nhiêu lá cờ?    
+<br><span class="true">14    8    10    18</span></td></tr>
+<tr><td>789 ***** Logo của SEA Games 22 do ai sáng tác?    
+<br><span class="true">Nguyễn Trí Long    Bùi Nhật Quang    Nguyển Thái Hùng    Nguyễn Quang Vinh</span></td></tr>
+<tr><td>790 ***** Di tích của sinh vật sống trong các thời đại trước để lại trong các lớp đất đá được gọi là gì?    
+<br><span class="true">Hóa thạch    Sinh vật cổ    Sinh vật nguyên thủy    Cổ sinh vật học</span></td></tr>
+<tr><td>791 ***** Loại hạt nào sau đây có khả năng tồn tại lâu nhất?    
+<br><span class="true">Hạt hoa súng    Hạt ngô    Hạt ổi    Hạt tiêu</span></td></tr>
+<tr><td>792 ***** Máu chứa bao nhiêu phần trăm nước (%)?    
+<br><span class="true">78    30    48    85</span></td></tr>
+<tr><td>793 ***** Cơ sở vật chất chủ yếu của sự sống là gì?    
+<br><span class="true">Protein và Axit Nucleic    Protein    Axit Nucleic    Carbon hydrat</span></td></tr>
+<tr><td>794 ***** Các nguyên tố nào sau đây phổ biến nhất của cơ thể sống?    
+<br><span class="true">C. H, O, N.    N, P, K, ca.    C. H, O, N, Cu, Zn.    C. H, O, N, N, P, K, Mg</span></td></tr>
+<tr><td>795 ***** Đặc điểm nào sau đây đã có ở vượn người?    
+<br><span class="true">Biểu lộ tình cảm vui buồn    Đôi tay đã tự do khi di chuyển    Đứng thẳng    Tư duy trìu tượng phức tạp</span></td></tr>
+<tr><td>796 ***** Trong các dạng vượn người, dạng có quan hệ gần gũi với người nhất là?    
+<br><span class="true">Tinh tinh    Vượn    Khỉ Gôrila    Đười ươi</span></td></tr>
+<tr><td>797 ***** Cột sống hình chữ S ở người liên quan đến hoạt động nào sau đây?    
+<br><span class="true">Đi đứng thẳng    Phát triển tiếng nói    Sử dụng công cụ lao động    Tư duy trừu tượng</span></td></tr>
+<tr><td>798 ***** Đặc điểm nào sau đây ở người gắn liền với sự phát triển của tiếng nói?    
+<br><span class="true">Xương hàm dưới cằm lồi rõ    Răng nanh kém phát triển    Trán rộng và thẳng    Gờ hốc mắt không có</span></td></tr>
+<tr><td>799 ***** Trong quang hợp, ánh sáng màu gì có khả năng cung cấp nhiều năng lượng nhất cho cây?    
+<br><span class="true">Xanh, đỏ, tím    Tất cả đều cho kết quả như nhau    Tia hồng ngoại và tia cực tím    Vàng, lục, da cam</span></td></tr>
+<tr><td>800 ***** Vị thần nào sau đây là thần ánh sáng, thần thi ca, thần âm nhạc, thần tiên tri trong thần thoại Hy Lạp?    
+<br><span class="true">Apollo    Ares    Hera    Athena</span></td></tr>
+<tr><td>801 ***** Khi ở một mình trên đảo hoang, động vật nào sau đây được Robinson Crusoe sử dụng nhiều nhất?    
+<br><span class="true">Dê    Lợn rừng    Bò sữa    Cừu</span></td></tr>
+<tr><td>802 ***** Ai là người đầu tiên trở thành tỷ phú đô la Mỹ nhờ viết sách?    
+<br><span class="true">J. K. Rowling    Oprah Gail Winfrey    Ingvar Kamprad    Carlos Slim Helus</span></td></tr>
+<tr><td>803 ***** Các bài thơ "Hành lộ nan", "Tĩnh dạ tư", "Thái liên khúc" là những bài thơ của tác giả nào?    
+<br><span class="true">Lý Bạch    Từ Ngưng    Đỗ Phủ    Trương Hán Siêu</span></td></tr>
+<tr><td>804 ***** Lần đầu tiên trong lịch sử Việt Nam, tác phẩm nào đã thay thế lối kết cấu chương hồi bằng kết cấu theo quy lật tâm lý?    
+<br><span class="true">Tố tâm    Số đỏ    Bỉ vỏ    Tất cả đều sai</span></td></tr>
+<tr><td>805 ***** Tác phẩm nào sau đây lên án chế độ nô lệ ở Mỹ vào thế kỷ 19?    
+<br><span class="true">Túp lều bác Tom    Nhà tài chính    Chiếc lá cuối cùng    Cuốn theo chiều gió</span></td></tr>
+<tr><td>806 ***** Tác phẩm "Chí Phèo" của Nam Cao được đổi tên mấy lần?    
+<br><span class="true">3    2    4    5</span></td></tr>
+<tr><td>807 ***** Truyền thuyết nào sau đây thuộc thời kỳ Âu Lạc?    
+<br><span class="true">An Dương Vương    Thánh Gióng    Lạc Long Quân - Âu Cơ    Sơn Tinh - Thủy Tinh</span></td></tr>
+<tr><td>808 ***** Người hiện thân cho sức mạnh và vẻ đẹp của người Hy Lạp trong trường ca "Illiat và Odyssey"    Asin (Achilles)    Thần Dớt (Zeus)    Odixe (Odyssey)    Hecquyn (Hercules)
+<tr><td>809 ***** Cho tới năm 2003, số môn thi đấu nhiều nhất tại SEA Games là bao nhiêu?    
+<br><span class="true">34    24    25    42</span></td></tr>
+<tr><td>810 ***** Lần đầu tiên SEA Games có 10 quốc gia tham dự được tổ chức tại đâu?    
+<br><span class="true">Thái Lan    Indonesia    Việt Nam    Myanmar</span></td></tr>
+<tr><td>811 ***** Cho đến năm 2001, thứ hạng cao nhất của đoàn Việt Nam qua các kỳ SEA Games là hạng mấy?    
+<br><span class="true">4    2    3    5</span></td></tr>
+<tr><td>812 ***** Cho đến năm 2007, Thái Lan đã tổ chức bao nhiêu lần Đại hội SEA Games?    
+<br><span class="true">6    3    4    5</span></td></tr>
+<tr><td>813 ***** SEA Games 22 được tổ chức ở Việt Nam có bao nhiêu môn thi đấu?    
+<br><span class="true">32    28    34    38</span></td></tr>
+<tr><td>814 ***** Cầu thủ được mệnh danh là "Chiếc chân trái ma thuật"?    
+<br><span class="true">Rivaldo    Romario    Thierry Henry    Roberto Carlos</span></td></tr>
+<tr><td>815 ***** Bóng bàn là một trong những môn thể thao phổ biến nhất trên thế giới, nó có nguồn gốc từ nước nào?    
+<br><span class="true">Anh    Pháp    Trung Quốc    Hy Lạp</span></td></tr>
+<tr><td>816 ***** Nguyễn Thúy Hiền đã trở thành vận động viên Việt Nam đầu tiên giành huy chương vàng tại một giải vô định thế giới năm bao nhiêu tuổi?    
+<br><span class="true">14    12    16    18</span></td></tr>
+<tr><td>817 ***** Lý Tiểu Long là một diễn viên võ thuật nổi tiếng trong nền điện ảnh nước nào?    
+<br><span class="true">Mỹ    Trung Quốc    Anh    Pháp</span></td></tr>
+<tr><td>818 ***** Đàn bầu xuất hiện ở Việt Nam vào khoảng thời gian nào?    
+<br><span class="true">Thế kỷ thứ 7    Thế kỷ thứ 9    Thế kỷ thứ 11    Thế kỷ thứ 17</span></td></tr>
+<tr><td>819 ***** Giải thưởng "Cánh diều vàng" đã được tổ chức lần đầu tiên vào năm nào?    
+<br><span class="true">2002    1998    1996    1994</span></td></tr>
+<tr><td>820 ***** Phim đầu tiên của người Việt?    
+<br><span class="true">Đồng tiền kẽm tậu được ngựa    Trọn tình    Cánh đồng hoang    Cánh đồng ma</span></td></tr>
+<tr><td>821 ***** Bối cảnh của phim "Mùi đu đủ xanh" là Sài Gòn thập niên 1950, bộ phim được quay ở đâu?    
+<br><span class="true">Paris    Việt Nam    Thượng Hải    New York</span></td></tr>
+<tr><td>822 ***** Siêu sao điện ảnh Thành Long của Trung quốc có họ là gì?    
+<br><span class="true">Trần    Lý    Triệu    Hồ</span></td></tr>
+<tr><td>823 ***** Điều kiển từ xa được phát minh vào năm nào?    
+<br><span class="true">1898    1828    1788    1918</span></td></tr>
+<tr><td>824 ***** Máy bay trưc thăng được phát minh vào năm nào?    
+<br><span class="true">1936    1945    1914    1880</span></td></tr>
+<tr><td>825 ***** Những ngày đầu thành lập, Nokia - hãng điện thoại di động lớn nhất thế giới ngày nay chuyên sản xuất mặt hàng gì?    
+<br><span class="true">Giấy    Vi mạch    Điện thoại    Cao su</span></td></tr>
+<tr><td>826 ***** Tháp Eiffel được hoàn tất vào năm nào?    
+<br><span class="true">1889    1905    1883    1833</span></td></tr>
+<tr><td>827 ***** Ông là người sáng lập ra hãng ôtô nổi tiếng, tuy nhiên ông còn là một thợ sửa đồng hồ rất giỏi.    Henry Ford    Toyoda Kiichiro    Soichiro Honda    Chung Ju-Yung
+<tr><td>828 ***** Tên dân gian của Venus (Sao Kim)    Sao mai hay Sao hôm    Sao khuê    Sao chức nữ    Sao bắc đẩu
+<tr><td>829 ***** Quỹ đạo chuyển động của các hành tinh quanh mặt trời là đường gì?    
+<br><span class="true">Elip    Parapol    Hypecpol    Tròn</span></td></tr>
+<tr><td>830 ***** Lò phản ứng hạt nhân của nước ta đầu tiên nằm ở đâu?    
+<br><span class="true">Đà Lạt    Hà Nội    Cần Thơ    Đồng Nai</span></td></tr>
+<tr><td>831 ***** Bán kính trái đất là bao nhiêu kilomet (Km)?    
+<br><span class="true">6.378    63.78    6.378.000    6.873</span></td></tr>
+<tr><td>832 ***** Đậu tương, lạc, thuốc lá được trồng nhiều nhất trên loại đất nào?    
+<br><span class="true">Đất bạc mầu    Đất phèn    Đất phù sa    Đất xám</span></td></tr>
+<tr><td>833 ***** Nếu bạn đang ở vĩ độ 0, kinh độ 0, bạn đang ở:    Đại Tây Dương    Greenwich (Anh Quốc)    Ghana (Quốc gia tại Tây Phi)    Hawaii (Bang thứ 50 của Mỹ)
+<tr><td>834 ***** Diện tích nước ta rộng khoảng bao nhiêu Km2?    
+<br><span class="true">330    300    250    260</span></td></tr>
+<tr><td>835 ***** Con sông nào chảy qua 10 nước châu Âu và 3 thủ đô?    
+<br><span class="true">Danube (Đa Nuýp)    Volga    Thames    Rheil</span></td></tr>
+<tr><td>836 ***** Mật độ dân số thành phố nào đông nhất trong những thành phố sau?    
+<br><span class="true">New York    Hà Nội    Tokyo    Moskva</span></td></tr>
+<tr><td>837 ***** Trong các nước sau, nước nào có đường biên giới với nước ta là dài nhất?    
+<br><span class="true">Lào    Thái Lan    Trung Quốc    Campuchia</span></td></tr>
+<tr><td>838 ***** Hồ nước ngọt nào lớn nhất theo thể tích và sâu nhất thế giới?    
+<br><span class="true">Hồ Baikal    Hồ Victoria    Hồ Ladoga    Hồ Lhagba Pool</span></td></tr>
+<tr><td>839 ***** Thành phố thủ đô của quốc gia nào nằm ở gần cực bắc nhất?    
+<br><span class="true">Iceland (Ai Xơ Len)    Stockholm (Thụy Điển)    Moskva (Nga)    Victoria (Cabada)</span></td></tr>
+<tr><td>840 ***** Đại dương có diện tích nhỏ nhất trên thế giới?    
+<br><span class="true">Bắc băng dương    Thái bình dương    Đại tây dương    ấn độ dương</span></td></tr>
+<tr><td>841 ***** Biển nội địa có diện tích rộng nhất?    
+<br><span class="true">Địa trung hải    Biển Caspi    Thái bình dương    Biển hồng hải</span></td></tr>
+<tr><td>842 ***** Tên dãy núi lớn nhất thế giới?    
+<br><span class="true">Himalaya    Andes    Alps    Trường Sơn</span></td></tr>
+<tr><td>843 ***** Thành phố được mệnh danh là thành phố hoa hồng?    
+<br><span class="true">Portland (Mỹ)    Paris (Pháp)    Sofia (Bulgaria)    London (Anh)</span></td></tr>
+<tr><td>844 ***** Vùng có tỷ lệ người biết chữ thấp nhất nước ta là?    
+<br><span class="true">Tây bắc    Đông bắc    Tây nguyên    Bắc trung bộ</span></td></tr>
+<tr><td>845 ***** Nơi có hải cảng sầm uất nhất thế giới, bạn cho biết tên thành phố này?    
+<br><span class="true">Thượng Hải    London    New York    Trân Châu Cảng</span></td></tr>
+<tr><td>846 ***** Châu nào gần như toàn bộ các nước đều trồng lúa?    
+<br><span class="true">Châu Phi    Châu á    Châu Âu    Châu Mỹ</span></td></tr>
+<tr><td>847 ***** Núi lửa hoạt động lớn nhất thế giới hiện nay nằm ở đâu?    
+<br><span class="true">Quần đảo Hawaii    Indonesia    Nhật Bản    Philippines</span></td></tr>
+<tr><td>848 ***** Thành phố đông dân nhất Đông Nam á?    
+<br><span class="true">Jakarta    Thành phố Hồ Chí Minh    Bangkok    Phnôm Pênh</span></td></tr>
+<tr><td>849 ***** Nguồn gốc tên nước này có nghĩa là "ngôi làng"?    
+<br><span class="true">Canada    Đài Loan    Mexico    Hàn Quốc</span></td></tr>
+<tr><td>850 ***** Hồ nào lớn nhất thế giới?    
+<br><span class="true">Caspi    Baikal    Ngũ Đại Hồ    Victoria</span></td></tr>
+<tr><td>851 ***** Hồ nước ngọt lớn nhất Đông Nam á?    
+<br><span class="true">Biển hồ Campuchia    Hồ Ba Bể    Hồ Thanh Hải    Hồ Tây</span></td></tr>
+<tr><td>852 ***** Nhiệt độ cao nhất thế giới được ghi nhận ở đâu?    
+<br><span class="true">Sa mạc Libya    Thung lũng chết California    Sa mạc Sahara    Sa mạc Gobi (Mông cổ)</span></td></tr>
+<tr><td>853 ***** Sa mạc nào lớn nhất thế giới?    
+<br><span class="true">Sa mạc Sahara    Sa mạc Gobi (Mông Cổ)    Great Victoria    Great Sandy</span></td></tr>
+<tr><td>854 ***** Nơi lòng sông Mê Kông mở rộng nhất thuộc biên giới nước nào?    
+<br><span class="true">Lào - Campuchia    Việt Nam - Campuchia    Trung Quốc - Myanmar    Myanmar - Thái Lan</span></td></tr>
+<tr><td>855 ***** Loại đá được hình thành từ xác động vật?    
+<br><span class="true">Đá vôi    Đá catket    Đá trầm tích    Đá magma</span></td></tr>
+<tr><td>856 ***** Loại đất có diện tích lớn nhất Đồng bằng Sông Cửu Long?    
+<br><span class="true">Đất Phèn    Đất đầm lầy    Đất mặn    Đất phù sa</span></td></tr>
+<tr><td>857 ***** Sông dài thứ ba thế giới?    
+<br><span class="true">Mississippi    Nil    Amazon    Hoàng Hà</span></td></tr>
+<tr><td>858 ***** Bức tranh điêu khắc bằng đá to nhất, dài nhất thế giới nằm ở đâu?    
+<br><span class="true">Campuchia    Trung Quốc    Mỹ    Lào</span></td></tr>
+<tr><td>859 ***** Đều đặc biệt Kimono y phục truyền thống của Nhật Bản là gì?    
+<br><span class="true">Chỉ có một kích cỡ    Chỉ mặc vào mùa đông    Làm bằng loại lụa đặc biệt    Không thể tự mặc</span></td></tr>
+<tr><td>860 ***** Lá cờ đỏ sao vàng lần đầu tiên xuất hiện vào trong thời gian nào?    
+<br><span class="true">Khởi nghĩa Nam Kỳ    Khởi nghĩa Hương Khê    Binh biến Đô Lương    Khởi nghĩa Bắc Sơn</span></td></tr>
+<tr><td>861 ***** Tiếng việt là ngôn ngữ phổ biến thứ mấy tại Mỹ?    
+<br><span class="true">7    5    6    8</span></td></tr>
+<tr><td>862 ***** Thụy Điển nổi tiếng với thể loại nhạc nào?    
+<br><span class="true">Pop    Dance    Jazz    Cổ điển</span></td></tr>
+<tr><td>863 ***** C.Mác làm Tổng biên tập cho tờ báo nào vào năm 1842?    
+<br><span class="true">Báo sông Ranh    Biên niên Pháp Đức    Tình cảnh giai cấp CN Anh    Tuyên ngôn Đảng Cộng sản</span></td></tr>
+<tr><td>864 ***** ở Đông Nam á, Đảng Cộng sản được thành lập đầu tiên tại nước nào?    
+<br><span class="true">Indonesia    Việt Nam    Lào    Campuchia</span></td></tr>
+<tr><td>865 ***** Di Hòa Viên là nơi nổi tiếng về nghệ thuật hoa viên truyền thống của Trung Quốc. Bạn cho biết lịch sử tồn tại của no (năm).    800    500    700    1
+<tr><td>866 ***** Bạn cho biết tháp Rùa được xây dựng ở thế kỷ nào?    
+<br><span class="true">18    15    16    17</span></td></tr>
+<tr><td>867 ***** Bạn cho biết vua Lê nào được lịch sử tôn làm anh hùng?    
+<br><span class="true">Lê Thái Tổ    Lê Hiền Tông    Lê Chiêu Tông    Lê Thánh Tông</span></td></tr>
+<tr><td>868 ***** Christopher Columbus được sinh ra ở đâu?    
+<br><span class="true">Italia    Anh    Pháp    Đức</span></td></tr>
+<tr><td>869 ***** Khối Warszawa là một liên minh gồm bao nhiêu nước?    
+<br><span class="true">8    4    5    6</span></td></tr>
+<tr><td>870 ***** Bạn cho biết khoảng bao nhiêu phần trăm dân số Việt Nam sử dụng tiếng Việt (%)?    
+<br><span class="true">85    68    90    95</span></td></tr>
+<tr><td>871 ***** Bạn cho biết tháp CN (CN Tower) là ngọn tháp nổi tiếng thế giới của thành phố nào?    
+<br><span class="true">Toronto    Tokyo    New York    London</span></td></tr>
+<tr><td>872 ***** Che Guevara hay El Che là một nhà hoạt động cách mạng nổi tiếng, bạn cho biết ông là người nước nào?    
+<br><span class="true">Argentina    Cuba    Venezuela    Mexico</span></td></tr>
+<tr><td>873 ***** Đồng tiền chung Châu Âu (Euro) chính thức được lưu hành vào năm nào?    
+<br><span class="true">2002    1998    2000    2001</span></td></tr>
+<tr><td>874 ***** Dưới đời nhà Trần, ai là thầy giáo, nhà nho được nhiều người trọng dụng nhất?    
+<br><span class="true">Chu Văn An    Trương Hán Siêu    Nguyễn Trãi    Phạn Sư Mạnh</span></td></tr>
+<tr><td>875 ***** Tổ chức duy trì hòa bình và an ninh thế giới, phát triển mối quan hệ giữa các dân tộc trên thế giới trên cơ sở tôn trọng độc lập.    Liên hợp quốc    WTO    Liên minh Châu Âu    ASEAN
+<tr><td>876 ***** Vị trạng nguyên nhỏ tuổi nhất trong lịch sử Việt Nam    Nguyễn Hiền    Lê Văn Thịnh    Vũ Tuấn Chiêu    Nguyễn Kì
+<tr><td>877 ***** Có bao nhiêu vị thần trên đỉnh Olympus?    
+<br><span class="true">12    9    15    17</span></td></tr>
+<tr><td>878 ***** Văn Miếu, trường đại học đầu tiên của Việt Nam, được xây dựng dưới triều đại nào?    
+<br><span class="true">Nhà họ Lý    Nhà họ Trần    Nhà họ Ngô    Nhà họ Nguyễn</span></td></tr>
+<tr><td>879 ***** Triều đại nhà Nguyễn bắt đầu từ năm nào?    
+<br><span class="true">1802    1790    1845    1860</span></td></tr>
+<tr><td>880 ***** Việt Nam trở thành thành viên của Liên Hợp Quốc vào năm nào?    
+<br><span class="true">1977    1989    1979    1972</span></td></tr>
+<tr><td>881 ***** Đất nước nào là quê hương của ông già tuyết?    
+<br><span class="true">Phần Lan    Anh    Đan Mạch    Mỹ</span></td></tr>
+<tr><td>882 ***** Nền văn minh Babylon ngày nay thuộc đất nước nào?    
+<br><span class="true">Iraq    Arab Saudi    Iran    Hy Lạp</span></td></tr>
+<tr><td>883 ***** Thủ đô nước nào lâu đời nhất đông Nam á?    
+<br><span class="true">Hà Nội - Việt Nam    Bangkok - Thái Lan    Viêng Chăn - Lào    Phnom Penh - Campuchia</span></td></tr>
+<tr><td>884 ***** Bao nhiêu % dân Trung Quốc đã xây dựng Vạn Lý Trường Thành thời bấy giờ?    
+<br><span class="true">70    20    30    60</span></td></tr>
+<tr><td>885 ***** Bạn cho biết vua Lê nào có tên tuổi rực rỡ nhất trong thời kỳ trị nước?    
+<br><span class="true">Lê Thánh Tông    Lê Hiền Tông    Lê Thái Tổ    Lê Nhân Tông</span></td></tr>
+<tr><td>886 ***** Bạn cho biết từ năm 2001, mức lương của tổng thống Mỹ là bao nhiêu (USD)?    
+<br><span class="true">400    300    500    600</span></td></tr>
+<tr><td>887 ***** Giai đoạn "Đông Chu Liệt Quốc" trong lịch sử Trung Hoa tính từ thời kỳ nhà nào đến thời nhà nào?    
+<br><span class="true">Chu - Trần    Chu - Tùy    Tần - Tống    Tống - Nguyên</span></td></tr>
+<tr><td>888 ***** Hai câu thơ "Lối xưa xe ngựa hồn thu thảo. Đền cũ lâu đài bóng tịch dương" là của tác giả nào?    
+<br><span class="true">Bà Huyện Thanh Quan    Hồ Xuân Hương    Đoàn Thị Điểm    Thâm Tâm</span></td></tr>
+<tr><td>889 ***** Nhạc sĩ Trịnh Công Sơn từng đoạt giải "Đĩa vàng" tại Nhật với ca khúc nào?    
+<br><span class="true">Ngủ đi con    Bông hồng cài áo    Huyền thoại mẹ    Nguồn cội</span></td></tr>
+<tr><td>890 ***** Thủ đô của Canada là?    
+<br><span class="true">Ottawa    Quebec    Montreal    Ontario</span></td></tr>
+<tr><td>891 ***** Bức tranh "Thiếu nữ ngồi bên hoa Huệ" của tác giả nào?    
+<br><span class="true">Tô Ngọc Vân    Trần Văn Cẩn    Bùi Xuân Phái    Nguyễn Sáng</span></td></tr>
+<tr><td>892 ***** Quê hương của bia Heineken ở đâu?    
+<br><span class="true">Ba Lan    Hà Lan    Thụy Điển    Thụy Sĩ</span></td></tr>
+<tr><td>893 ***** Làng Yên Phụ ở Hà Nội nổi tiếng với nghề gì?    
+<br><span class="true">Làm hương    Kim hoàn    Làm cốm    Đúc đồng</span></td></tr>
+<tr><td>894 ***** Đâu là từ đúng chính tả nhất?    
+<br><span class="true">Chất phác    Chấc phát    Chất phát    Chấc phác</span></td></tr>
+<tr><td>895 ***** Sân vận động "Công viên các hoàng tử" là sân nhà của câu lạc bộ nào?    
+<br><span class="true">Paris Saint Germain    Liverpool    AC Milan    Ajax Amstecdams</span></td></tr>
+<tr><td>896 ***** Phong trào "văn hóa phục hưng" xuất hiện đầu tiên ở nước nào?    
+<br><span class="true">ý    Anh    Pháp    Đức</span></td></tr>
+<tr><td>897 ***** Tên "Nhập Vân Long" là tên hiệu của nhân vật nào trong bộ tiểu thuyết nổi tiếng Thủy Hử?    
+<br><span class="true">Công Tôn Thắng    Lâm Xung    Lỗ Trí Thâm    Lý Quỳ</span></td></tr>
+<tr><td>898 ***** Tên tiếng Anh viết tắt của hệ thống tiền tệ Châu Âu là gì?    
+<br><span class="true">EMS    EMU    EFTA    ECU</span></td></tr>
+<tr><td>899 ***** Một trong các bộ phim đoạt giải Oscar lần thứ 78?    
+<br><span class="true">Crask    Titanic    Brokeback Mountain    Munich</span></td></tr>
+<tr><td>900 ***** Nhà hát kịch nổi tiếng thế giới cả ba mặt đều hướng ra biển thuộc đất nước nào?    
+<br><span class="true">úc    Anh    Mỹ    Thụy Điển</span></td></tr>
+<tr><td>901 ***** Hoa Loa Kèn thường xuất hiện vào mùa nào trong năm?    
+<br><span class="true">Hạ    Xuân    Thu    Đông</span></td></tr>
+<tr><td>902 ***** Bài hát trong phim "Vợ chồng A Phủ" là gì?    
+<br><span class="true">Bài ca trên núi    Huyền thoại hồ núi Cốc    Chảy đi sông ơi    Dư âm</span></td></tr>
+<tr><td>903 ***** Ai đã khắc chữ "Nam thiên đệ nhất động" lên cửa động Hương Tích?    
+<br><span class="true">Chúa Trịnh Sâm    Chu Mạnh Trinh    Vua Bảo Đại    Nam Phương Hoàng Hậu</span></td></tr>
+<tr><td>904 ***** Truyện Kiều của Nguễn Du tổng cộng gồm bao nhiêu câu thơ?    
+<br><span class="true">3254    3001    3203    3541</span></td></tr>
+<tr><td>905 ***** Quỹ nhi đồng liên hợp quốc viết tắt là gì?    
+<br><span class="true">UNICEF    UNESCO    UNDP    UNHCR</span></td></tr>
+<tr><td>906 ***** Bài hát "Giấc mơ AiKia" được sử dụng trong bộ phim nào?    
+<br><span class="true">Những cô gái chân dài    Yêu lầm    39 độ yêu    Gái nhảy</span></td></tr>
+<tr><td>907 ***** Trong tác phẩm Tam Quốc Chí, người được mệnh danh là "Phụng Sồ"?    
+<br><span class="true">Bàng Thống    Chu Du    Gia Cát Lượng    Tư Mã ý</span></td></tr>
+<tr><td>908 ***** Danh họa nổi tiếng "Van Gogh" là người nước nào?    
+<br><span class="true">Hà Lan    Nga    Canada    Bỉ</span></td></tr>
+<tr><td>909 ***** Giải vô địch bóng đá thế giới (WorldCup) năm 2010 được tổ chức ở đâu?    
+<br><span class="true">Tất cả đều sai    Đức    Brazil    Australia</span></td></tr>
+<tr><td>910 ***** Ban nhạc huyền thoại nào thể hiện ca khúc "Yesterday"?    
+<br><span class="true">The Beatles    ABBA    U2    Queen</span></td></tr>
+<tr><td>911 ***** Bộ phim "Hoàng Kim Giáp" nói về triều đại nào của Trung Quốc?    
+<br><span class="true">Nhà Đường    Nhà Tống    Nhà Nguyên    Nhà Tùy</span></td></tr>
+<tr><td>912 ***** Bao nhiêu năm thì nước ta tiến hành tổng điều tra dân số 1 lần?    
+<br><span class="true">10    3    5    15</span></td></tr>
+<tr><td>913 ***** Tác phẩm nổi tiếng "Chuông nguyện hồn ai" của nhà văn nào?    
+<br><span class="true">Ernest Miller Hemingway    Hector Malot    Mark Twain    Victor Hugo</span></td></tr>
+<tr><td>914 ***** Ngôn ngữ chính của CuBa là gì?    
+<br><span class="true">Tây Ban Nha    Anh    Pháp    Latinh</span></td></tr>
+<tr><td>915 ***** Him Lam là cứ điểm tiêu diệt địch thứ mấy trong chiến dịch Điện Biên?    
+<br><span class="true">1    2    3    4</span></td></tr>
+<tr><td>916 ***** Bài phú nổi tiếng trong lịch sử văn học Việt Nam "Ngọc Tỉnh Liên" là của vị Trạng Nguyên nào?    
+<br><span class="true">Mạc Đĩnh Chi    Nguyễn Hiền    Trương Hán Siêu    Lê Văn Thịnh</span></td></tr>
+<tr><td>917 ***** Trong lịch sử câu lạc bộ Manchester United cầu thủ ghi nhiều bàn thắng nhất là ai?    
+<br><span class="true">Bobby Charlton    George Best    Roy Keane    Gary Neville</span></td></tr>
+<tr><td>918 ***** Bộ phim "Sao tháng 8" của điện ảnh Việt Nam ra đời năm nào?    
+<br><span class="true">1976    1977    1978    1979</span></td></tr>
+<tr><td>919 ***** Hoàng hậu Mari Antoanet của nước Pháp là vợ của vua nào?    
+<br><span class="true">Luis 16    Luis 14    Luis 15    Vua khác</span></td></tr>
+<tr><td>920 ***** Ai được mệnh danh là "Tam Nguyên Yên Đổ"    Nguyễn Khuyến    Nguyễn Bỉnh Khiêm    Nguyễn Du    Nguyễn Trãi
+<tr><td>921 ***** Danh hiệu hoa hậu thế giới năm 2006 thuộc về nước nào?    
+<br><span class="true">CH Czech    Venezuela    Ba Lan    Thổ Nhĩ Kỳ</span></td></tr>
+<tr><td>922 ***** Trên đỉnh ngọn núi Tùng ở Thanh Hóa có lăng mộ thờ vị anh hùng dân tộc nổi tiếng nào?    
+<br><span class="true">Bà Triệu    Nguyên Phi ỷ Lan    Lê Chân    Hai Bà Trưng</span></td></tr>
+<tr><td>923 ***** Tên gọi khác của quả mướp đắng?    
+<br><span class="true">Khổ qua    Mướp hương    Bầu    Mướp lai</span></td></tr>
+<tr><td>924 ***** Tác giả của bài thơ "Nhớ con sông quê hương"?    
+<br><span class="true">Tế Hanh    Nguyễn Thi    Đỗ Trung Quân    Quang Dũng</span></td></tr>
+<tr><td>925 ***** Tác giả của ca khúc "Hương ngọc lan"    Anh Quân    Hồng Đăng    Thanh Hải    Huy Du
+<tr><td>926 ***** Thành phố nào của Italia được Shakespeares chọn làm bối cảnh diễn ra câu chuyện "Romeo và Juliet"?    
+<br><span class="true">Verona    Milan    Parma    Turin</span></td></tr>
+<tr><td>927 ***** Thành phố nào là trung tâm của cách mạng tháng 10 Nga?    
+<br><span class="true">Saint Peterburg (Leningrad )    Bacu    Stalingrad    Moskva</span></td></tr>
+<tr><td>928 ***** Chuyến bay đầu tiên thế giới của 2 anh em nhà Smith đã nối liền 2 châu lục nào?    
+<br><span class="true">Châu Đại Dương - Châu Âu    Châu Âu - Châu á    Châu Phi - Châu Mỹ    Châu Mỹ - Châu Đại Dương</span></td></tr>
+<tr><td>929 ***** Trong bài thơ "Canh một" của Lê Thánh Tông có câu: "Tấp tểnh trời vừa mọc Đầu tinh". Bạn cho biết Đầu tinh là sao nằm ở phương nào?    
+<br><span class="true">Bắc    Đông    Tây    Nam</span></td></tr>
+<tr><td>930 ***** Sự tích trầu cau theo truyền thuyết đã xảy ra vào thời vua Hùng thứ bao nhiêu?    
+<br><span class="true">12    10    14    16</span></td></tr>
+<tr><td>931 ***** Quốc ngữ của Singapore?    
+<br><span class="true">Malaysia    Tamil    Singlish    Trung</span></td></tr>
+<tr><td>932 ***** Thành tích cao nhất của đội tuyển Tây Ban Nha qua các kỳ WorldCup?    
+<br><span class="true">Vô địch    Vòng loại    Hạng tư    Hạng ba</span></td></tr>
+<tr><td>933 ***** Đội tuyển Tây Ban Nha đã vô địch Châu Âu lần đầu vào năm nào?    
+<br><span class="true">1964    1960    1968    1972</span></td></tr>
+<tr><td>934 ***** Lần đầu tiên đội tuyển ý vô địch thế giới vào năm nào?    
+<br><span class="true">1934    1938    1942    1946</span></td></tr>
+<tr><td>935 ***** Cầu thủ ghi nhiều bàn thắng nhất đội tuyển Tây Ban Nha?    
+<br><span class="true">Raul gonzalez     fernando Hierro     fernando Morientes     Luis enripue</span></td></tr>
+<tr><td>936 ***** Đất nước nào trên thế giới có hình dạng giống quả ớt?    
+<br><span class="true">Chile    Cuba    Brazil    Lào</span></td></tr>
+<tr><td>937 ***** Trong thời kỳ âm nhạc cổ điển, khi mà các bản giao hưởng đều có 4 chương thì tác phảm nào lại có 5 chương?    
+<br><span class="true">Bản giao hưởng đồng quê - Beethoven    Bốn mùa - Vivaldi    Hành khúc Thổ Nhĩ Kỳ - Mozart    Sông Danube xanh - Strauss</span></td></tr>
+<tr><td>938 ***** Đại hội thể thao Olympic hiện đại lần đầu tiên năm 1886 có mấy môn thể thao dành cho phụ nữ?    
+<br><span class="true">Không có môn nào    2    3    1</span></td></tr>
+<tr><td>939 ***** Bài hát "Tình ca" của Hoàng Việt nói đến mùa nào trong năm?    
+<br><span class="true">Mùa xuân    Mùa hạ    Mùa thu    Mùa đông</span></td></tr>
+<tr><td>940 ***** Năm 1928, nhân vật hoạt hình nào lần đầu tiên xuất hiện?    
+<br><span class="true">Chuột Mickey    Thủy thủ Popeye    Vịt Donald    Tom & Jerry</span></td></tr>
+<tr><td>941 ***** World Cup lần đầu tiên có bao nhiêu đội tham dự?    
+<br><span class="true">13    11    12    15</span></td></tr>
+<tr><td>942 ***** Đàn độc huyền là tên gọi khác của loại đàn nào?    
+<br><span class="true">Đàn bầu    Đàn guitar    Đàn piano    Đàn đá</span></td></tr>
+<tr><td>943 ***** 9 ngọn núi của nền âm nhạc thế giới là 9 bản giao hưởng của ai?    
+<br><span class="true">Beethoven    Mozatr    Tchaicovsky    Vivaldi</span></td></tr>
+<tr><td>944 ***** Bán kính vòng tròn trung tâm sân bóng đá chính thức là bao nhiêu?    
+<br><span class="true">9m15    8m15    8m10    9m10</span></td></tr>
+<tr><td>945 ***** Phim Cách mạng Việt Nam đầu tiên là phim gì?    
+<br><span class="true">Chung một dòng sông    Đồng tiền kẽm tậu được ngựa    Cánh đồng hoang    Phim khác</span></td></tr>
+<tr><td>946 ***** Ban nhạc ABBA gồm bao nhiêu thành viên?    
+<br><span class="true">4    3    5    2</span></td></tr>
+<tr><td>947 ***** Môn võ nào được gọi là Hiệp khí đạo?    
+<br><span class="true"> Aikido    Judo    Pencat silat    Karatedo</span></td></tr>
+<tr><td>948 ***** Quốc gia nào giành nhiều huy chương vàng thứ 3 Olympic Athens 2004?    
+<br><span class="true">Nga    Anh    Hylap    Tây Ban Nha</span></td></tr>
+<tr><td>949 ***** Đội tuyển bóng đá nước nào vô địch Euro năm 1976?    
+<br><span class="true">Không phải 3 đội trên    Đức    Italy    Pháp</span></td></tr>
+<tr><td>950 ***** Phần 1 và 2 của bộ phim Harry Potter do ai đạo diễn?    
+<br><span class="true">James Cameron    Christina Anguilera    Scorpions    Không phải 3 người trên</span></td></tr>
+<tr><td>951 ***** The Rock (diễn viên nổi tiếng trong Xác ướp Ai Cập và Vua Bọ cạp) từng xuất thân là?    
+<br><span class="true">Võ sĩ đô vật    Cầu thủ    Bồi bàn    Tất cả đều sai</span></td></tr>
+<tr><td>952 ***** Joseph Haydn, tác giả của 104 bản giao hưởng, cha đẻ của giao hưởng cổ điển quy định một bản giao hưởng gồm bao nhiêu chương?    
+<br><span class="true">4    3    5    6</span></td></tr>
+<tr><td>953 ***** Trong bóng chày, đội nào được chơi trước?    
+<br><span class="true">Đội khách chơi trước.    Đội thắng khi phân định bằng đồng xu.    Quyết định của trọng tài.    Chủ nhà chơi trước.</span></td></tr>
+<tr><td>954 ***** Giải thưởng điện ảnh và truyền hình BAFTA là của nước nào?    
+<br><span class="true">Anh    Mỹ    ấn Độ    Italya</span></td></tr>
+<tr><td>955 ***** Bộ phim đầu tiên mà lời thoại trong phim có thể nghe được là bộ phim nào? Phim này sản xuất năm 1927    Ca sĩ nhạc Jazz    Steam Boat    Bạch Tuyết và 7 chú lùn    Mickey Mouse
+<tr><td>956 ***** Thi Sách họ gì?    
+<br><span class="true">Đặng    Ngô    Lê    Phạn</span></td></tr>
+<tr><td>957 ***** Tên gốc của loại bánh là đặc sản của Từ Sơn, Đình Bảng, Bắc Ninh? Nó thường được gọi là gì?    
+<br><span class="true">Bánh phu thê - suxê    Bánh cáy    Bánh đa    Bánh cu đơ</span></td></tr>
+<tr><td>958 ***** Hội Tao Đàn do Lê Thánh Tông thành lập có bao nhiêu người?    
+<br><span class="true">28    29    30    31</span></td></tr>
+<tr><td>959 ***** 18-4-1288, triều đình nhà Trần đã tổ chức dâng tù binh nhà Nguyên để tỏ lòng biết ơn với dân tộc ở đâu?    
+<br><span class="true">Lăng vua Trần Thái Tông.    Thăng Long.    Bến Bình Than.    Quân doanh Vạn Kiếp.</span></td></tr>
+<tr><td>960 ***** ở Hà Nội, xác B52 có ở hồ nào?    
+<br><span class="true">Hồ Ngọc Hà    Hồ Tây    Hồ trúc bạch    Hồ Ngọc Khánh</span></td></tr>
+<tr><td>961 ***** Đất nước có bảng chữ cái gồm 76 chữ cái.    Cambodia    Nga    China    Pháp
+<tr><td>962 ***** Người lao động ở đất nước nào không phải đóng thuế?    
+<br><span class="true">Vatican    Thụy Sỹ    Kuwait    Singapore</span></td></tr>
+<tr><td>963 ***** Vào những năm 1850-1870, nước nào có nền công nghiệp đứng đầu thế giơi và được coi là "công xưởng của thế giới"?    
+<br><span class="true">Anh    Pháp    Mỹ     Đức</span></td></tr>
+<tr><td>964 ***** Hồ Chí Minh viết bản di chúc đầu tiên vào năm nào?    
+<br><span class="true">1965    1960    1966    1890</span></td></tr>
+<tr><td>965 ***** Huyện Nga Sơn, Tỉnh Thanh Hóa nổi tiếng với nghề thủ công nào?    
+<br><span class="true">Dệt chiếu    Dệt vải    Làm chiếu    Làm nón</span></td></tr>
+<tr><td>966 ***** Nguyễn Đình Chiểu sinh ra ở đâu?    
+<br><span class="true">Gia Định    Cao Bằng    Quảng Ninh    Nghệ An</span></td></tr>
+<tr><td>967 ***** Bác Hồ phát động Tết Trồng Cây vào năm nào?    
+<br><span class="true">1960    1965    1961    1954</span></td></tr>
+<tr><td>968 ***** Ông tổ của "Đờn ca tài tử"?    
+<br><span class="true">Cao Văn Lầu    Nguyễn Văn Chánh    Nguyễn Thượng Hiền    Cao Bá Long</span></td></tr><tr><td>>969 ***** Nguyễn Tất Thành lấy tên là Nguyễn ái Quốc vào năm nào?    
+<br><span class="true">1919    1980    1965    1954</span></td></tr><tr><td>>970 ***** Bản án chế độ Thực dân Pháp của Hồ Chí Minh gồm bao nhiêu chương và bao nhiêu phụ lục?    
+<br><span class="true">12 chương và 1 phụ lục    12 chương và 9 phụ lục    5 chương và 3 phụ lục    12 chương và 5 phụ lục</span></td></tr><tr><td>>971 ***** Chùa nào được Lý Nam Đế cho xây dựng sau khi lên ngôi hoàng đế năm 544?    
+<br><span class="true">Chùa Chấn Quốc    Chùa 1 cột    Chùa Hương    Chùa Phật Tích</span></td></tr><tr><td>>972 ***** Lớp màng vôi mỏng xuất hiệu trên răng khi bạn thưỡng xuyên quên chải răng gọi là gì?    
+<br><span class="true">Cao răng    Men răng    Sâu răng    Không phải 3 loại trên</span></td></tr><tr><td>>973 ***** Thiên thể nào lớn đễn nỗi ngay cả ánh sáng cũng không thoát khỏi trọng lực của nó?    
+<br><span class="true">Hố đen    Hố sâu    Hố ánh sáng    Loại khác</span></td></tr><tr><td>>974 ***** Dòng sông băng di chuyển chậm dần xuống dưới chân núi gọi là gì?    
+<br><span class="true">Băng hà    Băng tan    Băng trôi    Băng đá</span></td></tr><tr><td>>975 ***** Danh tướng có câu nói nổi tiếng "Ngồi yên đợi giặc không bằng đem quân ra trước để chặn mũi nhọn của giặc" là ai?    
+<br><span class="true">Lý Thường Kiệt    Trần Quốc Toản    Võ Nguyên Giáp    Người khác</span></td></tr><tr><td>>976 ***** Bài hát "Bác đang cùng chúng cháu hành quân" do ai sáng tác?    
+<br><span class="true">Huy Thục    Hoàng Ngọc Phách    Trần Tiến    Trần Hiếu</span></td></tr><tr><td>>977 ***** Tiểu thuyết văn học đầu tiên của Việt Nam là tác phẩm nào?    
+<br><span class="true">Tố tâm    Sống mòn    ánh trăng quê    không phải 3 tác phẩm trên</span></td></tr><tr><td>>978 ***** Năm phát minh ra Penecilin?    
+<br><span class="true">1928    1929    1930    1931</span></td></tr><tr><td>>979 ***** Đơn vị dân cư nhỏ nhất ở vùng dân tộc khơ me Nam bộ, tương đương với làng được gọi là gì?    
+<br><span class="true">Sóc    Buôn    Bản    Vùng</span></td></tr><tr><td>>980 ***** Kim loại nào có nhiều nhất trong lớp vỏ trái đất?    
+<br><span class="true">Nhôm    Sắt    Đồng    Chì</span></td></tr><tr><td>>981 ***** Đàn Guitar thường có mấy dây?    
+<br><span class="true">6    5    7    8</span></td></tr><tr><td>>982 ***** Braxin đã từng là thuộc địa của nước nào?    
+<br><span class="true">Bồ Đào Nha    Anh    Pháp    Mỹ</span></td></tr><tr><td>>983 ***** Trần Quốc Tuấn là con của ai?    
+<br><span class="true">Trần Liễu    Trần Bá Nhi    Nguyễn Đức Long    Nguyễn Thàn</span></td></tr><tr><td>>984 ***** Hồng K ông được trao trả lại cho Trung Quốc vào năm nào?    
+<br><span class="true">1997    1996    1998    1999</span></td></tr><tr><td>>985 ***** Bộ phim "Rừng phương Nam" được chuyển thể từ truyện ngắn nào?    
+<br><span class="true">Đất rừng phương nam    Đất Phương nam     Quê hương tôi    không phải phương án trên</span></td></tr><tr><td>>986 ***** Con ngươi của mèo thu nhỏ nhất vào lúc nào?    
+<br><span class="true">Khi nắng chói    Ban đêm    Khi bắt chuột    Luôn luôn mở to</span></td></tr><tr><td>>987 ***** Quốc hiệu đầu tiên của nước ta?    
+<br><span class="true">Văn Lang    Đại cổ việt    Việt Nam    Việt</span></td></tr><tr><td>>988 ***** Tên viết tắt của ngân hàng phát triển Châu á?    
+<br><span class="true">ADB    UDP    ADP    ASK</span></td></tr><tr><td>>989 ***** Đàn thập lục còn gọi là đàn gì?    
+<br><span class="true">Đàn tranh    Đàn đáy    Đàn Guitar    Không có tên gọi khác</span></td></tr><tr><td>>990 ***** Đây là năm đánh dấu rất nhiều sự kiện quan trọng trên thế giới: chú cừu Dolly được nhân bản vô tính ra đời , năm mất của công nương Diana .. đó là năm nào    1997    1995    1996    2000<tr><td>>991 ***** Ngày thu phân là ngày nào?    
+<br><span class="true">23-9    25-10    40516    23-5</span></td></tr><tr><td>>992 ***** Cầu Mỹ Thuận bắc qua con sông nào?    
+<br><span class="true">Sông Tiền    Sông Hồng    Sông Thương    Sông Cửu Long</span></td></tr><tr><td>>993 ***** Môn thể thao nào mà tên của nó có nghĩa là Tay không?    
+<br><span class="true">Karate    Bóng đá    Bóng chày    Bóng rổ</span></td></tr><tr><td>>994 ***** Nhạc cụ gõ cổ nhất của nước ta tên là gì?    
+<br><span class="true">Đàn đá    Trống đồng    Trống đá    không phải 3 loại trên</span></td></tr><tr><td>>995 ***** Có bao nhiêu vị trạng nguyên dưới thời vua Gia Long?    
+<br><span class="true">không có trạng nguyên    1    2    10</span></td></tr><tr><td>>996 ***** Một sào bằng bao nhiêu thước?    
+<br><span class="true">15    10    20    100</span></td></tr><tr><td>>997 ***** Người Việt Nam đầu tiên được Unessco công nhận là danh nhân văn hoá thế giới?    
+<br><span class="true">Nguyễn Trãi    Nguyễn Khuyến    Hồ Chí Minh    Trần Quốc Toản</span></td></tr><tr><td>>998 ***** Sông MeKong bắt nguồn từ đâu?    
+<br><span class="true">Trung Quốc    Lào    Campuchia    Việt Nam</span></td></tr><tr><td>>999 ***** Đàn Guitar có nguồn gốc từ nước nào?    
+<br><span class="true">Tây Ban Nha    Anh    Trung Quốc    Việt Nam</span></td></tr>
+<tr><td>1000 ***** Bài hát "Lên Ngàn" là của tác giả nào?    
+<br><span class="true">Hoàng Việt    Trần Tiến    Trần Hiếu    không biết tác giả</span></td></tr>
+<tr><td>1001 ***** Lá cờ nước Mỹ có bao nhiêu ngôi sao?    
+<br><span class="true">50    51    45    100</span></td></tr>
+<tr><td>1002 ***** Tên Quốc gia vô địch bóng đá châu âu năm 1992?    
+<br><span class="true">Đan Mạch    Anh    Pháp    Đức</span></td></tr>
+<tr><td>1003 ***** Trước khi tan vỡ Liên bang Xô viết có bao nhiêu nước?    
+<br><span class="true">15    11    12    14</span></td></tr>
+<tr><td>1004 ***** Nguyễn Trãi viết Bình Ngô ậi Cáo vào năm nào?    
+<br><span class="true">1427    1834    1440    1228</span></td></tr>
+<tr><td>1005 ***** Bà Huyện Thanh Quan tả cảnh đèo ngang vào thời gian nào trong ngày?    
+<br><span class="true">Chiều    Sáng    Trưa    Tối</span></td></tr>
+<tr><td>1006 ***** Loại cây vẽ trên lá cờ của Liên Hợp Quốc là cây gì?    
+<br><span class="true">ÔLiu    Cọ    Nhài    Hồng</span></td></tr>
+<tr><td>1007 ***** Có bao nhiêu bộ lạc hợp thành nhà nước Văn Lang?    
+<br><span class="true">15    9    10    17</span></td></tr>
+<tr><td>1008 ***** Beethoven viết được bao nhiêu bản nhạc giao hưởng?    
+<br><span class="true">9    5    6    13</span></td></tr>
+<tr><td>1009 ***** Âm thanh của ve sầu cái phát ra từ đâu?    
+<br><span class="true">Không có âm thanh    Cánh    Mồm    Đuôi</span></td></tr>
+<tr><td>1010 ***** Đỉnh núi cao nhất nước ta (Fansipan) thuộc tỉnh nào?    
+<br><span class="true">Lào Cai    Sơn La    Cao Bằng    Bắc Kạn</span></td></tr>
+<tr><td>1011 ***** Trong thế kỷ XX nước Tây Ban Nha tổ chức WorldCup vào năm nào?    
+<br><span class="true">1982    1991    1988    1983</span></td></tr>
+<tr><td>1012 ***** Say it your way là khẩu hiệu của mạng di động nào?    
+<br><span class="true"> Viettel    Vina    Mobile    VN Mobile</span></td></tr>
+<tr><td>1013 ***** Ao thu lạnh lẽo nước trong veo là câu thơ trong bài thơ nào?    
+<br><span class="true">Thu Điếu    Thu Vịnh    Thu ẩm    Không phải</span></td></tr>
+<tr><td>1014 ***** Việt Nam là thành viên thư bao nhiêu của WTO?    
+<br><span class="true">150    140    145    151</span></td></tr>
+<tr><td>1015 ***** WTO tiếp nhận đơn xin gia nhập của Việt Nam vào năm nào?    
+<br><span class="true">1995    1994    1997    1997</span></td></tr>
+<tr><td>1016 ***** Vịnh Hạ Long được Unessco cộng nhận là di sản thiên nhiên thế giới vào năm nào?    
+<br><span class="true">1994    1995    1996    1997</span></td></tr>
+<tr><td>1017 ***** Hội chùa thầy thuộc tỉnh nào?    
+<br><span class="true">Hà Tây (Cũ)    Bắc Ninh    Lạng Sơn    Bắc Giang</span></td></tr>
+<tr><td>1018 ***** Nhạc sĩ nào có tác phẩm được dịch ra tiếng nước ngoài nhiều nhất?    
+<br><span class="true">Trịnh Công Sơn    Trần Tiến    Trần Hiếu    Duy Mạnh</span></td></tr>
+<tr><td>1019 ***** Cảng lớn nhất Đông Nam á là cảng nào?    
+<br><span class="true">Singapore    Lào    Việt Nam    Thái Lan</span></td></tr>
+<tr><td>1020 ***** Loài thân cỏ lớn nhất?    
+<br><span class="true">Tre    Trúc    Cỏ lau    Cỏ gấu</span></td></tr>
+<tr><td>1021 ***** Ngày hạ chí là ngày nào?    
+<br><span class="true">22-6    22-4    23-9    23-5</span></td></tr>
+<tr><td>1022 ***** Ngày thu phân là ngày nào?    
+<br><span class="true">23-9    22-6    22-4    23-5</span></td></tr>
+<tr><td>1023 ***** Heraclit coi cái gì là yếu tố đầu tiên của nguồn gốc loài người?    
+<br><span class="true">Lửa    Nước    Vũ trụ    Đất</span></td></tr>
+<tr><td>1024 ***** Chân đà điểu có bao nhiêu móng?    
+<br><span class="true">2    1    3    4</span></td></tr>
+<tr><td>1025 ***** Quốc hiệu Đại Việt chính thức bắt đầu từ năm nào nào?    
+<br><span class="true">1054    1052    1053    1055</span></td></tr>
+<tr><td>1026 ***** Con sên có mấy cái mũi?    
+<br><span class="true">4    2    3    1</span></td></tr>
+<tr><td>1027 ***** Sao Hôm - Sao Mai là tên gọi khác của hành tinh nào?    
+<br><span class="true">Sao kim    Sao mộc    Sao thổ    Sao thủy</span></td></tr>
+<tr><td>1028 ***** Quang Trung đã hẹn quân sĩ mùng mấy tết sau khi chiến thắng sẽ mở tiệc ăn mừng?    
+<br><span class="true">7    4    5    6</span></td></tr>
+<tr><td>1029 ***** 1 Mẫu bằng bao nhiêu sào?    
+<br><span class="true">10    5    15    100</span></td></tr>
+<tr><td>1030 ***** Nguyên tử Cacbon có bao nhiêu electron?    
+<br><span class="true">6    4    8    9</span></td></tr>
+<tr><td>1031 ***** Quê hương của cối xay gió?    
+<br><span class="true">Iran    Hà Lan    Bỉ    Italia</span></td></tr>
+<tr><td>1032 ***** Một người sinh ngày 29.2.1960. Đến năm 2006 người đó đã tổ chức sinh nhật bao nhiêu lần?    
+<br><span class="true">11    10    12    13</span></td></tr>
+<tr><td>1033 ***** Bạn hãy cho biết người đầu tiên đạt giải Nobel khu vực Đông Nam á mang quốc tịch nước nào?    
+<br><span class="true">Việt Nam    Lào    Thái Lan    Indonexia</span></td></tr>
+<tr><td>1034 ***** Báo thanh niên được xuất bản năm nào?    
+<br><span class="true">1925    1924    1954    1945</span></td></tr>
+<tr><td>1035 ***** Kim loại dẫn điện tốt nhất?    
+<br><span class="true">Vàng    Đồng    Nhôm    Bạc</span></td></tr>
+<tr><td>1036 ***** Sinh vật được chia thành bao nhiêu giới?    
+<br><span class="true">5    2    4    7</span></td></tr>
+<tr><td>1037 ***** Trong truyện ngắn "Ông lão đánh cá và con cá vàng", ông lão đã ra biển mấy lần?    
+<br><span class="true">6    3    4    5</span></td></tr>
+<tr><td>1038 ***** Ngôn ngữ mà Singapo đang dùng hiện nay là ngôn ngữ nào trong các ngôn ngữ sau?    
+<br><span class="true">Anh ngữ    Quốc ngữ    Pháp ngữ    Tây ban nha</span></td></tr>
+<tr><td>1039 ***** Châm cứu là dùng cây kim đâm vào nơi nào trên cơ thể người?    
+<br><span class="true">Huyệt    Đầu    Chỗ bị bệnh    Tùy Người châm cứu</span></td></tr>
+<tr><td>1040 ***** Đội bóng nào đã vô địch WC 1998?    
+<br><span class="true">Pháp    Brazil    Italia    Đức</span></td></tr>
+<tr><td>1041 ***** Thành phố được coi là sạch nhất thế giới thuộc nước nào?    
+<br><span class="true">Singapore    Đức    Mỹ    Italia</span></td></tr>
+<tr><td>1042 ***** Đội bóng chuyền nào đã từng 8 lần vô địch thế giới?    
+<br><span class="true">Brazil    Mỹ    Việt Nam    Trung Quốc</span></td></tr>
+<tr><td>1043 ***** Quốc kì của cộng hòa liên bang Đức có bao nhiêu màu?    
+<br><span class="true">3    2    4    5</span></td></tr>
+<tr><td>1044 ***** Bài hát "Thanh niên làm theo lời bác" hay "Đoàn ca" là sáng tác của ai?    
+<br><span class="true">Hoàng Hòa    Trần Hiếu    Trần Tiến    không phải 3 tác giả trên</span></td></tr>
+<tr><td>1045 ***** Cây ca cao có nguồn gốc từ châu lục nào?    
+<br><span class="true">Châu Mĩ    Châu á    Châu Âu    Châu Phi</span></td></tr>
+<tr><td>1046 ***** ở mắt bão không khí chuyển động như thế nào?    
+<br><span class="true">Không chuyển động    Theo chiều kim đồng hồ    Ngược chiều kim đồng hồ    Tùy vào cơn bão</span></td></tr>
+<tr><td>1047 ***** Việt Nam có bao nhiêu khu bảo tồn thiên nhiên?    
+<br><span class="true">61    5    2    60</span></td></tr>
+<tr><td>1048 ***** Thực vật được chia làm mấy ngành?    
+<br><span class="true">4    2    3    5</span></td></tr>
+<tr><td>1049 ***** Cộng hòa liên bang Đức có bao nhiêu bang?    
+<br><span class="true">16    15    17    18</span></td></tr>
+<tr><td>1050 ***** Hoa hậu hoàn vũ năm 2007 thuộc về quốc gia nào?    
+<br><span class="true">Nhật Bản    Velezela    Trung Quốc    Mỹ</span></td></tr>
+<tr><td>1051 ***** Quốc gia có lượng khí thải lớn nhất thế giới?    
+<br><span class="true">Australia    Mỹ    Đức    Anh</span></td></tr>
+<tr><td>1052 ***** Trong bóng đá từ "tết" có nghĩa là gì?    
+<br><span class="true">Đánh đầu    Đá phạt    Phạt góc    Đấm bóng</span></td></tr>
+<tr><td>1053 ***** 2-9-1945 Bác Hồ đọc bản Tuyên Ngôn Độc Lập tại Quảng trờng Ba Đình khai sinh ra nớc VNDCCH. Bạn cho biết đây là bản tuyên ngôn lần thức mấy của dân tộc ta?    
+<br><span class="true">3    1    2    4</span></td></tr>
+<tr><td>1054 ***** Cụm từ nào còn thiếu trong câu thơ sau của Huy Cận: "Thuyền về nước lại sầu trăm ngả, ... lạc mấy dòng"?    
+<br><span class="true">Củi một cành khô    Một cánh bèo trôi    Một cánh bèo đơn    Ghỗ lạc rừng xa</span></td></tr>
+<tr><td>1055 ***** Đội bóng nào xếp thứ ba giải ngoại hạng Anh mùa bóng 2006 - 2007?    
+<br><span class="true">Liverpool    Manchester United    Arsenal    Chelsea</span></td></tr>
+<tr><td>1056 ***** Cung A Phòng, một công trình kiến trúc huyền thoại trong lịch sử Trung Quốc, được xây dựng trong thời nào?    
+<br><span class="true">Tần    Hán    Đường    Tống</span></td></tr>
+<tr><td>1057 ***** Lời thoại "Một lần, y được thấy ông Bá Kiến sai trói một lúc 17 người và đánh một người lồi mắt", là hồi ức cảu nhân vật nào?    
+<br><span class="true">Giáo Thứ    Chí Phèo    Lão Hạc    Nhà Văn Hộ</span></td></tr>
+<tr><td>1058 ***** Bộ phim "Trở về" (1994) do ai đạo diễn?    
+<br><span class="true">Đặng Nhật Minh    Đới Xuân Việt    Hải Ninh    Nguyễn Vĩnh Sơn</span></td></tr>
+<tr><td>1059 ***** Một mét khối nước tương đương với bao nhiêu lít nước?    
+<br><span class="true">1000    10    100    10000</span></td></tr>
+<tr><td>1060 ***** Theo kinh nghiệm dân gian thì "Gió đông là ...lúa chiêm"?    
+<br><span class="true">Chồng    Bạn    Mẹ    Em</span></td></tr>
+<tr><td>1061 ***** Trong bài thơ Côn Sơn, Nguyễn Trãi đã miêu tả tiếng suối với nhạc cụ nào?    
+<br><span class="true">Đàn cầm    Đàn tì bà    Đàn bầu    Đàn nguyệt</span></td></tr>
+<tr><td>1062 ***** Người ta cho thêm chì vào trong xăng nhằm mục đích gì?    
+<br><span class="true">Chống cháy nổ    Tăng thể tích của xăng    Giảm ô nhiễm môi trường    Giảm bay hơi</span></td></tr>
+<tr><td>1063 ***** Cầu thủ Việt Nam nào sau đây có tên trong danh sách đề cử Quả bóng vàng châu á 2008?    
+<br><span class="true">Như Thành    Tài Em    Minh Phương    Minh Châu</span></td></tr>
+<tr><td>1064 ***** Ca ghép thận thành công đầu tiên ở Việt Nam được thực hiện vào năm nào?    
+<br><span class="true">1992    1990    1991    1993</span></td></tr>
+<tr><td>1065 ***** Điệu múa "Tráp trầu" là điệu múa trong đám cưới của dân tộc nào?    
+<br><span class="true">Khơ me Nam Bộ    Chăm    Vân Kiều    Ê Đê</span></td></tr>
+<tr><td>1066 ***** Đàn đáy có mấy đáy?    
+<br><span class="true">Không có đáy    1    2    3</span></td></tr>
+<tr><td>1067 ***** Câu lạc bộ bóng đá nào được bình chọn là "câu lạc bộ vĩ đại nhất thế kỷ 20"?    
+<br><span class="true">Real Madrid    Manchester    Argentina     Tây Ban Nha</span></td></tr>
+<tr><td>1068 ***** Bài thơ "Dương phụ hành" do ai sáng tác?    
+<br><span class="true">Cao Bá Quát    Trần Xuân ẩn    Chế Lan Viên    Nguyễn Văn Tố</span></td></tr>
+<tr><td>1069 ***** ở loài chó, tuyến mồ hôi tập trung hầu hết ở đâu?    
+<br><span class="true">Lưỡi    Tai    Đầu    Bụng</span></td></tr>
+<tr><td>1070 ***** Bài hát Mười chín tháng tám là sáng tác của ai?    
+<br><span class="true">Xuân Oanh    Trần Tiến    Trần Hiếu    Minh Quân</span></td></tr>
+<tr><td>1071 ***** Con chim Kiwi là biểu tưởng của nước nào?    
+<br><span class="true">New Zealand    Hàn Quốc    Nhật Bản    Đài Loan</span></td></tr>
+<tr><td>1072 ***** Khởi nghĩa diễn ra năm 722 do ai lãnh đạo?    
+<br><span class="true">Mai Hắc Đế    Hoàng Hoa Thám    Hai Bà Trưng    Bà Triệu</span></td></tr>
+<tr><td>1073 ***** Hành tinh nóng nhất hệ mặt trời?    
+<br><span class="true">Sao Kim    Sao Thổ    Sao Hỏa    Sao Thủy</span></td></tr>
+<tr><td>1074 ***** Bộ tem bưu chính đầu tiên của VN in hình gì?    
+<br><span class="true">Chân dung Hồ Chí Minh    Hình chùa một cột    Hình bông sen    Hình Hồ Gươm</span></td></tr>
+<tr><td>1075 ***** Động vật lớn nhất thế giới hiện nay?    
+<br><span class="true">Cá voi xanh    Con voi    Tê Giác    Loài khác</span></td></tr>
+<tr><td>1076 ***** 1 phân tử mêtan có bao nhiêu nguyên tử Hiđro?    
+<br><span class="true">4    2    3    6</span></td></tr>
+<tr><td>1077 ***** Tổng thống John Kenedy bị ám sát vào năm nào?    
+<br><span class="true">1963    1960    1962    1965</span></td></tr>
+<tr><td>1078 ***** Việt Nam chính thức trở thành thành viên của tổ chức APEC từ năm nào?    
+<br><span class="true">1998    1996    2000    2002</span></td></tr>
+<tr><td>1079 ***** Giải thưởng công nghệ thông tin của Việt Nam được trao giai vào ngày 1-1 hàng năm có tên là gì?    
+<br><span class="true">Trí tuệ Việt Nam    Sao Khuê    Bàn tay vàng    ánh sáng</span></td></tr>
+<tr><td>1080 ***** Bài thơ "Người đi tìm hình của nước" của tác giả nào?    
+<br><span class="true">Chế Lan Viên    Tế Hanh    Nguyễn Khuyến    Dương Đức Trí</span></td></tr>
+<tr><td>1081 ***** Giải thưởng Nobel trao cho các nhà khoa học trong bao nhiêu lĩnh vực?    
+<br><span class="true">6    9    12    15</span></td></tr>
+	</tbody>
+</table>
